@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MultiMemo</string>
+    <string name="selection_title">선택</string>
+    <string name="selection_button">선택</string>
+    <string name="cancel_button">취소</string>
+    <string name="close_button">닫기</string>
+    <string name="audio_play_title">음성 재생</string>
+    <string name="audio_recording_title">음성 녹음</string>
+    <string name="audio_recording_start_title">녹음 시작</string>
+    <string name="audio_recording_stop_title">녹음 중지</string>
+    <string name="video_recording_start_title">녹화 시작</string>
+    <string name="video_recording_stop_title">녹화 중지</string>
+    <string name="video_recording_message">녹화중입니다.</string>
+</resources>

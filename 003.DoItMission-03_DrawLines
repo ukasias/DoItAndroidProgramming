@@ -1,0 +1,12 @@
+1. res/drawable 폴더에 다음 res/back.xml 파일을 만든다.
+----------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" />
+    <stroke android:width="1dp" android:color="#000000" />
+    <padding android:left="1dp" android:top="1dp" android:right="1dp"
+        android:bottom="1dp" />
+</shape>
+----------------------------------------------------------------------
+
+2. View의 background 속성에 "@drawable/back"을 추가.

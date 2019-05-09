@@ -1,0 +1,102 @@
+08-17 13:28:19.410 9086-9086/? I/art: Late-enabling -Xcheck:jni
+08-17 13:28:19.430 9086-9094/? E/art: Failed sending reply to debugger: Broken pipe
+08-17 13:28:19.436 9086-9094/? I/art: Debugger is no longer active
+    Starting a blocking GC Instrumentation
+08-17 13:28:19.518 9086-9086/? W/System: ClassLoader referenced unknown path: /data/app/com.ukasias.android.multimemo-2/lib/arm64
+08-17 13:28:19.544 9086-9086/? I/InstantRun: starting instant run server: is main process
+08-17 13:28:19.665 9086-9086/? W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-17 13:28:19.707 9086-9086/? V/BoostFramework: mAcquireFunc method = public int com.qualcomm.qti.Performance.perfLockAcquire(int,int[])
+    mReleaseFunc method = public int com.qualcomm.qti.Performance.perfLockRelease()
+    mAcquireTouchFunc method = public int com.qualcomm.qti.Performance.perfLockAcquireTouch(android.view.MotionEvent,android.util.DisplayMetrics,int,int[])
+    mIOPStart method = public int com.qualcomm.qti.Performance.perfIOPrefetchStart(int,java.lang.String)
+    mIOPStop method = public int com.qualcomm.qti.Performance.perfIOPrefetchStop()
+08-17 13:28:19.709 9086-9086/? V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@2aaf430
+08-17 13:28:19.710 9086-9086/? V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@2aaf430
+08-17 13:28:19.794 9086-9086/? D/MultiMemoActivity: checkExternalStorageState() - mounted
+08-17 13:28:19.799 9086-9086/? D/MultiMemoActivity: SD 카드가 있습니다.
+08-17 13:28:19.801 9086-9086/? D/MultiMemoActivity: File.separator: /
+    File.pathSeparator: :
+    ExternalPath: /storage/emulated/0/
+    checkDangerousPermissions() called.
+08-17 13:28:19.856 9086-9086/? D/MemoDatabase: opening database [/storage/emulated/0/memo.db].
+08-17 13:28:19.858 9086-9086/? D/MemoDatabase: BasicInfo.DATABASE_NAME: /storage/emulated/0/memo.db
+=====================================================================================================================================================
+08-17 13:28:19.859 9086-9086/? E/SQLiteLog: (14) cannot open file at line 33178 of [bda77dda96]
+    (14) os_unix.c:33178: (13) open(/storage/emulated/0/memo.db) - 
+08-17 13:28:19.859 9086-9086/? E/CAPP_DB_LOG: (errno:13)  -rwxrwx--x  root sdcard_rw 53248 Fri Aug 17 12:41:17 2018 /storage/emulated/0/memo.db
+08-17 13:28:19.860 9086-9086/? E/CAPP_DB_LOG: (errno:13)  -rwxrwx--x  root sdcard_rw 8720 Fri Aug 17 12:41:17 2018 /storage/emulated/0/memo.db-journal
+08-17 13:28:19.863 9086-9086/? E/SQLiteDatabase: Failed to open database '/storage/emulated/0/memo.db'.
+    android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+=====================================================================================================================================================
+        at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:210)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:194)
+        at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:464)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:186)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:178)
+        at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:918)
+        at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:895)
+        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:798)
+        at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:654)
+        at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java:289)
+        at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:223)
+        at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:163)
+        at com.ukasias.android.multimemo.db.MemoDatabase.open(MemoDatabase.java:72)
+        at com.ukasias.android.multimemo.MultiMemoActivity.openDatabase(MultiMemoActivity.java:215)
+        at com.ukasias.android.multimemo.MultiMemoActivity.onStart(MultiMemoActivity.java:187)
+        at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1249)
+        at android.app.Activity.performStart(Activity.java:6774)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2689)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+        at android.app.ActivityThread.-wrap12(ActivityThread.java)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1504)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:154)
+        at android.app.ActivityThread.main(ActivityThread.java:6247)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:872)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:762)
+08-17 13:28:19.864 9086-9086/? D/AndroidRuntime: Shutting down VM
+08-17 13:28:19.865 9086-9086/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.ukasias.android.multimemo, PID: 9086
+    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ukasias.android.multimemo/com.ukasias.android.multimemo.MultiMemoActivity}: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2726)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+        at android.app.ActivityThread.-wrap12(ActivityThread.java)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1504)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:154)
+        at android.app.ActivityThread.main(ActivityThread.java:6247)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:872)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:762)
+     Caused by: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+        at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:210)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:194)
+        at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:464)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:186)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:178)
+        at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:918)
+        at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:895)
+        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:798)
+        at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:654)
+        at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java:289)
+        at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:223)
+        at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:163)
+        at com.ukasias.android.multimemo.db.MemoDatabase.open(MemoDatabase.java:72)
+        at com.ukasias.android.multimemo.MultiMemoActivity.openDatabase(MultiMemoActivity.java:215)
+        at com.ukasias.android.multimemo.MultiMemoActivity.onStart(MultiMemoActivity.java:187)
+        at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1249)
+        at android.app.Activity.performStart(Activity.java:6774)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2689)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787) 
+        at android.app.ActivityThread.-wrap12(ActivityThread.java) 
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1504) 
+        at android.os.Handler.dispatchMessage(Handler.java:102) 
+        at android.os.Looper.loop(Looper.java:154) 
+        at android.app.ActivityThread.main(ActivityThread.java:6247) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:872) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:762) 
+

@@ -1,0 +1,31 @@
+>>> 001. Render Problem => works fine in an android virtual device
+
+Failed to instantiate one or mo classes
+
+The following classes could not be instantiated:
+- android.support.v7.widget.ActionBarContainer (Open Class, Show Exception, Clear Cache)
+- android.support.v7.widget.ActionBarContextView (Open Class, Show Exception, Clear Cache)
+- android.support.v7.app.WindowDecorActionBar (Open Class, Show Exception, Clear Cache)
+ Tip: Use View.isInEditMode() in your custom views to skip code or show sample data when shown in the IDE.  If this is an unexpected error you can also try to build the project, then manually refresh the layout.  Exception Details java.lang.ClassNotFoundException: android.view.View$OnUnhandledKeyEventListener Copy stack to clipboard
+
+-> solution
+
+# Hello/app/build.gradle
+
+modify this 
+------------------------------------------------------------------------
+dependencies {
+	...
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha3'
+	...
+}
+------------------------------------------------------------------------
+
+to
+------------------------------------------------------------------------
+dependencies {
+	...
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha1'
+	...
+}
+------------------------------------------------------------------------

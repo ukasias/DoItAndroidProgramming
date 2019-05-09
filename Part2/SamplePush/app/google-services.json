@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "502806085042",
+    "firebase_url": "https://samplepush-8dcf1.firebaseio.com",
+    "project_id": "samplepush-8dcf1",
+    "storage_bucket": "samplepush-8dcf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502806085042:android:9bed2cef4a88b9d4",
+        "android_client_info": {
+          "package_name": "com.ukasias.android.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502806085042-8jiqnejo224b9iv3r9bavpebovaanec4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEvvd_j7Xlut93bpBt_oOG_8YBwz-NqfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

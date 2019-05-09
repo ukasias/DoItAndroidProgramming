@@ -1,0 +1,18 @@
+>> Install korean keyboard on AVD
+
+1. hangulkeyboard.apk download
+
+2. install hangulkeyboard.apk
+
+/usr/ukasias/Android/sdk/platform-tools $ ./adb install /home/ukasias/workspace/DoItAndroidProgramming/AndroidStudioProjects/hangulkeyboard.apk
+Success
+
+3. on AVD
+Settings -> System -> Languages & Input
+	Language: add korean
+	Keyboard & Input -> Virtual Keyboard -> Keyboard Management: enable korean keyboard
+					 -> Physical Keyboard: select korean keyboard
+										 : select English global style
+										 : enable virtual keyboard
+
+4. Reboot

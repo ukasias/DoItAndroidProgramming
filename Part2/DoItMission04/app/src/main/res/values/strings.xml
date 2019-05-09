@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DoItMission-04</string>
+    <string name="editbox_hint">입력하세요</string>
+    <string name="input_byte">/ 80 바이트</string>
+    <string name="send">전송</string>
+    <string name="close">닫기</string>
+</resources>

@@ -1,0 +1,44 @@
+08-17 13:29:05.813 10035-10035/? I/art: Late-enabling -Xcheck:jni
+08-17 13:29:05.909 10035-10035/com.ukasias.android.multimemo W/System: ClassLoader referenced unknown path: /data/app/com.ukasias.android.multimemo-2/lib/arm64
+08-17 13:29:05.922 10035-10035/com.ukasias.android.multimemo I/InstantRun: starting instant run server: is main process
+08-17 13:29:05.975 10035-10035/com.ukasias.android.multimemo W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-17 13:29:06.005 10035-10035/com.ukasias.android.multimemo V/BoostFramework: mAcquireFunc method = public int com.qualcomm.qti.Performance.perfLockAcquire(int,int[])
+    mReleaseFunc method = public int com.qualcomm.qti.Performance.perfLockRelease()
+    mAcquireTouchFunc method = public int com.qualcomm.qti.Performance.perfLockAcquireTouch(android.view.MotionEvent,android.util.DisplayMetrics,int,int[])
+    mIOPStart method = public int com.qualcomm.qti.Performance.perfIOPrefetchStart(int,java.lang.String)
+    mIOPStop method = public int com.qualcomm.qti.Performance.perfIOPrefetchStop()
+08-17 13:29:06.007 10035-10035/com.ukasias.android.multimemo V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@2aaf430
+    BoostFramework() : mPerf = com.qualcomm.qti.Performance@2aaf430
+08-17 13:29:06.080 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: checkExternalStorageState() - mounted
+08-17 13:29:06.083 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: SD 카드가 있습니다.
+08-17 13:29:06.084 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: File.separator: /
+    File.pathSeparator: :
+08-17 13:29:06.085 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: ExternalPath: /storage/emulated/0/
+    checkDangerousPermissions() called.
+08-17 13:29:06.111 10035-10035/com.ukasias.android.multimemo D/MemoDatabase: opening database [/storage/emulated/0/memo.db].
+08-17 13:29:06.112 10035-10035/com.ukasias.android.multimemo D/MemoDatabase: BasicInfo.DATABASE_NAME: /storage/emulated/0/memo.db
+08-17 13:29:06.121 10035-10035/com.ukasias.android.multimemo W/FileUtils: Failed to chmod(/storage/emulated/0/memo.db): android.system.ErrnoException: chmod failed: EPERM (Operation not permitted)
+08-17 13:29:06.121 10035-10035/com.ukasias.android.multimemo D/MemoDatabase: opened database [/storage/emulated/0/memo.db].
+08-17 13:29:06.122 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: Memo database is open.
+08-17 13:29:06.187 10035-10052/com.ukasias.android.multimemo I/Adreno: QUALCOMM build                   : 765c3ee, I37ca06bd2c
+    Build Date                       : 10/19/16
+    OpenGL ES Shader Compiler Version: XE031.09.00.03
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.5.5.R1.07.00.00.269.003
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+08-17 13:29:06.193 10035-10052/com.ukasias.android.multimemo I/OpenGLRenderer: Initialized EGL, version 1.4
+08-17 13:29:06.193 10035-10052/com.ukasias.android.multimemo D/OpenGLRenderer: Swap behavior 1
+08-17 13:29:06.249 10035-10035/com.ukasias.android.multimemo W/art: Before Android 4.1, method int android.support.v7.widget.DropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+08-17 13:29:06.293 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: onRequestPermissionsResult() called.(requestCode: 1)
+08-17 13:29:06.294 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: android.permission.READ_EXTERNAL_STORAGE권한이 승인됨.
+    android.permission.WRITE_EXTERNAL_STORAGE권한이 승인됨.
+    android.permission.CALL_PHONE권한이 승인되지 않음.
+08-17 13:29:06.310 10035-10035/com.ukasias.android.multimemo I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@3f8f8a time:155301584
+    Timeline: Activity_idle id: android.os.BinderProxy@3f8f8a time:155301584
+08-17 13:29:13.455 10035-10035/com.ukasias.android.multimemo I/ViewRootImpl: ViewRoot's Touch Event : ACTION_DOWN
+08-17 13:29:13.456 10035-10035/com.ukasias.android.multimemo V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@2aaf430
+08-17 13:29:13.499 10035-10035/com.ukasias.android.multimemo I/ViewRootImpl: ViewRoot's Touch Event : ACTION_UP
+08-17 13:29:13.507 10035-10035/com.ukasias.android.multimemo I/AudioManagerEx: AudioManagerEx created
+08-17 13:29:13.510 10035-10035/com.ukasias.android.multimemo D/MultiMemoActivity: closeButton clicked.
+

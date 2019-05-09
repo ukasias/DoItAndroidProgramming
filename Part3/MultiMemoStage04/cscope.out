@@ -1,0 +1,26875 @@
+cscope 15 $HOME/workspace/DoItAndroidProgramming/AndroidStudioProjects/Part3/MultiMemoStage04               0000143430
+	@app/src/main/java/com/ukasias/android/multimemo/BasicInfo.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	g‹xt
+.
+	gSim¶eD©eFÜm©
+;
+
+5 
+public
+ cÏs 
+	cBasicInfo
+ {
+
+7 
+public
+ 
+SŒšg
+ 
+	mÏnguage
+ = "ko";
+
+12 
+public
+ 
+SŒšg
+ 
+	mEx‹º®P©h
+ = "/sdcard/";
+
+17 
+public
+ 
+boŞ—n
+ 
+	mEx‹º®P©hChecked
+ = 
+çl£
+;
+
+22 
+public
+ 
+SŒšg
+ 
+	mFOLDER_PHOTO
+ = "MultiMemo/photo/";
+
+27 
+public
+ 
+SŒšg
+ 
+	mFOLDER_VIDEO
+ = "MultiMemo/video/";
+
+32 
+public
+ 
+SŒšg
+ 
+	mFOLDER_VOICE
+ = "MultiMemo/voice/";
+
+37 
+public
+ 
+SŒšg
+ 
+	mFOLDER_HANDWRITING
+ = "MultiMemo/handwriting/";
+
+42 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mURI_MEDIA_FORMAT
+ = "content://media";
+
+47 
+public
+ 
+SŒšg
+ 
+	mDATABASE_NAME
+ = "MultiMemo/memo.db";
+
+53 
+public
+ 
+Sim¶eD©eFÜm©
+ 
+	md©eTimeKÜFÜm©
+
+
+54 ğ
+Ãw
+ 
+Sim¶eD©eFÜm©
+("yyyyë…„ MMì›” ddì¼ HHì‹œ mmë¶„");
+
+55 
+public
+ 
+Sim¶eD©eFÜm©
+ 
+	md©eTimeFÜm©
+
+
+56 ğ
+Ãw
+ 
+Sim¶eD©eFÜm©
+("yyyy-MM-dd HH:mm:ss");
+
+58 
+public
+ 
+Sim¶eD©eFÜm©
+ 
+	md©eKÜFÜm©
+
+
+59 ğ
+Ãw
+ 
+Sim¶eD©eFÜm©
+("yyyyë…„ MMì›” ddì¼");
+
+60 
+public
+ 
+Sim¶eD©eFÜm©
+ 
+	md©eFÜm©
+
+
+61 ğ
+Ãw
+ 
+Sim¶eD©eFÜm©
+("yyyy-MM-dd");
+
+63 
+public
+ 
+Sim¶eD©eFÜm©
+ 
+	mtimeKÜFÜm©
+
+
+64 ğ
+Ãw
+ 
+Sim¶eD©eFÜm©
+("HHì‹œ mmë¶„");
+
+65 
+public
+ 
+Sim¶eD©eFÜm©
+ 
+	mtimeFÜm©
+
+
+66 ğ
+Ãw
+ 
+Sim¶eD©eFÜm©
+("HH:mm:ss");
+
+71 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_MEMO_MODE
+ = "MEMO_MODE";
+
+76 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mMEMO_MODE_INSERT
+ = "MODE_INSERT";
+
+77 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mMEMO_MODE_MODIFY
+ = "MODE_MODIFY";
+
+78 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mMEMO_MODE_VIEW
+ = "MODE_VIEW";
+
+83 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_MEMO_ID
+ = "MEMO_ID";
+
+84 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_MEMO_DATE
+ = "MEMO_DATE";
+
+85 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_MEMO_TEXT
+ = "MEMO_TEXT";
+
+86 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_ID_PHOTO
+ = "ID_PHOTO";
+
+87 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_URI_PHOTO
+ = "URI_PHOTO";
+
+88 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_ID_VIDEO
+ = "ID_VIDEO";
+
+89 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_URI_VIDEO
+ = "URI_VIDEO";
+
+90 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_ID_VOICE
+ = "ID_VOICE";
+
+91 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_URI_VOICE
+ = "URI_VOICE";
+
+92 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_ID_HANDWRITING
+ = "ID_HANDWRITING";
+
+93 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mKEY_URI_HANDWRITING
+ = "URI_HANDWRITING";
+
+100 
+public
+ 
+fš®
+ 
+	mREQ_INSERT_ACTIVITY
+ = 1001;
+
+101 
+public
+ 
+fš®
+ 
+	mREQ_VIEW_ACTIVITY
+ = 1002;
+
+104 
+public
+ 
+fš®
+ 
+	mREQ_PHOTO_CAPTURE_ACTIVITY
+ = 1501;
+
+105 
+public
+ 
+fš®
+ 
+	mREQ_PHOTO_SELECTION_ACTIVITY
+ = 1502;
+
+106 
+public
+ 
+fš®
+ 
+	mREQ_VIDEO_RECORDING_ACTIVITY
+ = 1503;
+
+107 
+public
+ 
+fš®
+ 
+	mREQ_VIDEO_SELECTION_ACTIVITY
+ = 1504;
+
+108 
+public
+ 
+fš®
+ 
+	mREQ_VOICE_RECORDING_ACTIVITY
+ = 1505;
+
+109 
+public
+ 
+fš®
+ 
+	mREQ_HANDWRITING_MAKING_ACTIVITY
+ = 1506;
+
+115 
+public
+ 
+fš®
+ 
+	mWARNING_INSERT_SDCARD
+ = 1001;
+
+116 
+public
+ 
+fš®
+ 
+	mIMAGE_CANNOT_BE_STORED
+ = 1002;
+
+119 
+public
+ 
+fš®
+ 
+	mCONTENT_PHOTO
+ = 2001;
+
+120 
+public
+ 
+fš®
+ 
+	mCONTENT_VIDEO
+ = 2002;
+
+121 
+public
+ 
+fš®
+ 
+	mCONTENT_VOICE
+ = 2003;
+
+122 
+public
+ 
+fš®
+ 
+	mCONTENT_PHOTO_EX
+ = 2005;
+
+123 
+public
+ 
+fš®
+ 
+	mCONTENT_VIDEO_EX
+ = 2006;
+
+124 
+public
+ 
+fš®
+ 
+	mCONTENT_VOICE_EX
+ = 2007;
+
+128 
+public
+ 
+fš®
+ 
+	mCONFIRM_DELETE
+ = 3001;
+
+129 
+public
+ 
+fš®
+ 
+	mCONFIRM_TEXT_INPUT
+ = 3002;
+
+131 
+public
+ 
+boŞ—n
+ 
+	$isAbsŞu‹VideoP©h
+(
+SŒšg
+ 
+videoUri
+) {
+
+132 ià(
+videoUri
+.
+	`¡¬tsW™h
+(
+URI_MEDIA_FORMAT
+)) {
+
+133  
+çl£
+;
+
+136  
+Œue
+;
+
+139 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/CameraSurfaceView.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gh¬dw¬e
+.
+	gCam”a
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gSurçû
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gSurçûV›w
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gSurçûHŞd”
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+11 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gIOExû±iÚ
+;
+
+13 
+public
+ 
+şass
+ 
+Cam”aSurçûV›w
+ 
+ex‹nds
+ 
+SurçûV›w
+
+
+14 
+im¶em’ts
+ 
+	gSurçûHŞd”
+.
+	gC®lback
+ {
+
+15 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	gTAG
+ = "CameraSurfaceView";
+
+17 
+´iv©e
+ 
+CÚ‹xt
+ 
+	gmCÚ‹xt
+;
+
+19 
+´iv©e
+ 
+SurçûHŞd”
+ 
+	ghŞd”
+;
+
+20 
+´iv©e
+ 
+Cam”a
+ 
+	gÿm”a
+;
+
+22 
+public
+ 
+Cam”aSurçûV›w
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+23 
+su³r
+(
+cÚ‹xt
+);
+
+24 
+	gmCÚ‹xt
+ = 
+cÚ‹xt
+;
+
+26 
+	ghŞd”
+ = 
+g‘HŞd”
+();
+
+27 
+	ghŞd”
+.
+addC®lback
+(
+this
+);
+
+28 
+	ghŞd”
+.
+£tTy³
+(
+SurçûHŞd”
+.
+SURFACE_TYPE_PUSH_BUFFERS
+);
+
+31 @
+Ov”ride
+
+
+32 
+public
+ 
+surçûC»©ed
+(
+SurçûHŞd”
+ 
+hŞd”
+) {
+
+33 
+İ’Cam”a
+();
+
+36 @
+Ov”ride
+
+
+37 
+public
+ 
+surçûChªged
+(
+SurçûHŞd”
+ 
+hŞd”
+, 
+fÜm©
+, 
+width
+, 
+height
+) {
+
+38 
+	gÿm”a
+.
+¡¬tP»v›w
+();
+
+41 @
+Ov”ride
+
+
+42 
+public
+ 
+surçûDe¡royed
+(
+SurçûHŞd”
+ 
+hŞd”
+) {
+
+43 
+¡İP»v›w
+();
+
+46 
+public
+ 
+Surçû
+ 
+g‘Surçû
+() {
+
+47  
+	ghŞd”
+.
+g‘Surçû
+();
+
+50 
+public
+ 
+boŞ—n
+ 
+ÿ±u»
+(
+Cam”a
+.
+Piùu»C®lback
+ 
+j³gHªdËr
+) {
+
+51 
+tß¡
+("Picture captured...");
+
+53 ià(
+	gÿm”a
+ !ğ
+nuÎ
+) {
+
+54 
+ÿm”a
+.
+kePiùu»
+(
+nuÎ
+,‚ull,
+
+55 
+j³gHªdËr
+);
+
+56  
+	gŒue
+;
+
+59  
+	gçl£
+;
+
+63 
+´iv©e
+ 
+İ’Cam”a
+() {
+
+64 
+	gÿm”a
+ = 
+Cam”a
+.
+İ’
+();
+
+65 
+	gÿm”a
+.
+£tDi¥ÏyOr›Á©iÚ
+(0);
+
+67 
+	gŒy
+ {
+
+68 
+	gÿm”a
+.
+£tP»v›wDi¥Ïy
+(
+hŞd”
+);
+
+70 
+ÿtch
+(
+IOExû±iÚ
+ 
+iÛ
+) {
+
+71 
+	gLog
+.
+e
+(
+TAG
+, "Failedo set camera…review - IOException");
+
+73 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+74 
+	gLog
+.
+e
+(
+TAG
+, "Failedo set camera…review - Exception");
+
+78 
+public
+ 
+¡İP»v›w
+() {
+
+79 
+	gÿm”a
+.
+¡İP»v›w
+();
+
+80 
+	gÿm”a
+.
+»Ëa£
+();
+
+81 
+	gÿm”a
+ = 
+nuÎ
+;
+
+84 
+public
+ 
+¡¬tP»v›w
+() {
+
+85 
+İ’Cam”a
+();
+
+86 
+	gÿm”a
+.
+¡¬tP»v›w
+();
+
+89 
+´iv©e
+ 
+´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+90 
+	gLog
+.
+d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+93 
+´iv©e
+ 
+tß¡
+(
+SŒšg
+ 
+mes§ge
+) {
+
+94 
+	gTß¡
+.
+makeText
+(
+mCÚ‹xt
+, 
+mes§ge
+, 
+Tß¡
+.
+LENGTH_LONG
+).
+show
+();
+
+	@app/src/main/java/com/ukasias/android/multimemo/ColorPaletteDialog.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gAùiv™y
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCŞÜ
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gªnÙ©iÚ
+.
+	gNuÎabË
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›wGroup
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gBa£Ad­‹r
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gBu‰Ú
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gGridV›w
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTextV›w
+;
+
+16 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+18 
+public
+ cÏs 
+	cCŞÜP®‘‹DŸlog
+ 
+ex‹nds
+ 
+	mAùiv™y
+ {
+
+19 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "ColorPaletteDialog";
+
+24 
+´iv©e
+ 
+TextV›w
+ 
+	m‹xtV›w
+;
+
+25 
+´iv©e
+ 
+GridV›w
+ 
+	mgridV›w
+;
+
+26 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mşo£Bu‰Ú
+;
+
+31 
+public
+ 
+OnCŞÜS–eùedLi¡’”
+ 
+	mli¡’”
+;
+
+32 
+´iv©e
+ 
+CŞÜD©aAd­‹r
+ 
+	mad­‹r
+;
+
+34 @
+Ov”ride
+
+
+35 
+´Ùeùed
+ 
+ÚC»©e
+(@
+NuÎabË
+ 
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+36 
+	msu³r
+.
+ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+38 
+£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_hªdwr™šg_dŸlog
+);
+
+40 
+	m‹xtV›w
+ = 
+fšdV›wById
+(
+R
+.
+id
+.
+‹xtV›w
+);
+
+41 
+	mgridV›w
+ = 
+fšdV›wById
+(
+R
+.
+id
+.
+gridV›w
+);
+
+42 
+	mşo£Bu‰Ú
+ = 
+fšdV›wById
+(
+R
+.
+id
+.
+şo£Bu‰Ú
+);
+
+44 
+	m‹xtV›w
+.
+£tText
+("ìƒ‰ìƒ ì„ íƒ");
+
+47 
+	mgridV›w
+.
+£tBackgroundCŞÜ
+(
+CŞÜ
+.
+GRAY
+);
+
+51 
+	mad­‹r
+ = 
+Ãw
+ 
+CŞÜD©aAd­‹r
+(
+this
+);
+
+52 
+	mgridV›w
+.
+£tAd­‹r
+(
+ad­‹r
+);
+
+53 
+	mgridV›w
+.
+£tNumCŞumns
+(
+ad­‹r
+.
+g‘CŞumnCouÁ
+());
+
+55 
+	mşo£Bu‰Ú
+.
+£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+OnClickLi¡’”
+() {
+
+56 @
+Ov”ride
+
+
+57 
+public
+ 
+ÚClick
+(
+V›w
+ 
+v
+) {
+
+58 
+fšish
+();
+
+64 şas 
+	cCŞÜD©aAd­‹r
+ 
+ex‹nds
+ 
+	mBa£Ad­‹r
+ {
+
+65 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "ColorDataAdapter";
+
+67 
+´iv©e
+ 
+fš®
+ [] 
+	mcŞÜs
+ = 
+Ãw
+ [] {
+
+73 
+´iv©e
+ 
+CÚ‹xt
+ 
+	gmCÚ‹xt
+;
+
+74 
+´iv©e
+ 
+	growCouÁ
+;
+
+75 
+´iv©e
+ 
+	gcŞumnCouÁ
+;
+
+78 
+public
+ 
+	$CŞÜD©aAd­‹r
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+79 
+mCÚ‹xt
+ = 
+cÚ‹xt
+;
+
+81 
+rowCouÁ
+ = 3;
+
+82 
+cŞumnCouÁ
+ = 7;
+
+83 
+	}
+}
+
+85 @
+Ov”ride
+
+
+86 
+public
+ 
+	$g‘CouÁ
+() {
+
+87  
+cŞÜs
+.
+Ëngth
+;
+
+88 
+	}
+}
+
+90 
+public
+ 
+	$g‘CŞumnCouÁ
+() {
+
+91  
+cŞumnCouÁ
+;
+
+92 
+	}
+}
+
+94 
+public
+ 
+	$g‘RowCouÁ
+() {
+
+95  
+rowCouÁ
+;
+
+96 
+	}
+}
+
+98 @
+Ov”ride
+
+
+99 
+public
+ 
+Objeù
+ 
+	$g‘I‹m
+(
+pos™iÚ
+) {
+
+100  
+cŞÜs
+[
+pos™iÚ
+];
+
+101 
+	}
+}
+
+103 @
+Ov”ride
+
+
+104 
+public
+ 
+	$g‘I‹mId
+(
+pos™iÚ
+) {
+
+105  
+pos™iÚ
+;
+
+106 
+	}
+}
+
+108 @
+Ov”ride
+
+
+109 
+public
+ 
+V›w
+ 
+	$g‘V›w
+(
+pos™iÚ
+, 
+V›w
+ 
+cÚv”tV›w
+, 
+V›wGroup
+ 
+·»Á
+) {
+
+110 
+row
+ = 
+pos™iÚ
+ / 
+cŞumnCouÁ
+;
+
+111 
+cŞumn
+ = 
+pos™iÚ
+ % 
+cŞumnCouÁ
+;
+
+112 
+	`´št
+("g‘V›wÔow: " + 
+row
+ + ", cŞumn: " + 
+cŞumn
+ + ") called.");
+
+114 
+V›w
+ 
+™em
+ = 
+Ãw
+ 
+	`V›w
+(
+mCÚ‹xt
+);
+
+115 
+™em
+.
+	`£tBackgroundCŞÜ
+(
+cŞÜs
+[
+pos™iÚ
+]);
+
+116 
+™em
+.
+	`£tTag
+(
+cŞÜs
+[
+pos™iÚ
+]);
+
+117 ià(
+·»Á
+.
+	`g‘Width
+(è> 0 &&…¬’t.
+	`g‘Height
+() > 0) {
+
+118 
+V›wGroup
+.
+LayoutP¬ams
+ 
+·¿ms
+ = 
+Ãw
+ V›wGroup.
+	`LayoutP¬ams
+(
+
+119 
+·»Á
+.
+	`g‘Width
+(è/ 
+cŞumnCouÁ
+,
+
+120 
+·»Á
+.
+	`g‘Height
+(è/ 
+rowCouÁ
+);
+
+121 
+™em
+.
+	`£tLayoutP¬ams
+(
+·¿ms
+);
+
+124 
+™em
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+125 @
+Ov”ride
+
+
+126 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+127 ià(
+CŞÜP®‘‹DŸlog
+.
+li¡’”
+ !ğ
+nuÎ
+) {
+
+128 
+CŞÜP®‘‹DŸlog
+.
+li¡’”
+.
+	`ÚCŞÜS–eùed
+(
+
+129 ((
+IÁeg”
+è
+v
+.
+	`g‘Tag
+()).
+	`štV®ue
+());
+
+132 ((
+CŞÜP®‘‹DŸlog
+è
+mCÚ‹xt
+).
+	`fšish
+();
+
+136  
+™em
+;
+
+137 
+	}
+}
+
+139 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+140 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+141 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/CoverFlow.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCam”a
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gM©rix
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gmedŸ
+.
+	gImage
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gA‰ribu‹S‘
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gªim©iÚ
+.
+	gT¿nsfÜm©iÚ
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gG®Ëry
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gImageV›w
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+15 
+public
+ cÏs 
+	cCov”Flow
+ 
+ex‹nds
+ 
+	mG®Ëry
+ {
+
+16 
+´iv©e
+ 
+SŒšg
+ 
+	mTAG
+ = "CoverFlow";
+
+21 
+´iv©e
+ 
+CÚ‹xt
+ 
+	mcÚ‹xt
+;
+
+22 
+´iv©e
+ 
+Cam”a
+ 
+	mÿm”a
+;
+
+23 
+´iv©e
+ 
+	mmaxRÙ©iÚAngË
+ = 55;
+
+24 
+´iv©e
+ 
+	mmaxZoom
+ = -60;
+
+25 
+´iv©e
+ 
+	mûÁ”Pošt
+;
+
+27 
+public
+ 
+	$Cov”Flow
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+28 
+	`su³r
+(
+cÚ‹xt
+);
+
+29 
+this
+.
+cÚ‹xt
+ = context;
+
+31 
+	`š™
+();
+
+34 
+public
+ 
+	$Cov”Flow
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+A‰ribu‹S‘
+ 
+©Œibu‹S‘
+) {
+
+35 
+	`su³r
+(
+cÚ‹xt
+, 
+©Œibu‹S‘
+);
+
+36 
+this
+.
+cÚ‹xt
+ = context;
+
+38 
+	`š™
+();
+
+39 
+	}
+}
+
+41 
+public
+ 
+	$Cov”Flow
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+A‰ribu‹S‘
+ 
+©Œibu‹S‘
+, 
+defStyË
+) {
+
+42 
+	`su³r
+(
+cÚ‹xt
+, 
+©Œibu‹S‘
+, 
+defStyË
+);
+
+43 
+this
+.
+cÚ‹xt
+ = context;
+
+45 
+	`š™
+();
+
+46 
+	}
+}
+
+48 
+´iv©e
+ 
+	$š™
+() {
+
+49 
+	`´št
+("init() called.");
+
+50 
+ÿm”a
+ = 
+Ãw
+ 
+	`Cam”a
+();
+
+51 
+this
+.
+	`£tSticT¿nsfÜm©iÚsEÇbËd
+(
+Œue
+);
+
+52 
+	}
+}
+
+54 
+public
+ 
+	$g‘MaxRÙ©iÚAngË
+() {
+
+55  
+maxRÙ©iÚAngË
+;
+
+56 
+	}
+}
+
+58 
+public
+ 
+	$£tMaxRÙ©iÚAngË
+(
+maxRÙ©iÚAngË
+) {
+
+59 
+Cov”Flow
+.
+maxRÙ©iÚAngË
+ = maxRotationAngle;
+
+60 
+	}
+}
+
+62 
+public
+ 
+	$g‘MaxZoom
+() {
+
+63  
+maxZoom
+;
+
+64 
+	}
+}
+
+66 
+public
+ 
+	$£tMaxZoom
+(
+zoom
+) {
+
+67 
+maxZoom
+ = 
+zoom
+;
+
+68 
+	}
+}
+
+70 
+´iv©e
+ 
+	$g‘C’‹rOfCov”æow
+() {
+
+71  (
+	`g‘Width
+(è- 
+	`g‘PaddšgLeá
+(è- 
+	`g‘PaddšgRight
+()) / 2 + getPaddingLeft();
+
+72 
+	}
+}
+
+74 
+´iv©e
+ 
+	$g‘C’‹rOfV›w
+(
+V›w
+ 
+v›w
+) {
+
+75  
+v›w
+.
+	`g‘Leá
+(è+ v›w.
+	`g‘Width
+()/2;
+
+76 
+	}
+}
+
+78 @
+Ov”ride
+
+
+79 
+´Ùeùed
+ 
+	$ÚSizeChªged
+(
+w
+, 
+h
+, 
+Şdw
+, 
+Şdh
+) {
+
+80 
+su³r
+.
+	`ÚSizeChªged
+(
+w
+, 
+h
+, 
+Şdw
+, 
+Şdh
+);
+
+82 
+	`´št
+("ÚSizeChªged(w: " + 
+w
+ + ", h: " + 
+h
+ +
+
+83 ", oldw: " + 
+Şdw
+ + ", oldh: " + 
+Şdh
+ + ") called.");
+
+85 
+ûÁ”Pošt
+ = 
+	`g‘C’‹rOfCov”æow
+();
+
+86 
+	}
+}
+
+88 
+´iv©e
+ 
+	$ŒªsfÜmImageB™m­
+(
+ImageV›w
+ 
+chd
+, 
+T¿nsfÜm©iÚ
+ 
+t
+, 
+rÙ©iÚAngË
+) {
+
+89 
+	`´št
+("ŒªsfÜmImageB™m­ÔÙ©iÚAngË: " + 
+rÙ©iÚAngË
+ + ") called.");
+
+90 
+ÿm”a
+.
+	`§ve
+();
+
+93 
+ÿm”a
+.
+	`Œª¦©e
+(0.0f, 0.0f, 100.0f);
+
+94 
+absRÙ©iÚAngË
+ = 
+M©h
+.
+	`abs
+(
+rÙ©iÚAngË
+);
+
+95 ià(
+absRÙ©iÚAngË
+ < 
+maxRÙ©iÚAngË
+) {
+
+96 
+zoomAmouÁ
+ = (è(
+maxZoom
+ + (
+absRÙ©iÚAngË
+ * 1.5));
+
+97 
+ÿm”a
+.
+	`Œª¦©e
+(0.0f, 0.0f, 
+zoomAmouÁ
+);
+
+101 
+ÿm”a
+.
+	`rÙ©eY
+(
+rÙ©iÚAngË
+);
+
+104 
+fš®
+ 
+imageWidth
+ = 
+chd
+.
+	`g‘LayoutP¬ams
+().
+width
+;
+
+105 
+fš®
+ 
+imageHeight
+ = 
+chd
+.
+	`g‘LayoutP¬ams
+().
+height
+;
+
+107 
+fš®
+ 
+M©rix
+ 
+m©rix
+ = 
+t
+.
+	`g‘M©rix
+();
+
+108 
+ÿm”a
+.
+	`g‘M©rix
+(
+m©rix
+);
+
+110 
+m©rix
+.
+	`´eT¿n¦©e
+(-(
+imageWidth
+/2), -(
+imageHeight
+/2));
+
+111 
+m©rix
+.
+	`po¡T¿n¦©e
+((
+imageWidth
+/2), (
+imageHeight
+/2));
+
+113 
+ÿm”a
+.
+	`»¡Üe
+();
+
+114 
+	}
+}
+
+116 @
+Ov”ride
+
+
+117 
+´Ùeùed
+ 
+boŞ—n
+ 
+	$g‘ChdSticT¿nsfÜm©iÚ
+(
+V›w
+ 
+chd
+, 
+T¿nsfÜm©iÚ
+ 
+t
+) {
+
+118 
+fš®
+ 
+chdC’‹r
+ = 
+	`g‘C’‹rOfV›w
+(
+chd
+);
+
+119 
+fš®
+ 
+chdWidth
+ = 
+chd
+.
+	`g‘Width
+();
+
+120 
+rÙ©iÚAngË
+ = 0;
+
+122 
+t
+.
+	`ş—r
+();
+
+123 
+t
+.
+	`£tT¿nsfÜm©iÚTy³
+(
+T¿nsfÜm©iÚ
+.
+TYPE_MATRIX
+);
+
+132 ià(
+chdC’‹r
+ =ğ
+ûÁ”Pošt
+) {
+
+137 
+	`ŒªsfÜmImageB™m­
+((
+ImageV›w
+è
+chd
+, 
+t
+, 0);
+
+145 
+rÙ©iÚAngË
+ = (è(()(
+ûÁ”Pošt
+ - 
+chdC’‹r
+è/ 
+chdWidth
+)
+
+146 * 
+maxRÙ©iÚAngË
+;
+
+148 ià(
+M©h
+.
+	`abs
+(
+rÙ©iÚAngË
+è> 
+maxRÙ©iÚAngË
+) {
+
+149 
+rÙ©iÚAngË
+ =
+
+150 
+rÙ©iÚAngË
+ > 0? 
+maxRÙ©iÚAngË
+ : (-1) * maxRotationAngle;
+
+152 
+	`ŒªsfÜmImageB™m­
+((
+ImageV›w
+è
+chd
+, 
+t
+, 
+rÙ©iÚAngË
+);
+
+155  
+Œue
+;
+
+156 
+	}
+}
+
+158 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+159 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+160 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/HandwritingMakingActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCŞÜ
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gImageV›w
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTextV›w
+;
+
+13 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+15 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFe
+;
+
+16 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFeOuutSŒ—m
+;
+
+18 
+public
+ cÏs 
+	cHªdwr™šgMakšgAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+19 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "HandwritingMActivity";
+
+21 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mhªdwr™šgF’ame
+ = "made";
+
+26 
+´iv©e
+ 
+Hªdwr™šgV›w
+ 
+	mhªdwr™šgV›w
+;
+
+27 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	m§veBu‰Ú
+;
+
+29 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mcŞÜBu‰Ú
+;
+
+30 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	m³nBu‰Ú
+;
+
+31 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	m”a£rBu‰Ú
+;
+
+32 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mundoBu‰Ú
+;
+
+34 
+´iv©e
+ 
+ImageV›w
+ 
+	mdi¥ÏyCŞÜ
+;
+
+35 
+´iv©e
+ 
+TextV›w
+ 
+	mdi¥ÏyP’
+;
+
+41 
+´iv©e
+ 
+fš®
+ 
+	mDEFAULT_COLOR
+ = 
+CŞÜ
+.
+BLACK
+;
+
+42 
+´iv©e
+ 
+fš®
+ 
+	mDEFAULT_PENSIZE
+ = 10;
+
+43 
+´iv©e
+ 
+fš®
+ 
+	mDEFAULT_ERASESIZE
+ = 20;
+
+45 
+´iv©e
+ 
+	mmCŞÜ
+;
+
+46 
+´iv©e
+ 
+	mmSize
+;
+
+47 
+´iv©e
+ 
+	mmP»vCŞÜ
+;
+
+48 
+´iv©e
+ 
+	mmP»vSize
+;
+
+49 
+´iv©e
+ 
+boŞ—n
+ 
+	mmE¿£rS–eùed
+;
+
+51 @
+Ov”ride
+
+
+52 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+53 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+54 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_hªdwr™šg_makšg
+);
+
+56 
+hªdwr™šgV›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.handwritingView);
+
+58 
+	`£tTİLayout
+();
+
+60 
+	`£tBÙtomLayout
+();
+
+62 
+	`š™
+();
+
+65 
+´iv©e
+ 
+	$š™
+() {
+
+66 
+mCŞÜ
+ = 
+DEFAULT_COLOR
+;
+
+67 
+mSize
+ = 
+DEFAULT_PENSIZE
+;
+
+68 
+mE¿£rS–eùed
+ = 
+çl£
+;
+
+69 
+	}
+}
+
+71 
+´iv©e
+ 
+	$£tTİLayout
+() {
+
+72 
+	`´št
+("setTopLayout() called.");
+
+74 
+cŞÜBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.colorButton);
+
+75 
+³nBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.penButton);
+
+76 
+”a£rBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.eraserButton);
+
+77 
+undoBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.undoButton);
+
+79 
+di¥ÏyCŞÜ
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.displayColor);
+
+80 
+di¥ÏyP’
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.displayPen);
+
+82 
+CŞÜP®‘‹DŸlog
+.
+li¡’”
+ = 
+Ãw
+ 
+	`OnCŞÜS–eùedLi¡’”
+() {
+
+83 @
+Ov”ride
+
+
+84 
+public
+ 
+	`ÚCŞÜS–eùed
+(
+cŞÜ
+) {
+
+85 
+mCŞÜ
+ = 
+cŞÜ
+;
+
+86 
+hªdwr™šgV›w
+.
+	`upd©ePaštPrİ”ty
+(
+mCŞÜ
+, 
+mSize
+);
+
+87 
+	`di¥ÏyPaštPrİ”ty
+();
+
+90 
+cŞÜBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+91 @
+Ov”ride
+
+
+92 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+93 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+
+94 
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+95 
+CŞÜP®‘‹DŸlog
+.
+şass
+);
+
+96 
+	`¡¬tAùiv™y
+(
+š‹Á
+);
+
+100 
+P’P®‘‹DŸlog
+.
+li¡’”
+ = 
+Ãw
+ 
+	`OnP’S–eùedLi¡’”
+() {
+
+101 @
+Ov”ride
+
+
+102 
+public
+ 
+	`ÚP’S–eùed
+(
+³n
+) {
+
+103 
+mSize
+ = 
+³n
+;
+
+104 
+hªdwr™šgV›w
+.
+	`upd©ePaštPrİ”ty
+(
+mCŞÜ
+, 
+mSize
+);
+
+105 
+	`di¥ÏyPaštPrİ”ty
+();
+
+108 
+³nBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+109 @
+Ov”ride
+
+
+110 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+111 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+
+112 
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+113 
+P’P®‘‹DŸlog
+.
+şass
+);
+
+114 
+	`¡¬tAùiv™y
+(
+š‹Á
+);
+
+118 
+”a£rBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+119 @
+Ov”ride
+
+
+120 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+121 
+mE¿£rS–eùed
+ = !mEraserSelected;
+
+123 ià(
+mE¿£rS–eùed
+) {
+
+124 
+cŞÜBu‰Ú
+.
+	`£tEÇbËd
+(
+çl£
+);
+
+125 
+³nBu‰Ú
+.
+	`£tEÇbËd
+(
+çl£
+);
+
+126 
+undoBu‰Ú
+.
+	`£tEÇbËd
+(
+çl£
+);
+
+128 
+cŞÜBu‰Ú
+.
+	`šv®id©e
+();
+
+129 
+³nBu‰Ú
+.
+	`šv®id©e
+();
+
+130 
+undoBu‰Ú
+.
+	`šv®id©e
+();
+
+132 
+mP»vCŞÜ
+ = 
+mCŞÜ
+;
+
+133 
+mP»vSize
+ = 
+mSize
+;
+
+135 
+mCŞÜ
+ = 
+CŞÜ
+.
+WHITE
+;
+
+136 
+mP»vSize
+ = 
+DEFAULT_ERASESIZE
+;
+
+138 
+hªdwr™šgV›w
+.
+	`upd©ePaštPrİ”ty
+(
+mCŞÜ
+, 
+mSize
+);
+
+139 
+	`di¥ÏyPaštPrİ”ty
+();
+
+142 
+cŞÜBu‰Ú
+.
+	`£tEÇbËd
+(
+Œue
+);
+
+143 
+³nBu‰Ú
+.
+	`£tEÇbËd
+(
+Œue
+);
+
+144 
+undoBu‰Ú
+.
+	`£tEÇbËd
+(
+Œue
+);
+
+146 
+cŞÜBu‰Ú
+.
+	`šv®id©e
+();
+
+147 
+³nBu‰Ú
+.
+	`šv®id©e
+();
+
+148 
+undoBu‰Ú
+.
+	`šv®id©e
+();
+
+150 
+mCŞÜ
+ = 
+mP»vCŞÜ
+;
+
+151 
+mSize
+ = 
+mP»vSize
+;
+
+153 
+hªdwr™šgV›w
+.
+	`upd©ePaštPrİ”ty
+(
+mCŞÜ
+, 
+mSize
+);
+
+154 
+	`di¥ÏyPaštPrİ”ty
+();
+
+159 
+undoBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+160 @
+Ov”ride
+
+
+161 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+162 
+	`´št
+("undo button clicked");
+
+164 
+hªdwr™šgV›w
+.
+	`undo
+();
+
+169 
+	}
+}
+
+171 
+´iv©e
+ 
+	$£tBÙtomLayout
+() {
+
+172 
+	`´št
+("setBottomLayout() called.");
+
+173 
+§veBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.saveButton);
+
+175 
+§veBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+176 @
+Ov”ride
+
+
+177 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+178 
+	`§veHªdwr™šgMakšg
+();
+
+181 
+	}
+}
+
+183 
+´iv©e
+ 
+	$di¥ÏyPaštPrİ”ty
+() {
+
+184 
+di¥ÏyCŞÜ
+.
+	`£tBackgroundCŞÜ
+(
+mCŞÜ
+);
+
+185 
+di¥ÏyP’
+.
+	`£tText
+("íœ ë‘ê¼:" + 
+mSize
+);
+
+186 
+	}
+}
+
+188 
+´iv©e
+ 
+	$§veHªdwr™šgMakšg
+() {
+
+189 
+Œy
+ {
+
+190 
+	`checkHªdwr™šgFŞd”
+();
+
+192 
+Fe
+ 
+fe
+ = 
+Ãw
+ 
+	`Fe
+(
+
+193 
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+hªdwr™šgF’ame
+);
+
+194 ià(
+fe
+.
+	`exi¡s
+()) {
+
+195 
+fe
+.
+	`d–‘e
+();
+
+198 
+FeOuutSŒ—m
+ 
+ouutSŒ—m
+ =
+
+199 
+Ãw
+ 
+	`FeOuutSŒ—m
+(
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+hªdwr™šgF’ame
+);
+
+200 
+boŞ—n
+ 
+§ved
+ = 
+hªdwr™šgV›w
+.
+	`Save
+(
+ouutSŒ—m
+);
+
+201 
+ouutSŒ—m
+.
+	`şo£
+();
+
+203 ià(
+§ved
+) {
+
+204 
+	`´št
+(
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+hªdwr™šgF’ame
+ + " saved");
+
+207 
+	`´št
+(
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+hªdwr™šgF’ame
+ + " failedo save");
+
+210 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+211 
+e
+.
+	`´štSckT¿û
+();
+
+214 
+	`£tResuÉ
+(
+RESULT_OK
+);
+
+215 
+	`fšish
+();
+
+216 
+	}
+}
+
+218 
+´iv©e
+ 
+	$checkHªdwr™šgFŞd”
+() {
+
+219 
+Fe
+ 
+hªdwr™šgFŞd”
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_HANDWRITING
+);
+
+220 ià(
+hªdwr™šgFŞd”
+.
+	`isDœeùÜy
+(è=ğ
+çl£
+) {
+
+221 
+	`´št
+(
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + " folder created.");
+
+223 
+hªdwr™šgFŞd”
+.
+	`mkdœs
+();
+
+225 
+	}
+}
+
+227 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+228 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+229 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/HandwritingView.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCªvas
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCŞÜ
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gPašt
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gP©h
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gReù
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gA‰ribu‹S‘
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gMÙiÚEv’t
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+16 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gOuutSŒ—m
+;
+
+17 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gSck
+;
+
+19 
+public
+ cÏs 
+	cHªdwr™šgV›w
+ 
+ex‹nds
+ 
+	mV›w
+ {
+
+20 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "HandwritingView";
+
+25 
+´iv©e
+ 
+fš®
+ 
+	mMAX_UNDOS
+ = 10;
+
+26 
+´iv©e
+ 
+fš®
+ 
+	mmInv®id©eExŒaBÜd”
+ = 10;
+
+27 
+´iv©e
+ 
+fš®
+ 
+	mTOUCH_TOLERANCE
+ = 1;
+
+28 
+´iv©e
+ 
+fš®
+ 
+boŞ—n
+ 
+	mRENDERING_ANTIALIAS
+ = 
+Œue
+;
+
+29 
+´iv©e
+ 
+fš®
+ 
+boŞ—n
+ 
+	mDITHER_FLAG
+ = 
+Œue
+;
+
+31 
+´iv©e
+ 
+	mmC”šCŞÜ
+ = 0xff000000;
+
+32 
+´iv©e
+ 
+	mmSŒokeWidth
+ = 2.0f;
+
+38 
+´iv©e
+ 
+CÚ‹xt
+ 
+	mcÚ‹xt
+;
+
+43 
+´iv©e
+ 
+B™m­
+ 
+	mmB™m­
+;
+
+44 
+´iv©e
+ 
+Cªvas
+ 
+	mmCªvas
+;
+
+45 
+´iv©e
+ 
+Pašt
+ 
+	mmPašt
+;
+
+46 
+´iv©e
+ 
+P©h
+ 
+	mmP©h
+;
+
+48 
+´iv©e
+ 
+	mb™m­Width
+;
+
+49 
+´iv©e
+ 
+	mb™m­Height
+;
+
+50 
+´iv©e
+ 
+	mÏ¡X
+;
+
+51 
+´iv©e
+ 
+	mÏ¡Y
+;
+
+52 
+´iv©e
+ 
+	mmCurveEndX
+;
+
+53 
+´iv©e
+ 
+	mmCurveEndY
+;
+
+58 
+Sck
+ 
+	mundos
+;
+
+63 
+´iv©e
+ 
+boŞ—n
+ 
+	mchªged
+;
+
+65 
+public
+ 
+	$Hªdwr™šgV›w
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+66 
+	`su³r
+(
+cÚ‹xt
+);
+
+67 
+this
+.
+cÚ‹xt
+ = context;
+
+69 
+	`š™
+();
+
+72 
+public
+ 
+	$Hªdwr™šgV›w
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+A‰ribu‹S‘
+ 
+©Œibu‹S‘
+) {
+
+73 
+	`su³r
+(
+cÚ‹xt
+, 
+©Œibu‹S‘
+);
+
+74 
+this
+.
+cÚ‹xt
+ = context;
+
+76 
+	`š™
+();
+
+77 
+	}
+}
+
+79 
+´iv©e
+ 
+	$š™
+() {
+
+80 
+undos
+ = 
+Ãw
+ 
+	`Sck
+();
+
+81 
+mP©h
+ = 
+Ãw
+ 
+	`P©h
+();
+
+83 
+mPašt
+ = 
+Ãw
+ 
+	`Pašt
+();
+
+84 
+mPašt
+.
+	`£tAÁiAlŸs
+(
+RENDERING_ANTIALIAS
+);
+
+85 
+mPašt
+.
+	`£tCŞÜ
+(
+mC”šCŞÜ
+);
+
+86 
+mPašt
+.
+	`£tStyË
+(
+Pašt
+.
+StyË
+.
+STROKE
+);
+
+87 
+mPašt
+.
+	`£tSŒokeJoš
+(
+Pašt
+.
+Još
+.
+ROUND
+);
+
+88 
+mPašt
+.
+	`£tSŒokeC­
+(
+Pašt
+.
+C­
+.
+ROUND
+);
+
+89 
+mPašt
+.
+	`£tSŒokeWidth
+(
+mSŒokeWidth
+);
+
+90 
+mPašt
+.
+	`£tD™h”
+(
+DITHER_FLAG
+);
+
+92 
+Ï¡X
+ = 
+Ï¡Y
+ = -1;
+
+94 
+b™m­Width
+ = 
+b™m­Height
+ = 0;
+
+96 
+	`´št
+("init() called.");
+
+97 
+	}
+}
+
+99 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+100 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+101 
+	}
+}
+
+107 @
+Ov”ride
+
+
+108 
+´Ùeùed
+ 
+	$ÚSizeChªged
+(
+w
+, 
+h
+, 
+Şdw
+, 
+Şdh
+) {
+
+109 
+	`´št
+("ÚSizeChªged(w: " + 
+w
+ + ", h: " + 
+h
+
+
+110 + ", oldw: " + 
+Şdw
+ + ", oldh: " + 
+Şdh
+ + ")");
+
+111 ià(
+w
+ > 0 && 
+h
+ > 0) {
+
+112 
+	`ÃwImage
+(
+w
+, 
+h
+);
+
+114 
+	}
+}
+
+116 
+´iv©e
+ 
+	$ÃwImage
+(
+width
+, 
+height
+) {
+
+117 
+mB™m­
+ = 
+B™m­
+.
+	`ü—‹B™m­
+(
+width
+, 
+height
+, B™m­.
+CÚfig
+.
+ARGB_8888
+);
+
+118 
+mCªvas
+ = 
+Ãw
+ 
+	`Cªvas
+();
+
+120 
+mCªvas
+.
+	`£tB™m­
+(
+mB™m­
+);
+
+122 
+b™m­Width
+ = 
+mB™m­
+.
+	`g‘Width
+();
+
+123 
+b™m­Height
+ = 
+mB™m­
+.
+	`g‘Height
+();
+
+125 
+chªged
+ = 
+çl£
+;
+
+127 
+	`d¿wBackground
+(
+mCªvas
+);
+
+129 
+	`šv®id©e
+();
+
+130 
+	}
+}
+
+132 
+´iv©e
+ 
+	$d¿wBackground
+(
+Cªvas
+ 
+ÿnvas
+) {
+
+133 ià(
+ÿnvas
+ !ğ
+nuÎ
+) {
+
+134 
+ÿnvas
+.
+	`d¿wCŞÜ
+(
+CŞÜ
+.
+	`¬gb
+(255, 255, 255, 255));
+
+136 
+	}
+}
+
+138 
+public
+ 
+	$upd©ePaštPrİ”ty
+(
+cŞÜ
+, 
+size
+) {
+
+139 
+	`´št
+("upd©ePaštPrİ”ty(šˆcŞÜ: " + 
+cŞÜ
+ + ", size: " + 
+size
+ + ") called.");
+
+140 
+mPašt
+.
+	`£tCŞÜ
+(
+cŞÜ
+);
+
+141 
+mPašt
+.
+	`£tSŒokeWidth
+(
+size
+);
+
+142 
+	}
+}
+
+144 
+public
+ 
+B™m­
+ 
+	$g‘Image
+() {
+
+145  
+mB™m­
+;
+
+146 
+	}
+}
+
+148 
+public
+ 
+	$£tImage
+(
+B™m­
+ 
+ÃwImage
+) {
+
+149 
+chªged
+ = 
+çl£
+;
+
+150 
+	}
+}
+
+153 
+´iv©e
+ 
+	$£tImageSize
+(
+width
+, 
+height
+, 
+B™m­
+ 
+ÃwImage
+) {
+
+154 ià(
+mB™m­
+ !ğ
+nuÎ
+) {
+
+157 ià(
+width
+ < 
+mB™m­
+.
+	`g‘Width
+()) width = mBitmap.getWidth();
+
+158 ià(
+height
+ < 
+mB™m­
+.
+	`g‘Height
+()) height = mBitmap.getHeight();
+
+160 ià(
+width
+ < 1 || 
+height
+ < 1) ;
+
+162 
+B™m­
+ 
+img
+ = B™m­.
+	`ü—‹B™m­
+(
+width
+, 
+height
+, B™m­.
+CÚfig
+.
+ARGB_8888
+);
+
+164 
+Cªvas
+ 
+ÿnvas
+ = 
+Ãw
+ 
+	`Cªvas
+();
+
+165 
+	`d¿wBackground
+(
+ÿnvas
+);
+
+167 ià(
+ÃwImage
+ !ğ
+nuÎ
+) {
+
+168 
+ÿnvas
+.
+	`£tB™m­
+(
+ÃwImage
+);
+
+171 ià(
+mB™m­
+ !ğ
+nuÎ
+) {
+
+172 
+mB™m­
+.
+	`»cyşe
+();
+
+175 ià(
+mCªvas
+ !ğ
+nuÎ
+) {
+
+176 
+mCªvas
+.
+	`»¡Üe
+();
+
+182 
+mB™m­
+ = 
+img
+;
+
+183 
+b™m­Width
+ = 
+mB™m­
+.
+	`g‘Width
+();
+
+184 
+b™m­Height
+ = 
+mB™m­
+.
+	`g‘Height
+();
+
+185 
+mCªvas
+ = 
+ÿnvas
+;
+
+187 
+	`ş—rUndo
+();
+
+189 
+	}
+}
+
+191 @
+Ov”ride
+
+
+192 
+´Ùeùed
+ 
+	$ÚD¿w
+(
+Cªvas
+ 
+ÿnvas
+) {
+
+193 
+su³r
+.
+	`ÚD¿w
+(
+ÿnvas
+);
+
+196 ià(
+mB™m­
+ !ğ
+nuÎ
+) {
+
+197 
+ÿnvas
+.
+	`d¿wB™m­
+(
+mB™m­
+, 0, 0, 
+nuÎ
+);
+
+199 
+	}
+}
+
+201 @
+Ov”ride
+
+
+202 
+public
+ 
+boŞ—n
+ 
+	$ÚTouchEv’t
+(
+MÙiÚEv’t
+ 
+ev’t
+) {
+
+203 
+aùiÚ
+ = 
+ev’t
+.
+	`g‘AùiÚ
+();
+
+204 
+Reù
+ 
+»ù
+;
+
+206 
+aùiÚ
+) {
+
+207 
+MÙiÚEv’t
+.
+ACTION_UP
+:
+
+208 
+chªged
+ = 
+Œue
+;
+
+210 
+»ù
+ = 
+	`touchUp
+(
+ev’t
+, 
+çl£
+);
+
+211 ià(
+»ù
+ !ğ
+nuÎ
+) {
+
+212 
+	`šv®id©e
+(
+»ù
+);
+
+214 
+mP©h
+.
+	`»wšd
+();
+
+216  
+Œue
+;
+
+218 
+MÙiÚEv’t
+.
+ACTION_DOWN
+:
+
+220 
+	`§veUndo
+();
+
+222 
+»ù
+ = 
+	`touchDown
+(
+ev’t
+);
+
+223 ià(
+»ù
+ !ğ
+nuÎ
+) {
+
+224 
+	`šv®id©e
+(
+»ù
+);
+
+227  
+Œue
+;
+
+229 
+MÙiÚEv’t
+.
+ACTION_MOVE
+:
+
+230 
+»ù
+ = 
+	`touchMove
+(
+ev’t
+);
+
+231 ià(
+»ù
+ !ğ
+nuÎ
+) {
+
+232 
+	`šv®id©e
+(
+»ù
+);
+
+234  
+Œue
+;
+
+237  
+çl£
+;
+
+238 
+	}
+}
+
+240 
+´iv©e
+ 
+Reù
+ 
+	$touchDown
+(
+MÙiÚEv’t
+ 
+ev’t
+) {
+
+241 
+x
+ = 
+ev’t
+.
+	`g‘X
+();
+
+242 
+y
+ = 
+ev’t
+.
+	`g‘Y
+();
+
+244 
+Ï¡X
+ = 
+x
+;
+
+245 
+Ï¡Y
+ = 
+y
+;
+
+247 
+Reù
+ 
+mInv®idReù
+ = 
+Ãw
+ 
+	`Reù
+();
+
+248 
+mP©h
+.
+	`moveTo
+(
+x
+, 
+y
+);
+
+250 
+bÜd”
+ = 
+mInv®id©eExŒaBÜd”
+;
+
+251 
+Ëá
+ = ()
+x
+ - 
+bÜd”
+ < 0? 0 : (() x - border);
+
+252 
+tİ
+ = ()
+y
+ - 
+bÜd”
+ < 0? 0 : (() y - border);
+
+253 
+right
+ = ()
+x
+ + 
+bÜd”
+ >ğ
+b™m­Width
+?
+
+254 (
+b™m­Width
+ - 1è: ((è
+x
+ + 
+bÜd”
+);
+
+255 
+bÙtom
+ = ()
+y
+ + 
+bÜd”
+ >ğ
+b™m­Height
+?
+
+256 (
+b™m­Height
+ - 1è: ((è
+y
+ + 
+bÜd”
+);
+
+258 
+mInv®idReù
+.
+	`£t
+(
+Ëá
+, 
+tİ
+, 
+right
+, 
+bÙtom
+);
+
+259 
+mCurveEndX
+ = 
+x
+;
+
+260 
+mCurveEndY
+ = 
+y
+;
+
+262 
+mCªvas
+.
+	`d¿wP©h
+(
+mP©h
+, 
+mPašt
+);
+
+265  
+mInv®idReù
+;
+
+266 
+	}
+}
+
+268 
+´iv©e
+ 
+Reù
+ 
+	$touchMove
+(
+MÙiÚEv’t
+ 
+ev’t
+) {
+
+269 
+Reù
+ 
+»ù
+ = 
+	`´oûssMove
+(
+ev’t
+);
+
+270  
+»ù
+;
+
+271 
+	}
+}
+
+273 
+´iv©e
+ 
+Reù
+ 
+	$touchUp
+(
+MÙiÚEv’t
+ 
+ev’t
+, 
+boŞ—n
+ 
+ÿnûl
+) {
+
+274 
+Reù
+ 
+»ù
+ = 
+	`´oûssMove
+(
+ev’t
+);
+
+275  
+»ù
+;
+
+276 
+	}
+}
+
+278 
+´iv©e
+ 
+Reù
+ 
+	$´oûssMove
+(
+MÙiÚEv’t
+ 
+ev’t
+) {
+
+281 
+fš®
+ 
+x
+ = 
+ev’t
+.
+	`g‘X
+();
+
+282 
+fš®
+ 
+y
+ = 
+ev’t
+.
+	`g‘Y
+();
+
+284 
+fš®
+ 
+dx
+ = 
+M©h
+.
+	`abs
+(
+x
+ - 
+Ï¡X
+);
+
+285 
+fš®
+ 
+dy
+ = 
+M©h
+.
+	`abs
+(
+y
+ - 
+Ï¡Y
+);
+
+287 
+Reù
+ 
+mInv®idReù
+ = 
+Ãw
+ 
+	`Reù
+();
+
+289 ià(
+dx
+ < 
+TOUCH_TOLERANCE
+ && 
+dy
+ < TOUCH_TOLERANCE) {
+
+290  
+mInv®idReù
+;
+
+293 
+fš®
+ 
+bÜd”
+ = 
+mInv®id©eExŒaBÜd”
+;
+
+294 
+mInv®idReù
+.
+	`£t
+(()
+mCurveEndX
+ - 
+bÜd”
+, ()
+mCurveEndY
+ - border,
+
+295 ()
+mCurveEndX
+ + 
+bÜd”
+, (è
+mCurveEndY
+ + border);
+
+296 
+mInv®idReù
+.((è
+Ï¡X
+ - 
+bÜd”
+, (è
+Ï¡Y
+ - border,
+
+297 (è
+Ï¡X
+ + 
+bÜd”
+, (è
+Ï¡Y
+ + border);
+
+300 
+cX
+ = 
+mCurveEndX
+ = (
+x
+ + 
+Ï¡X
+) / 2;
+
+301 
+cY
+ = 
+mCurveEndY
+ = (
+y
+ + 
+Ï¡Y
+) / 2;
+
+303 
+mP©h
+.
+	`quadTo
+(
+Ï¡X
+, 
+Ï¡Y
+, 
+cX
+, 
+cY
+);
+
+305 
+mInv®idReù
+.((è
+cX
+ - 
+bÜd”
+, ()
+cY
+ - border,
+
+306 (è
+cX
+ + 
+bÜd”
+, (è
+cY
+ + border);
+
+308 
+Ï¡X
+ = 
+x
+;
+
+309 
+Ï¡Y
+ = 
+y
+;
+
+311 
+mCªvas
+.
+	`d¿wP©h
+(
+mP©h
+, 
+mPašt
+);
+
+313  
+mInv®idReù
+;
+
+314 
+	}
+}
+
+316 
+public
+ 
+	$undo
+() {
+
+317 
+	`´št
+("undo() called.");
+
+321 
+B™m­
+ 
+´ev
+ = 
+nuÎ
+;
+
+323 
+Œy
+ {
+
+324 
+´ev
+ = (
+B™m­
+)
+undos
+.
+	`pİ
+();
+
+326 
+	`ÿtch
+(
+Exû±iÚ
+ 
+ex
+) {
+
+327 
+	`´št
+("Exû±iÚ: " + 
+ex
+.
+	`g‘Mes§ge
+());
+
+330 ià(
+´ev
+ !ğ
+nuÎ
+) {
+
+331 
+	`d¿wBackground
+(
+mCªvas
+);
+
+332 
+mCªvas
+.
+	`d¿wB™m­
+(
+´ev
+, 0, 0, 
+mPašt
+);
+
+333 
+	`šv®id©e
+();
+
+335 
+´ev
+.
+	`»cyşe
+();
+
+337 
+	}
+}
+
+339 
+´iv©e
+ 
+	$§veUndo
+() {
+
+340 
+	`´št
+("saveUndo() called.");
+
+342 ià(
+mB™m­
+ =ğ
+nuÎ
+) {
+
+346 
+undos
+.
+	`size
+(è>ğ
+MAX_UNDOS
+) {
+
+350 
+B™m­
+ 
+i
+ = (B™m­è
+undos
+.
+	`g‘
+(undos.
+	`size
+() - 1);
+
+351 
+i
+.
+	`»cyşe
+();
+
+352 
+undos
+.
+	`»move
+(
+i
+);
+
+355 
+B™m­
+ 
+img
+ = B™m­.
+	`ü—‹B™m­
+(
+
+356 
+mB™m­
+.
+	`g‘Width
+(), mB™m­.
+	`g‘Height
+(), 
+B™m­
+.
+CÚfig
+.
+ARGB_8888
+);
+
+357 
+Cªvas
+ 
+ÿnvas
+ = 
+Ãw
+ 
+	`Cªvas
+();
+
+358 
+ÿnvas
+.
+	`£tB™m­
+(
+img
+);
+
+359 
+ÿnvas
+.
+	`d¿wB™m­
+(
+mB™m­
+, 0, 0, 
+mPašt
+);
+
+361 
+undos
+.
+	`push
+(
+img
+);
+
+362 
+	}
+}
+
+364 
+´iv©e
+ 
+	$ş—rUndo
+() {
+
+365 
+Œue
+) {
+
+366 
+B™m­
+ 
+´ev
+ = (B™m­è
+undos
+.
+	`pİ
+();
+
+367 ià(
+´ev
+ !ğ
+nuÎ
+) {
+
+368 
+´ev
+.
+	`»cyşe
+();
+
+374 
+	}
+}
+
+376 
+public
+ 
+boŞ—n
+ 
+	$Save
+(
+OuutSŒ—m
+ 
+out¡»am
+) {
+
+377 
+Œy
+ {
+
+378 
+mB™m­
+.
+	`com´ess
+(
+B™m­
+.
+Com´essFÜm©
+.
+JPEG
+, 100, 
+out¡»am
+);
+
+379 
+	`šv®id©e
+();
+
+381 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+382 
+	`´št
+("Error occured in Save()");
+
+383  
+çl£
+;
+
+386  
+Œue
+;
+
+387 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/MemoInsertActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gAË¹DŸlog
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gD©ePick”DŸlog
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gDŸlog
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gTimePick”DŸlog
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gDŸlogIÁ”çû
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gd©aba£
+.
+	gCursÜ
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­FaùÜy
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gÃt
+.
+	gUri
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+15 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+16 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+17 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gªim©iÚ
+.
+	gAnim©iÚ
+;
+
+18 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gªim©iÚ
+.
+	gAnim©iÚUts
+;
+
+19 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gD©ePick”
+;
+
+20 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gEd™Text
+;
+
+21 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gImageV›w
+;
+
+22 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTimePick”
+;
+
+24 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËBackgroundBu‰Ú
+;
+
+25 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+26 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gdb
+.
+	gMemoD©aba£
+;
+
+28 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFe
+;
+
+29 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFeOuutSŒ—m
+;
+
+30 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gIOExû±iÚ
+;
+
+31 
+impÜt
+ 
+	gjava
+.
+	g‹xt
+.
+	gP¬£Exû±iÚ
+;
+
+32 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gC®’d¬
+;
+
+33 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+35 
+public
+ cÏs 
+	cMemoIn£¹Aùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+36 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "MemoInserActivity";
+
+38 
+´iv©e
+ 
+T™ËBackgroundBu‰Ú
+ 
+	mt™ËBackgroundBu‰Ú
+;
+
+39 
+´iv©e
+ 
+ImageV›w
+ 
+	mphÙoV›w
+;
+
+40 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mvideoBu‰Ú
+;
+
+41 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mvoiûBu‰Ú
+;
+
+42 
+´iv©e
+ 
+Ed™Text
+ 
+	m‹xtV›w
+;
+
+43 
+´iv©e
+ 
+ImageV›w
+ 
+	mhªdV›w
+;
+
+44 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	m‹xtBu‰Ú
+;
+
+45 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mhªdBu‰Ú
+;
+
+46 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	md©eBu‰Ú
+;
+
+47 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mtimeBu‰Ú
+;
+
+48 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	m§veBu‰Ú
+;
+
+49 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	md–‘eBu‰Ú
+;
+
+50 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mÿnûlBu‰Ú
+;
+
+58 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoMode
+;
+
+59 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoId
+;
+
+60 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoD©eTime
+;
+
+61 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoText
+;
+
+62 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoPhÙoId
+;
+
+63 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoPhÙoUri
+;
+
+64 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoVideoId
+;
+
+65 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoVideoUri
+;
+
+66 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoVoiûId
+;
+
+67 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoVoiûUri
+;
+
+68 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoHªdwr™šgId
+;
+
+69 
+´iv©e
+ 
+SŒšg
+ 
+	mmemoHªdwr™šgUri
+;
+
+74 
+´iv©e
+ 
+boŞ—n
+ 
+	misPhÙoC­tu»d
+;
+
+75 
+´iv©e
+ 
+boŞ—n
+ 
+	misVideoRecÜded
+;
+
+76 
+´iv©e
+ 
+boŞ—n
+ 
+	misVoiûRecÜded
+;
+
+77 
+´iv©e
+ 
+boŞ—n
+ 
+	misHªdwr™šgMade
+;
+
+82 
+´iv©e
+ 
+boŞ—n
+ 
+	misPhÙoFeSaved
+;
+
+83 
+´iv©e
+ 
+boŞ—n
+ 
+	misVideoFeSaved
+;
+
+84 
+´iv©e
+ 
+boŞ—n
+ 
+	misVoiûFeSaved
+;
+
+85 
+´iv©e
+ 
+boŞ—n
+ 
+	misHªdwr™šgFeSaved
+;
+
+90 
+´iv©e
+ 
+boŞ—n
+ 
+	misPhÙoCªûËd
+;
+
+91 
+´iv©e
+ 
+boŞ—n
+ 
+	misVideoCªûËd
+;
+
+92 
+´iv©e
+ 
+boŞ—n
+ 
+	misVoiûCªûËd
+;
+
+93 
+´iv©e
+ 
+boŞ—n
+ 
+	misHªdwr™šgCªûËd
+;
+
+98 
+´iv©e
+ 
+B™m­
+ 
+	m»suÉPhÙoB™m­
+;
+
+99 
+´iv©e
+ 
+B™m­
+ 
+	m»suÉHªdwr™šgB™m­
+;
+
+105 
+´iv©e
+ 
+	mcheckedI‹m
+;
+
+111 
+´iv©e
+ 
+Anim©iÚ
+ 
+	mŒª¦©eLeáAnim
+;
+
+112 
+´iv©e
+ 
+Anim©iÚ
+ 
+	mŒª¦©eRightAnim
+;
+
+114 @
+Ov”ride
+
+
+115 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+116 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+117 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_memo_š£¹
+);
+
+119 
+t™ËBackgroundBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.titleBackgroundButton);
+
+121 
+	`š™V¬ŸbËs
+();
+
+123 
+	`£tMedŸLayout
+();
+
+125 
+	`£tTextHªdLayout
+();
+
+127 
+	`£tC®’d¬
+();
+
+129 
+	`£tBÙtomBu‰Ús
+();
+
+131 
+	`checkIÁ’t
+(
+	`g‘IÁ’t
+());
+
+133 
+Œª¦©eLeáAnim
+ = 
+Anim©iÚUts
+.
+	`lßdAnim©iÚ
+(
+this
+, 
+R
+.
+ªim
+.
+Œª¦©e_Ëá
+);
+
+134 
+Œª¦©eRightAnim
+ = 
+Anim©iÚUts
+.
+	`lßdAnim©iÚ
+(
+this
+, 
+R
+.
+ªim
+.
+Œª¦©e_right
+);
+
+136 
+SlidšgPageAnim©iÚLi¡’”
+ 
+li¡’”
+ = 
+Ãw
+ 
+	`SlidšgPageAnim©iÚLi¡’”
+();
+
+138 
+Œª¦©eLeáAnim
+.
+	`£tAnim©iÚLi¡’”
+(
+li¡’”
+);
+
+139 
+Œª¦©eRightAnim
+.
+	`£tAnim©iÚLi¡’”
+(
+li¡’”
+);
+
+142 
+´iv©e
+ 
+şass
+ 
+SlidšgPageAnim©iÚLi¡’”
+ 
+im¶em’ts
+ 
+Anim©iÚ
+.
+Anim©iÚLi¡’”
+ {
+
+144 @
+Ov”ride
+
+
+145 
+public
+ 
+	`ÚAnim©iÚS¹
+(
+Anim©iÚ
+ 
+ªim©iÚ
+) {
+
+146 
+	`´št
+("onAnimationStart()");
+
+149 @
+Ov”ride
+
+
+150 
+public
+ 
+	`ÚAnim©iÚEnd
+(
+Anim©iÚ
+ 
+ªim©iÚ
+) {
+
+151 
+	`´št
+("onAnimationEnd()");
+
+154 @
+Ov”ride
+
+
+155 
+public
+ 
+	`ÚAnim©iÚR•—t
+(
+Anim©iÚ
+ 
+ªim©iÚ
+) {
+
+156 
+	`´št
+("onAnimationRepeat()");
+
+158 
+	}
+}
+
+160 @
+Ov”ride
+
+
+161 
+´Ùeùed
+ 
+	$ÚNewIÁ’t
+(
+IÁ’t
+ 
+š‹Á
+) {
+
+162 
+su³r
+.
+	`ÚNewIÁ’t
+(
+š‹Á
+);
+
+163 
+	`´št
+("onNewIntent() called.");
+
+165 
+	`checkIÁ’t
+(
+š‹Á
+);
+
+166 
+	}
+}
+
+168 
+´iv©e
+ 
+	$š™V¬ŸbËs
+() {
+
+169 
+isPhÙoC­tu»d
+ = 
+çl£
+;
+
+170 
+isVideoRecÜded
+ = 
+çl£
+;
+
+171 
+isVoiûRecÜded
+ = 
+çl£
+;
+
+172 
+isHªdwr™šgMade
+ = 
+çl£
+;
+
+174 
+isPhÙoFeSaved
+ = 
+çl£
+;
+
+175 
+isVideoFeSaved
+ = 
+çl£
+;
+
+176 
+isVoiûFeSaved
+ = 
+çl£
+;
+
+177 
+isHªdwr™šgFeSaved
+ = 
+çl£
+;
+
+179 
+isPhÙoCªûËd
+ = 
+çl£
+;
+
+180 
+isVideoCªûËd
+ = 
+çl£
+;
+
+181 
+isVoiûCªûËd
+ = 
+çl£
+;
+
+182 
+isHªdwr™šgCªûËd
+ = 
+çl£
+;
+
+184 
+checkedI‹m
+ = -1;
+
+185 
+	}
+}
+
+187 
+´iv©e
+ 
+	$£tMedŸLayout
+() {
+
+188 
+phÙoV›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.photoView);
+
+189 
+phÙoV›w
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+190 @
+Ov”ride
+
+
+191 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+192 ià(
+isPhÙoC­tu»d
+ || 
+isPhÙoFeSaved
+) {
+
+193 
+	`showDŸlog
+(
+BasicInfo
+.
+CONTENT_PHOTO_EX
+);
+
+196 
+	`showDŸlog
+(
+BasicInfo
+.
+CONTENT_PHOTO
+);
+
+202 
+videoBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.videoButton);
+
+203 
+videoBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+204 @
+Ov”ride
+
+
+205 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+206 ià(
+isVideoRecÜded
+ || 
+isVideoFeSaved
+) {
+
+207 
+	`showDŸlog
+(
+BasicInfo
+.
+CONTENT_VIDEO_EX
+);
+
+210 
+	`showDŸlog
+(
+BasicInfo
+.
+CONTENT_VIDEO
+);
+
+215 
+voiûBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.voiceButton);
+
+216 
+voiûBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+217 @
+Ov”ride
+
+
+218 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+219 if(
+isVoiûRecÜded
+ || 
+isVoiûFeSaved
+) {
+
+220 
+	`showDŸlog
+(
+BasicInfo
+.
+CONTENT_VOICE_EX
+);
+
+223 
+	`showDŸlog
+(
+BasicInfo
+.
+CONTENT_VOICE
+);
+
+227 
+	}
+}
+
+229 
+´iv©e
+ 
+	$£tTextHªdLayout
+() {
+
+230 
+‹xtV›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.textView);
+
+231 
+hªdV›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.handView);
+
+232 
+‹xtBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.textButton);
+
+233 
+hªdBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.handButton);
+
+235 
+‹xtBu‰Ú
+.
+	`£tS–eùed
+(
+Œue
+);
+
+236 
+hªdBu‰Ú
+.
+	`£tS–eùed
+(
+çl£
+);
+
+237 
+‹xtV›w
+.
+	`£tVisib™y
+(
+V›w
+.
+VISIBLE
+);
+
+238 
+hªdV›w
+.
+	`£tVisib™y
+(
+V›w
+.
+GONE
+);
+
+240 
+hªdV›w
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+241 @
+Ov”ride
+
+
+242 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+243 
+	`showHªdwr™šgMakšgAùiv™y
+();
+
+247 
+‹xtBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+248 @
+Ov”ride
+
+
+249 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+250 ià(!
+‹xtBu‰Ú
+.
+	`isS–eùed
+()) {
+
+251 
+‹xtV›w
+.
+	`£tVisib™y
+(
+V›w
+.
+VISIBLE
+);
+
+252 
+hªdV›w
+.
+	`£tVisib™y
+(
+V›w
+.
+GONE
+);
+
+253 
+‹xtV›w
+.
+	`¡¬tAnim©iÚ
+(
+Œª¦©eLeáAnim
+);
+
+255 
+‹xtBu‰Ú
+.
+	`£tS–eùed
+(
+Œue
+);
+
+256 
+hªdBu‰Ú
+.
+	`£tS–eùed
+(
+çl£
+);
+
+261 
+hªdBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+262 @
+Ov”ride
+
+
+263 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+264 ià(!
+hªdBu‰Ú
+.
+	`isS–eùed
+()) {
+
+265 
+‹xtV›w
+.
+	`£tVisib™y
+(
+V›w
+.
+GONE
+);
+
+266 
+hªdV›w
+.
+	`£tVisib™y
+(
+V›w
+.
+VISIBLE
+);
+
+267 
+hªdV›w
+.
+	`¡¬tAnim©iÚ
+(
+Œª¦©eLeáAnim
+);
+
+269 
+‹xtBu‰Ú
+.
+	`£tS–eùed
+(
+çl£
+);
+
+270 
+hªdBu‰Ú
+.
+	`£tS–eùed
+(
+Œue
+);
+
+274 
+	}
+}
+
+276 
+´iv©e
+ 
+	$£tC®’d¬
+() {
+
+277 
+d©eBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.dateButton);
+
+278 
+d©eBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+279 @
+Ov”ride
+
+
+280 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+281 
+SŒšg
+ 
+mD©eSŒ
+ = 
+d©eBu‰Ú
+.
+	`g‘Text
+().
+	`toSŒšg
+();
+
+282 
+C®’d¬
+ 
+ÿËnd¬
+ = C®’d¬.
+	`g‘In¡ªû
+();
+
+283 
+D©e
+ 
+d©e
+ = 
+Ãw
+ 
+	`D©e
+();
+
+285 
+Œy
+ {
+
+286 ià(
+BasicInfo
+.
+Ïnguage
+.
+	`equ®s
+("ko")) {
+
+287 
+	`´št
+("ko: " + 
+mD©eSŒ
+);
+
+288 
+d©e
+ = 
+BasicInfo
+.
+d©eKÜFÜm©
+.
+	`·r£
+(
+mD©eSŒ
+);
+
+291 
+	`´št
+("HELLO: " + 
+mD©eSŒ
+);
+
+292 
+d©e
+ = 
+BasicInfo
+.
+d©eFÜm©
+.
+	`·r£
+(
+mD©eSŒ
+);
+
+295 
+	`ÿtch
+(
+P¬£Exû±iÚ
+ 
+e
+) {
+
+296 
+Log
+.
+	`d
+(
+TAG
+, "ParseException in setCalendar().");
+
+298 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+299 
+Log
+.
+	`d
+(
+TAG
+, "Exception in setCalendar().");
+
+302 
+	`´št
+("d©e: " + 
+d©e
+);
+
+303 
+ÿËnd¬
+.
+	`£tTime
+(
+d©e
+);
+
+305 
+Ãw
+ 
+	`D©ePick”DŸlog
+(
+
+306 
+MemoIn£¹Aùiv™y
+.
+this
+,
+
+307 
+d©ePick”Li¡’”
+,
+
+308 
+ÿËnd¬
+.
+	`g‘
+(
+C®’d¬
+.
+YEAR
+),
+
+309 
+ÿËnd¬
+.
+	`g‘
+(
+C®’d¬
+.
+MONTH
+),
+
+310 
+ÿËnd¬
+.
+	`g‘
+(
+C®’d¬
+.
+DAY_OF_MONTH
+)).
+	`show
+();
+
+315 
+timeBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.timeButton);
+
+316 
+timeBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+317 @
+Ov”ride
+
+
+318 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+319 
+SŒšg
+ 
+timeSŒ
+ = 
+timeBu‰Ú
+.
+	`g‘Text
+().
+	`toSŒšg
+();
+
+320 
+SŒšg
+ 
+hour
+ = 
+timeSŒ
+.
+	`sub¡ršg
+(0, 2);
+
+321 
+SŒšg
+ 
+mš
+ = 
+timeSŒ
+.
+	`sub¡ršg
+(4, 6);
+
+322 
+	`´št
+("time: " + 
+hour
+ + ":" + 
+mš
+);
+
+324 
+Ãw
+ 
+	`TimePick”DŸlog
+(
+
+325 
+MemoIn£¹Aùiv™y
+.
+this
+,
+
+326 
+timePick”Li¡’”
+,
+
+327 
+IÁeg”
+.
+	`v®ueOf
+(
+hour
+),
+
+328 
+IÁeg”
+.
+	`v®ueOf
+(
+mš
+),
+
+329 
+Œue
+).
+	`show
+();
+
+332 
+	}
+}
+
+334 
+´iv©e
+ 
+	$£tBÙtomBu‰Ús
+() {
+
+335 
+§veBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.saveButton);
+
+336 
+d–‘eBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.deleteButton);
+
+337 
+ÿnûlBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.cancelButton);
+
+339 
+§veBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+340 @
+Ov”ride
+
+
+341 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+342 
+boŞ—n
+ 
+isP¬£d
+ = 
+	`·r£D©eText
+();
+
+343 ià(
+isP¬£d
+) {
+
+344 ià(
+memoMode
+.
+	`equ®s
+(
+BasicInfo
+.
+MEMO_MODE_INSERT
+)) {
+
+345 
+	`§veMemo
+();
+
+347 ià(
+memoMode
+.
+	`equ®s
+(
+BasicInfo
+.
+MEMO_MODE_MODIFY
+) ||
+
+348 
+memoMode
+.
+	`equ®s
+(
+BasicInfo
+.
+MEMO_MODE_VIEW
+)) {
+
+349 
+	`modifyMemo
+();
+
+355 
+d–‘eBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+356 @
+Ov”ride
+
+
+357 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+358 
+	`showDŸlog
+(
+BasicInfo
+.
+CONFIRM_DELETE
+);
+
+362 
+ÿnûlBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+363 @
+Ov”ride
+
+
+364 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+365 
+	`fšish
+();
+
+368 
+	}
+}
+
+370 
+´iv©e
+ 
+	$checkIÁ’t
+(
+IÁ’t
+ 
+š‹Á
+) {
+
+372 ià(
+š‹Á
+ =ğ
+nuÎ
+) {
+
+373 
+	`´št
+("checkIntent(intent:‚ull)");
+
+376 
+	`´št
+("checkIntent(intent:‚ot‚ull)");
+
+378 
+Œy
+ {
+
+379 
+memoMode
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_MEMO_MODE
+);
+
+380 
+	`´št
+("memoMode: " + 
+memoMode
+);
+
+381 ià(
+memoMode
+.
+	`equ®s
+(
+BasicInfo
+.
+MEMO_MODE_MODIFY
+) ||
+
+382 
+memoMode
+.
+	`equ®s
+(
+BasicInfo
+.
+MEMO_MODE_VIEW
+)) {
+
+383 
+	`´št
+("modify or view");
+
+384 
+t™ËBackgroundBu‰Ú
+.
+	`£tText
+("ë©”ëª¨ ë³´ê¸°");
+
+385 
+§veBu‰Ú
+.
+	`£tText
+("ìˆ˜ì •");
+
+387 
+	`´oûssIÁ’t
+(
+š‹Á
+);
+
+389 
+d–‘eBu‰Ú
+.
+	`£tVisib™y
+(
+V›w
+.
+VISIBLE
+);
+
+392 
+	`´št
+("insert");
+
+393 
+t™ËBackgroundBu‰Ú
+.
+	`£tText
+("ìƒˆ ë©”ëª¨");
+
+394 
+§veBu‰Ú
+.
+	`£tText
+("ì €ì¥");
+
+396 
+	`´oûssIÁ’t
+(
+nuÎ
+);
+
+398 
+d–‘eBu‰Ú
+.
+	`£tVisib™y
+(
+V›w
+.
+GONE
+);
+
+401 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+402 
+	`´št
+("checkIntent()ƒxception: ");
+
+403 
+e
+.
+	`´štSckT¿û
+();
+
+405 
+	}
+}
+
+407 
+´iv©e
+ 
+	$´oûssIÁ’t
+(
+IÁ’t
+ 
+š‹Á
+) {
+
+409 ià(
+š‹Á
+ !ğ
+nuÎ
+) {
+
+410 
+	`´št
+("processIntent(intent) called.");
+
+411 
+memoId
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_MEMO_ID
+);
+
+413 
+memoD©eTime
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_MEMO_DATE
+);
+
+414 
+memoText
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_MEMO_TEXT
+);
+
+416 
+memoPhÙoId
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_ID_PHOTO
+);
+
+417 
+memoPhÙoUri
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_URI_PHOTO
+);
+
+419 
+memoVideoId
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_ID_VIDEO
+);
+
+420 
+memoVideoUri
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+);
+
+422 
+memoVoiûId
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_ID_VOICE
+);
+
+423 
+memoVoiûUri
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_URI_VOICE
+);
+
+425 
+memoHªdwr™šgId
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_ID_HANDWRITING
+);
+
+426 
+memoHªdwr™šgUri
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_URI_HANDWRITING
+);
+
+429 
+memoId
+ = "-1";
+
+431 
+memoD©eTime
+ = 
+BasicInfo
+.
+d©eTimeFÜm©
+.
+	`fÜm©
+(
+Ãw
+ 
+	`D©e
+());
+
+432 
+memoText
+ = "";
+
+434 
+memoPhÙoId
+ = "-1";
+
+435 
+memoPhÙoUri
+ = "";
+
+437 
+memoVideoId
+ = "-1";
+
+438 
+memoVideoUri
+ = "";
+
+440 
+memoVoiûId
+ = "-1";
+
+441 
+memoVoiûUri
+ = "";
+
+443 
+memoHªdwr™šgId
+ = "-1";
+
+444 
+memoHªdwr™šgUri
+ = "";
+
+447 
+	`£tIn™Memo
+();
+
+448 
+	}
+}
+
+450 
+´iv©e
+ 
+	$£tIn™Memo
+() {
+
+451 
+	`´št
+("£tIn™Memo(): " + 
+memoD©eTime
+);
+
+453 
+Œy
+ {
+
+454 
+d©eBu‰Ú
+.
+	`£tText
+(
+BasicInfo
+.
+d©eKÜFÜm©
+.
+	`fÜm©
+(
+
+455 
+BasicInfo
+.
+d©eFÜm©
+.
+	`·r£
+(
+
+456 
+memoD©eTime
+.
+	`sub¡ršg
+(0, 10))));
+
+458 
+	`ÿtch
+(
+P¬£Exû±iÚ
+ 
+³
+) {
+
+459 
+	`´št
+("ParseException on dateButton");
+
+462 
+Œy
+ {
+
+463 
+timeBu‰Ú
+.
+	`£tText
+(
+BasicInfo
+.
+timeKÜFÜm©
+.
+	`fÜm©
+(
+
+464 
+BasicInfo
+.
+timeFÜm©
+.
+	`·r£
+(
+
+465 
+memoD©eTime
+.
+	`sub¡ršg
+(11, 19))));
+
+467 
+	`ÿtch
+(
+P¬£Exû±iÚ
+ 
+³
+) {
+
+468 
+	`´št
+("ParseException onimeButton");
+
+471 
+‹xtV›w
+.
+	`£tText
+(
+memoText
+);
+
+473 ià(
+memoPhÙoId
+.
+	`equ®s
+("") || memoPhotoId.equals("-1")) {
+
+475 
+phÙoV›w
+.
+	`£tImageResourû
+(
+R
+.
+d¿wabË
+.
+³rsÚ_add
+);
+
+478 
+isPhÙoFeSaved
+ = 
+Œue
+;
+
+479 
+phÙoV›w
+.
+	`£tImageURI
+(
+Uri
+.
+	`·r£
+(
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+memoPhÙoUri
+));
+
+482 ià(!
+memoHªdwr™šgId
+.
+	`equ®s
+("") && !memoHandwritingId.equals("-1")) {
+
+483 
+isHªdwr™šgFeSaved
+ = 
+Œue
+;
+
+484 
+B™m­
+ 
+»suÉB™m­
+ = 
+B™m­FaùÜy
+.
+	`decodeFe
+(
+
+485 
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+memoHªdwr™šgUri
+);
+
+486 
+hªdV›w
+.
+	`£tImageB™m­
+(
+»suÉB™m­
+);
+
+489 ià(!
+memoVideoId
+.
+	`equ®s
+("") && !memoVideoId.equals("-1")) {
+
+490 
+isVideoFeSaved
+ = 
+Œue
+;
+
+491 
+videoBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+492 
+nuÎ
+,
+
+493 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_video
+),
+
+494 
+nuÎ
+,‚ull);
+
+497 
+videoBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+498 
+nuÎ
+,
+
+499 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_video_em±y
+),
+
+500 
+nuÎ
+,‚ull);
+
+503 ià(!
+memoVoiûId
+.
+	`equ®s
+("") && !memoVoiceId.equals("-1")) {
+
+504 
+isVoiûFeSaved
+ = 
+Œue
+;
+
+505 
+voiûBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+506 
+nuÎ
+,
+
+507 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_voiû
+),
+
+508 
+nuÎ
+,‚ull);
+
+511 
+voiûBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+512 
+nuÎ
+,
+
+513 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_voiû_em±y
+),
+
+514 
+nuÎ
+,‚ull);
+
+516 
+	}
+}
+
+518 
+´iv©e
+ 
+	gD©ePick”DŸlog
+.
+OnD©eS‘Li¡’”
+ 
+	gd©ePick”Li¡’”
+ = 
+Ãw
+ 
+D©ePick”DŸlog
+.
+	$OnD©eS‘Li¡’”
+() {
+
+519 @
+Ov”ride
+
+
+520 
+public
+ 
+	`ÚD©eS‘
+(
+D©ePick”
+ 
+v›w
+, 
+y—r
+, 
+mÚth
+, 
+dayOfMÚth
+) {
+
+521 
+SŒšg
+ 
+¡r_y—r
+ = SŒšg.
+	`v®ueOf
+(
+y—r
+);
+
+522 
+SŒšg
+ 
+¡r_mÚth
+ = SŒšg.
+	`v®ueOf
+(
+mÚth
+ + 1);
+
+523 
+SŒšg
+ 
+¡r_day
+ = SŒšg.
+	`v®ueOf
+(
+dayOfMÚth
+);
+
+525 ià(
+mÚth
+ + 1 < 10) {
+
+526 
+¡r_mÚth
+ = "0" + str_month;
+
+528 ià(
+dayOfMÚth
+ < 10) {
+
+529 
+¡r_day
+ = "0" + str_day;
+
+532 ià(
+BasicInfo
+.
+Ïnguage
+.
+	`equ®s
+("ko")) {
+
+533 
+d©eBu‰Ú
+.
+	`£tText
+(
+¡r_y—r
+ + "ë…„ " + 
+¡r_mÚth
+ + "ì›” " + 
+¡r_day
+ + "ì¼");
+
+535 
+d©eBu‰Ú
+.
+	`£tText
+(
+¡r_y—r
+ + "-" + 
+¡r_mÚth
+ + "-" + 
+¡r_day
+);
+
+538 
+	`´št
+("D©ePick”DŸlog - onD©eS‘(è01 memoD©eTime: " + 
+memoD©eTime
+);
+
+539 
+memoD©eTime
+ =
+
+540 
+¡r_y—r
+ + "-" + 
+¡r_mÚth
+ + "-" + 
+¡r_day
+ + " "
+
+541 + 
+memoD©eTime
+.
+	`sub¡ršg
+(11, 19);
+
+542 
+	`´št
+("D©ePick”DŸlog - onD©eS‘(è02 memoD©eTime: " + 
+memoD©eTime
+);
+
+544 
+	}
+};
+
+546 
+´iv©e
+ 
+	gTimePick”DŸlog
+.
+OnTimeS‘Li¡’”
+ 
+	gtimePick”Li¡’”
+ = 
+Ãw
+ 
+TimePick”DŸlog
+.
+	$OnTimeS‘Li¡’”
+() {
+
+547 @
+Ov”ride
+
+
+548 
+public
+ 
+	`ÚTimeS‘
+(
+TimePick”
+ 
+v›w
+, 
+hourOfDay
+, 
+mšu‹
+) {
+
+549 
+SŒšg
+ 
+¡r_hour
+ = SŒšg.
+	`v®ueOf
+(
+hourOfDay
+);
+
+550 ià(
+hourOfDay
+ < 10) {
+
+551 
+¡r_hour
+ = "0" + str_hour;
+
+554 
+SŒšg
+ 
+¡r_mš
+ = SŒšg.
+	`v®ueOf
+(
+mšu‹
+);
+
+555 ià(
+mšu‹
+ < 10) {
+
+556 
+¡r_mš
+ = "0" + str_min;
+
+559 ià(
+BasicInfo
+.
+Ïnguage
+.
+	`equ®s
+("ko")) {
+
+560 
+timeBu‰Ú
+.
+	`£tText
+(
+¡r_hour
+ + "ì‹œ " + 
+¡r_mš
+ + "ë¶„");
+
+563 
+timeBu‰Ú
+.
+	`£tText
+(
+¡r_hour
+ + ":" + 
+¡r_mš
+);
+
+566 
+	`´št
+("TimePick”DŸlog - onTimeS‘(è01 memoD©eTime: " + 
+memoD©eTime
+);
+
+567 
+memoD©eTime
+ = memoD©eTime.
+	`sub¡ršg
+(0, 11)
+
+568 + 
+¡r_hour
+ + ":" + 
+¡r_mš
+ + ":00";
+
+569 
+	`´št
+("TimePick”DŸlog - onTimeS‘(è02 memoD©eTime: " + 
+memoD©eTime
+);
+
+571 
+	}
+};
+
+573 
+´iv©e
+ 
+	$showPhÙoC­tu»Aùiv™y
+() {
+
+574 
+	`´št
+("showPhotoCaptureActivity() called.");
+
+576 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(), 
+PhÙoC­tu»Aùiv™y
+.
+şass
+);
+
+577 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_PHOTO_CAPTURE_ACTIVITY
+);
+
+578 
+	}
+}
+
+580 
+´iv©e
+ 
+	$showPhÙoS–eùiÚAùiv™y
+() {
+
+581 
+	`´št
+("showPhotoSelectionActivity() called.");
+
+583 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(), 
+PhÙoS–eùiÚAùiv™y
+.
+şass
+);
+
+584 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_PHOTO_SELECTION_ACTIVITY
+);
+
+585 
+	}
+}
+
+587 
+´iv©e
+ 
+	$showHªdwr™šgMakšgAùiv™y
+() {
+
+588 
+	`´št
+("showHandwritingMakingActivity() called.");
+
+590 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(), 
+Hªdwr™šgMakšgAùiv™y
+.
+şass
+);
+
+591 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_HANDWRITING_MAKING_ACTIVITY
+);
+
+592 
+	}
+}
+
+594 
+´iv©e
+ 
+	$showVideoRecÜdšgAùiv™y
+() {
+
+595 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+596 
+VideoRecÜdšgAùiv™y
+.
+şass
+);
+
+597 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_VIDEO_RECORDING_ACTIVITY
+);
+
+598 
+	}
+}
+
+600 
+´iv©e
+ 
+	$showVideoS–eùiÚAùiv™y
+() {
+
+601 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+602 
+VideoS–eùiÚAùiv™y
+.
+şass
+);
+
+603 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_VIDEO_SELECTION_ACTIVITY
+);
+
+604 
+	}
+}
+
+606 
+´iv©e
+ 
+	$showVideoPÏyšgAùiv™y
+() {
+
+607 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+608 
+VideoPÏyAùiv™y
+.
+şass
+);
+
+609 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+,
+
+610 
+BasicInfo
+.
+FOLDER_VIDEO
+ + 
+memoVideoUri
+);
+
+612 
+	`¡¬tAùiv™y
+(
+š‹Á
+);
+
+613 
+	}
+}
+
+615 
+´iv©e
+ 
+	$showVoiûRecÜdšgAùiv™y
+() {
+
+616 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+617 
+VoiûRecÜdšgAùiv™y
+.
+şass
+);
+
+618 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_VOICE_RECORDING_ACTIVITY
+);
+
+619 
+	}
+}
+
+621 
+´iv©e
+ 
+	$showVoiûPÏyšgAùiv™y
+() {
+
+622 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+623 
+VoiûPÏyAùiv™y
+.
+şass
+);
+
+624 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VOICE
+,
+
+625 
+BasicInfo
+.
+FOLDER_VOICE
+ + 
+memoVoiûUri
+);
+
+626 
+	`¡¬tAùiv™y
+(
+š‹Á
+);
+
+627 
+	}
+}
+
+634 
+´iv©e
+ 
+SŒšg
+ 
+	$š£¹PhÙo
+() {
+
+635 
+SŒšg
+ 
+phÙoName
+ = 
+nuÎ
+;
+
+636 ià(!
+isPhÙoC­tu»d
+) {
+
+637  
+nuÎ
+;
+
+640 
+Œy
+ {
+
+643 ià(
+isPhÙoFeSaved
+) {
+
+644 
+	`´št
+("Previous…hoto is‚ewly created for modify mode.");
+
+646 
+SŒšg
+ 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_PHOTO
+ +
+
+647 " wh”_ID = '" + 
+memoPhÙoId
+ + "'";
+
+648 
+	`´št
+("SQL: " + 
+SQL
+);
+
+649 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+651 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+653 
+Fe
+ 
+´eviousFe
+ =
+
+654 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+memoPhÙoUri
+);
+
+655 ià(
+´eviousFe
+ !ğ
+nuÎ
+ &&…»viousFe.
+	`exi¡s
+()) {
+
+656 
+´eviousFe
+.
+	`d–‘e
+();
+
+661 
+Fe
+ 
+phÙoFŞd”
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_PHOTO
+);
+
+663 ià(!
+phÙoFŞd”
+.
+	`isDœeùÜy
+()) {
+
+664 
+	`´št
+("ü—tšg…hÙØfŞd” : " + 
+phÙoFŞd”
+);
+
+665 
+phÙoFŞd”
+.
+	`mkdœs
+();
+
+669 
+phÙoName
+ = 
+	`ü—‹F’ame
+();
+
+671 
+FeOuutSŒ—m
+ 
+out¡»am
+ = 
+Ãw
+ 
+	`FeOuutSŒ—m
+(
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+phÙoName
+);
+
+672 
+»suÉPhÙoB™m­
+.
+	`com´ess
+(
+B™m­
+.
+Com´essFÜm©
+.
+PNG
+, 100, 
+out¡»am
+);
+
+673 
+out¡»am
+.
+	`şo£
+();
+
+676 
+	`´št
+("isC­tu»d: " + 
+isPhÙoC­tu»d
+);
+
+678 
+SŒšg
+ 
+SQL
+ = "š£¹ iÁØ" + 
+MemoD©aba£
+.
+TABLE_PHOTO
+ +
+
+679 " (URIèv®ue (" + "'" + 
+phÙoName
+ + "')";
+
+680 
+	`´št
+("SQL: " + 
+SQL
+);
+
+681 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+682 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+685 
+	`ÿtch
+(
+IOExû±iÚ
+ 
+iÛ
+) {
+
+686 
+	`´št
+("insertPhoto() IOException");
+
+687 
+iÛ
+.
+	`´štSckT¿û
+();
+
+689 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+690 
+	`´št
+("insertPhoto() Exception");
+
+691 
+e
+.
+	`´štSckT¿û
+();
+
+694  
+phÙoName
+;
+
+695 
+	}
+}
+
+702 
+´iv©e
+ 
+SŒšg
+ 
+	$š£¹Hªdwr™šg
+() {
+
+703 
+	`´št
+("insertHandwriting");
+
+705 
+SŒšg
+ 
+hªdwr™šgF’ame
+ = 
+nuÎ
+;
+
+706 ià(
+isHªdwr™šgMade
+ =ğ
+çl£
+) {
+
+707  
+nuÎ
+;
+
+710 
+Œy
+ {
+
+711 
+	`´št
+("isHªdwr™šgFeSaved: " + 
+isHªdwr™šgFeSaved
+);
+
+713 ià(
+isHªdwr™šgFeSaved
+) {
+
+715 
+	`´št
+("previous handwriting is‚ewly created for modify mode");
+
+717 
+SŒšg
+ 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_HANDWRITING
+ +
+
+718 " wh”_id = '" + 
+memoId
+ + "'";
+
+719 
+	`´št
+("SQL: " + 
+SQL
+);
+
+720 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+721 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+724 
+Fe
+ 
+´evFe
+ = 
+Ãw
+ 
+	`Fe
+(
+
+725 
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+memoHªdwr™šgUri
+);
+
+726 ià(
+´evFe
+.
+	`exi¡s
+()) {
+
+727 
+´evFe
+.
+	`d–‘e
+();
+
+731 
+Fe
+ 
+hªdwr™šgFŞd”
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_HANDWRITING
+);
+
+734 ià(!
+hªdwr™šgFŞd”
+.
+	`isDœeùÜy
+()) {
+
+735 
+	`´št
+("ü—tšg hªdwr™šg fŞd” " + 
+hªdwr™šgFŞd”
+.
+	`toSŒšg
+());
+
+737 
+hªdwr™šgFŞd”
+.
+	`mkdœs
+();
+
+741 
+hªdwr™šgF’ame
+ = 
+	`ü—‹F’ame
+();
+
+743 
+FeOuutSŒ—m
+ 
+ouutSŒ—m
+ = 
+Ãw
+ 
+	`FeOuutSŒ—m
+(
+
+744 
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+hªdwr™šgF’ame
+);
+
+745 
+»suÉHªdwr™šgB™m­
+.
+	`com´ess
+(
+
+746 
+B™m­
+.
+Com´essFÜm©
+.
+PNG
+, 100, 
+ouutSŒ—m
+);
+
+747 
+ouutSŒ—m
+.
+	`şo£
+();
+
+750 ià(
+hªdwr™šgF’ame
+ !ğ
+nuÎ
+) {
+
+751 
+	`´št
+("Inserting handwriting file into Handwriting Database");
+
+753 
+SŒšg
+ 
+SQL
+ = "š£¹ iÁØ" + 
+MemoD©aba£
+.
+TABLE_HANDWRITING
+ +
+
+754 "(URIèv®ues('" + 
+hªdwr™šgF’ame
+ + "')";
+
+755 
+	`´št
+("SQL: " + 
+SQL
+);
+
+756 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+757 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+761 
+	`ÿtch
+(
+IOExû±iÚ
+ 
+iÛ
+) {
+
+762 
+	`´št
+("IOException in insertHandwriting()");
+
+764 
+	`ÿtch
+(
+Exû±iÚ
+ 
+iÛ
+) {
+
+765 
+	`´št
+("Exception in insertHandwriting()");
+
+768  
+hªdwr™šgF’ame
+;
+
+769 
+	}
+}
+
+776 
+´iv©e
+ 
+SŒšg
+ 
+	$š£¹Video
+() {
+
+777 
+SŒšg
+ 
+videoName
+ = 
+nuÎ
+;
+
+779 
+	`´št
+("isVideoRecÜded: " + 
+isVideoRecÜded
+);
+
+780 ià(!
+isVideoRecÜded
+) {
+
+781  
+nuÎ
+;
+
+784 
+Œy
+ {
+
+787 ià(
+isVideoFeSaved
+) {
+
+788 
+	`´št
+("Previous video is‚ewly created for modify mode.");
+
+790 
+SŒšg
+ 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_VIDEO
+ +
+
+791 " wh”_ID = '" + 
+memoVideoId
+ + "'";
+
+792 
+	`´št
+("SQL: " + 
+SQL
+);
+
+793 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+795 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+799 
+Fe
+ 
+´eviousFe
+ =
+
+800 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VIDEO
+ + 
+memoVideoUri
+);
+
+801 ià(
+´eviousFe
+ !ğ
+nuÎ
+ &&…»viousFe.
+	`exi¡s
+()) {
+
+802 
+´eviousFe
+.
+	`d–‘e
+();
+
+806 
+Fe
+ 
+videoFŞd”
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VIDEO
+);
+
+808 ià(!
+videoFŞd”
+.
+	`isDœeùÜy
+()) {
+
+809 
+	`´št
+("ü—tšg videØfŞd” : " + 
+videoFŞd”
+);
+
+810 
+videoFŞd”
+.
+	`mkdœs
+();
+
+814 
+videoName
+ = 
+	`ü—‹F’ame
+();
+
+816 
+Fe
+ 
+‹mpFe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VIDEO
+ + "recorded");
+
+817 
+‹mpFe
+.
+	`»ÇmeTo
+(
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VIDEO
+ + 
+videoName
+));
+
+819 ià(
+videoName
+ !ğ
+nuÎ
+) {
+
+821 
+	`´št
+("isVideoRecÜded: " + 
+isVideoRecÜded
+);
+
+823 
+SŒšg
+ 
+SQL
+ = "š£¹ iÁØ" + 
+MemoD©aba£
+.
+TABLE_VIDEO
+ +
+
+824 " (URIèv®ue (" + "'" + 
+videoName
+ + "')";
+
+826 
+	`´št
+("SQL: " + 
+SQL
+);
+
+827 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+828 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+832 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+833 
+	`´št
+("insertVideo() Exception");
+
+834 
+e
+.
+	`´štSckT¿û
+();
+
+837  
+videoName
+;
+
+838 
+	}
+}
+
+840 
+´iv©e
+ 
+SŒšg
+ 
+	$š£¹Voiû
+() {
+
+841 
+SŒšg
+ 
+voiûName
+ = 
+nuÎ
+;
+
+842 
+Log
+.
+	`d
+(
+TAG
+, "isVoiûRecÜded : " +
+isVoiûRecÜded
+);
+
+843 ià(
+isVoiûRecÜded
+) {
+
+845 ià(
+isVoiûFeSaved
+) {
+
+846 
+Log
+.
+	`d
+(
+TAG
+, "previous voice is‚ewly created for modify mode.");
+
+848 
+SŒšg
+ 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_VOICE
+ +
+
+849 " wh”_ID = '" + 
+memoVoiûId
+ + "'";
+
+850 
+Log
+.
+	`d
+(
+TAG
+, "SQL : " + 
+SQL
+);
+
+851 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+852 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+855 
+Fe
+ 
+´eviousFe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VOICE
+ + 
+memoVoiûUri
+);
+
+856 ià(
+´eviousFe
+.
+	`exi¡s
+()) {
+
+857 
+´eviousFe
+.
+	`d–‘e
+();
+
+862 
+Fe
+ 
+voiûFŞd”
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VOICE
+);
+
+865 if(!
+voiûFŞd”
+.
+	`isDœeùÜy
+()){
+
+866 
+Log
+.
+	`d
+(
+TAG
+, "ü—tšg voiû fŞd” : " + 
+voiûFŞd”
+);
+
+867 
+voiûFŞd”
+.
+	`mkdœs
+();
+
+870 
+voiûName
+ = 
+	`ü—‹F’ame
+();
+
+872 
+Fe
+ 
+‹mpFe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VOICE
+ + "recorded");
+
+873 
+‹mpFe
+.
+	`»ÇmeTo
+(
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VOICE
+ + 
+voiûName
+));
+
+875 ià(
+voiûName
+ !ğ
+nuÎ
+) {
+
+876 
+Log
+.
+	`d
+(
+TAG
+, "isVoiûRecÜded : " +
+isVoiûRecÜded
+);
+
+879 
+SŒšg
+ 
+SQL
+ = "š£¹ iÁØ" + 
+MemoD©aba£
+.
+TABLE_VOICE
+
+
+880 + "(URIèv®ues(" + "'" + 
+voiûName
+ + "')";
+
+881 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+882 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+887  
+voiûName
+;
+
+888 
+	}
+}
+
+891 
+´iv©e
+ 
+SŒšg
+ 
+	$ü—‹F’ame
+() {
+
+892 
+D©e
+ 
+curD©e
+ = 
+Ãw
+ 
+	`D©e
+();
+
+893 
+SŒšg
+ 
+curD©eSŒ
+ = SŒšg.
+	`v®ueOf
+(
+curD©e
+.
+	`g‘Time
+());
+
+895  
+curD©eSŒ
+;
+
+896 
+	}
+}
+
+898 @
+Ov”ride
+
+
+899 
+´Ùeùed
+ 
+DŸlog
+ 
+	$ÚC»©eDŸlog
+(
+id
+) {
+
+900 
+	`´št
+("ÚC»©eDŸlog(id: " + 
+id
+ + ") called.");
+
+901 
+AË¹DŸlog
+.
+Bud”
+ 
+bud”
+ = 
+nuÎ
+;
+
+903 
+id
+) {
+
+904 
+BasicInfo
+.
+CONFIRM_TEXT_INPUT
+:
+
+905 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+906 
+bud”
+.
+	`£tT™Ë
+("ë©”ëª¨");
+
+907 
+bud”
+.
+	`£tMes§ge
+("í…ìŠ¤íŠ¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
+
+908 
+bud”
+.
+	`£tPos™iveBu‰Ú
+("í™•ì¸",
+
+909 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+910 @
+Ov”ride
+
+
+911 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+917 
+BasicInfo
+.
+CONTENT_PHOTO
+:
+
+918 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+920 
+bud”
+.
+	`£tT™Ë
+("ì„ íƒí•˜ì„¸ìš”");
+
+921 
+checkedI‹m
+ = 0;
+
+922 
+bud”
+.
+	`£tSšgËChoiûI‹ms
+(
+
+923 
+R
+.
+¬¿y
+.
+¬¿y_phÙo
+,
+
+924 
+checkedI‹m
+,
+
+925 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+926 @
+Ov”ride
+
+
+927 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+928 
+checkedI‹m
+ = 
+which
+;
+
+933 
+bud”
+.
+	`£tPos™iveBu‰Ú
+("ì„ íƒ", 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+934 @
+Ov”ride
+
+
+935 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+936 ià(
+checkedI‹m
+ == 0) {
+
+937 
+	`showPhÙoC­tu»Aùiv™y
+();
+
+939 ià(
+checkedI‹m
+ == 1) {
+
+940 
+	`showPhÙoS–eùiÚAùiv™y
+();
+
+945 
+bud”
+.
+	`£tNeg©iveBu‰Ú
+("ì·¨ì†Œ", 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+946 @
+Ov”ride
+
+
+947 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+948 
+	`´št
+("Negative button clicked.");
+
+953 
+BasicInfo
+.
+CONTENT_PHOTO_EX
+:
+
+954 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+956 
+checkedI‹m
+ = 0;
+
+957 
+bud”
+.
+	`£tT™Ë
+("ì„ íƒí•˜ì„¸ìš”.");
+
+958 
+bud”
+.
+	`£tSšgËChoiûI‹ms
+(
+
+959 
+R
+.
+¬¿y
+.
+¬¿y_phÙo_ex
+,
+
+960 
+checkedI‹m
+,
+
+961 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+962 @
+Ov”ride
+
+
+963 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+964 
+checkedI‹m
+ = 
+which
+;
+
+969 
+bud”
+.
+	`£tPos™iveBu‰Ú
+(
+
+971 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+972 @
+Ov”ride
+
+
+973 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+974 
+checkedI‹m
+) {
+
+976 
+	`showPhÙoC­tu»Aùiv™y
+();
+
+979 
+	`showPhÙoS–eùiÚAùiv™y
+();
+
+982 
+isPhÙoC­tu»d
+ = 
+çl£
+;
+
+983 
+isPhÙoCªûËd
+ = 
+Œue
+;
+
+985 
+phÙoV›w
+.
+	`£tImageResourû
+(
+R
+.
+d¿wabË
+.
+³rsÚ_add
+);
+
+992 
+bud”
+.
+	`£tNeg©iveBu‰Ú
+(
+
+994 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+995 @
+Ov”ride
+
+
+996 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+997 
+	`fšish
+();
+
+1004 
+BasicInfo
+.
+CONTENT_VIDEO
+:
+
+1005 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+1006 
+bud”
+.
+	`£tT™Ë
+(
+R
+.
+¡ršg
+.
+£ËùiÚ_t™Ë
+);
+
+1007 
+checkedI‹m
+ = 0;
+
+1008 
+bud”
+.
+	`£tSšgËChoiûI‹ms
+(
+
+1009 
+R
+.
+¬¿y
+.
+¬¿y_video
+, 
+checkedI‹m
+,
+
+1010 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1011 @
+Ov”ride
+
+
+1012 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1013 
+	`´št
+("which bu‰Ú: " + 
+which
+);
+
+1014 
+checkedI‹m
+ = 
+which
+;
+
+1017 
+bud”
+.
+	`£tPos™iveBu‰Ú
+(
+
+1018 
+R
+.
+¡ršg
+.
+£ËùiÚ_bu‰Ú
+,
+
+1019 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1020 @
+Ov”ride
+
+
+1021 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1022 
+	`´št
+("which: " + 
+which
+ + ", checkedI‹m: " + 
+checkedI‹m
+);
+
+1024 ià(
+checkedI‹m
+ == 0) {
+
+1025 
+	`showVideoRecÜdšgAùiv™y
+();
+
+1027 ià(
+checkedI‹m
+ == 1) {
+
+1028 
+	`showVideoS–eùiÚAùiv™y
+();
+
+1032 
+bud”
+.
+	`£tNeg©iveBu‰Ú
+(
+R
+.
+¡ršg
+.
+ÿnûl_bu‰Ú
+,
+
+1033 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1034 @
+Ov”ride
+
+
+1035 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1041 
+BasicInfo
+.
+CONTENT_VIDEO_EX
+:
+
+1042 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+1043 
+bud”
+.
+	`£tT™Ë
+(
+R
+.
+¡ršg
+.
+£ËùiÚ_t™Ë
+);
+
+1044 
+checkedI‹m
+ = 0;
+
+1045 
+bud”
+.
+	`£tSšgËChoiûI‹ms
+(
+
+1046 
+R
+.
+¬¿y
+.
+¬¿y_video_ex
+, 
+checkedI‹m
+,
+
+1047 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1048 @
+Ov”ride
+
+
+1049 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1050 
+	`´št
+("which bu‰Ú: " + 
+which
+);
+
+1051 
+checkedI‹m
+ = 
+which
+;
+
+1054 
+bud”
+.
+	`£tPos™iveBu‰Ú
+(
+
+1055 
+R
+.
+¡ršg
+.
+£ËùiÚ_bu‰Ú
+,
+
+1056 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1057 @
+Ov”ride
+
+
+1058 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1059 
+	`´št
+("which: " + 
+which
+ + ", checkedI‹m: " + 
+checkedI‹m
+);
+
+1061 ià(
+checkedI‹m
+ == 0) {
+
+1062 
+	`showVideoPÏyšgAùiv™y
+();
+
+1064 ià(
+checkedI‹m
+ == 1) {
+
+1065 
+	`showVideoRecÜdšgAùiv™y
+();
+
+1067 ià(
+checkedI‹m
+ == 2) {
+
+1068 
+	`showVideoS–eùiÚAùiv™y
+();
+
+1070 ià(
+checkedI‹m
+ == 3) {
+
+1071 
+isVideoCªûËd
+ = 
+Œue
+;
+
+1072 
+isVideoRecÜded
+ = 
+çl£
+;
+
+1074 
+videoBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+1075 
+nuÎ
+,
+
+1076 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_video_em±y
+),
+
+1077 
+nuÎ
+,
+
+1078 
+nuÎ
+);
+
+1082 
+bud”
+.
+	`£tNeg©iveBu‰Ú
+(
+R
+.
+¡ršg
+.
+ÿnûl_bu‰Ú
+,
+
+1083 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1084 @
+Ov”ride
+
+
+1085 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1091 
+BasicInfo
+.
+CONTENT_VOICE
+:
+
+1092 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+1093 
+bud”
+.
+	`£tT™Ë
+(
+R
+.
+¡ršg
+.
+£ËùiÚ_t™Ë
+);
+
+1094 
+checkedI‹m
+ = 0;
+
+1095 
+bud”
+.
+	`£tSšgËChoiûI‹ms
+(
+
+1096 
+R
+.
+¬¿y
+.
+¬¿y_voiû
+, 
+checkedI‹m
+,
+
+1097 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1098 @
+Ov”ride
+
+
+1099 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1100 
+	`´št
+("which bu‰Ú: " + 
+which
+);
+
+1101 
+checkedI‹m
+ = 
+which
+;
+
+1104 
+bud”
+.
+	`£tPos™iveBu‰Ú
+(
+
+1105 
+R
+.
+¡ršg
+.
+£ËùiÚ_bu‰Ú
+,
+
+1106 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1107 @
+Ov”ride
+
+
+1108 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1109 
+	`´št
+("S–eùed Index: " + 
+which
+);
+
+1111 ià(
+checkedI‹m
+ == 0) {
+
+1112 
+	`showVoiûRecÜdšgAùiv™y
+();
+
+1116 
+bud”
+.
+	`£tNeg©iveBu‰Ú
+(
+R
+.
+¡ršg
+.
+ÿnûl_bu‰Ú
+,
+
+1117 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1118 @
+Ov”ride
+
+
+1119 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1125 
+BasicInfo
+.
+CONTENT_VOICE_EX
+:
+
+1126 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+1127 
+bud”
+.
+	`£tT™Ë
+(
+R
+.
+¡ršg
+.
+£ËùiÚ_t™Ë
+);
+
+1128 
+checkedI‹m
+ = 0;
+
+1129 
+bud”
+.
+	`£tSšgËChoiûI‹ms
+(
+
+1130 
+R
+.
+¬¿y
+.
+¬¿y_voiû_ex
+, 
+checkedI‹m
+,
+
+1131 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1132 @
+Ov”ride
+
+
+1133 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1134 
+	`´št
+("which bu‰Ú: " + 
+which
+);
+
+1135 
+checkedI‹m
+ = 
+which
+;
+
+1138 
+bud”
+.
+	`£tPos™iveBu‰Ú
+(
+
+1139 
+R
+.
+¡ršg
+.
+£ËùiÚ_bu‰Ú
+,
+
+1140 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1141 @
+Ov”ride
+
+
+1142 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1143 
+	`´št
+("S–eùed Index: " + 
+which
+);
+
+1145 ià(
+checkedI‹m
+ == 0) {
+
+1146 
+	`showVoiûPÏyšgAùiv™y
+();
+
+1148 ià(
+checkedI‹m
+ == 1) {
+
+1149 
+	`showVideoRecÜdšgAùiv™y
+();
+
+1151 ià(
+checkedI‹m
+ == 2) {
+
+1152 
+isVoiûCªûËd
+ = 
+Œue
+;
+
+1153 
+isVoiûRecÜded
+ = 
+çl£
+;
+
+1155 
+voiûBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+1156 
+nuÎ
+,
+
+1157 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_voiû_em±y
+),
+
+1158 
+nuÎ
+,
+
+1159 
+nuÎ
+);
+
+1163 
+bud”
+.
+	`£tNeg©iveBu‰Ú
+(
+R
+.
+¡ršg
+.
+ÿnûl_bu‰Ú
+,
+
+1164 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1165 @
+Ov”ride
+
+
+1166 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1173 
+BasicInfo
+.
+CONFIRM_DELETE
+:
+
+1174 
+bud”
+ = 
+Ãw
+ 
+AË¹DŸlog
+.
+	`Bud”
+(
+this
+);
+
+1175 
+bud”
+.
+	`£tT™Ë
+("ë©”ëª¨");
+
+1176 
+bud”
+.
+	`£tMes§ge
+("ë©”ëª¨ë¥¼ ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?");
+
+1177 
+bud”
+.
+	`£tPos™iveBu‰Ú
+("ì˜ˆ",
+
+1178 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1179 @
+Ov”ride
+
+
+1180 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1181 
+	`d–‘eMemo
+();
+
+1184 
+bud”
+.
+	`£tNeg©iveBu‰Ú
+("ì•„ë‹ˆì˜¤",
+
+1185 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+1186 @
+Ov”ride
+
+
+1187 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+1188 
+	`dismissDŸlog
+(
+BasicInfo
+.
+CONFIRM_DELETE
+);
+
+1194  
+bud”
+.
+	`ü—‹
+();
+
+1195 
+	}
+}
+
+1200 
+´iv©e
+ 
+boŞ—n
+ 
+	$·r£D©eText
+() {
+
+1201 
+SŒšg
+ 
+‹¡SŒ
+ = 
+d©eBu‰Ú
+.
+	`g‘Text
+().
+	`toSŒšg
+() + " "
+
+1202 + 
+timeBu‰Ú
+.
+	`g‘Text
+().
+	`toSŒšg
+();
+
+1204 
+Œy
+ {
+
+1205 
+‹¡SŒ
+ = 
+BasicInfo
+.
+d©eTimeFÜm©
+.
+	`fÜm©
+(
+
+1206 
+BasicInfo
+.
+d©eTimeKÜFÜm©
+.
+	`·r£
+(
+‹¡SŒ
+));
+
+1208 ià(
+‹¡SŒ
+.
+	`equ®s
+(
+memoD©eTime
+)) {
+
+1209 
+	`´št
+("parseDateText() - memoDateTime is CORRECT...");
+
+1212 
+	`´št
+("parseDateText() - memoDateTime is WRONG...");
+
+1215 
+	`ÿtch
+(
+P¬£Exû±iÚ
+ 
+³
+) {
+
+1216 
+	`´št
+("ParseException in…arseDateText()");
+
+1219 
+memoText
+ = 
+‹xtV›w
+.
+	`g‘Text
+().
+	`toSŒšg
+();
+
+1221 ià(
+memoText
+.
+	`Œim
+().
+	`Ëngth
+() < 1) {
+
+1222 
+	`showDŸlog
+(
+BasicInfo
+.
+CONFIRM_TEXT_INPUT
+);
+
+1223  
+çl£
+;
+
+1226  
+Œue
+;
+
+1227 
+	}
+}
+
+1229 @
+Ov”ride
+
+
+1230 
+´Ùeùed
+ 
+	$ÚAùiv™yResuÉ
+(
+»que¡Code
+, 
+»suÉCode
+, 
+IÁ’t
+ 
+d©a
+) {
+
+1231 
+	`´št
+("onActivityResult(requestCode: "
+
+1232 + 
+»que¡Code
+ + ",„esuÉCode: " + 
+»suÉCode
+ + ") called."
+
+1233 + "RESULT_OK: " + 
+RESULT_OK
+ + ", RESULT_CANCELED: " + 
+RESULT_CANCELED
+);
+
+1234 
+su³r
+.
+	`ÚAùiv™yResuÉ
+(
+»que¡Code
+, 
+»suÉCode
+, 
+d©a
+);
+
+1236 
+»que¡Code
+) {
+
+1237 
+BasicInfo
+.
+REQ_PHOTO_CAPTURE_ACTIVITY
+:
+
+1238 
+	`´št
+("BasicInfo.REQ_PHOTO_CAPTURE_ACTIVITY");
+
+1239 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+1240 
+boŞ—n
+ 
+isPhÙoExi¡s
+ = 
+	`checkC­tu»dPhÙoFe
+();
+
+1241 ià(
+isPhÙoExi¡s
+) {
+
+1242 
+	`´št
+("imagfexi¡s: " + 
+BasicInfo
+.
+FOLDER_PHOTO
+ + "captured");
+
+1243 
+»suÉPhÙoB™m­
+ = 
+B™m­FaùÜy
+.
+	`decodeFe
+(
+
+1244 
+BasicInfo
+.
+FOLDER_PHOTO
+ + "captured");
+
+1246 
+phÙoV›w
+.
+	`£tImageB™m­
+(
+»suÉPhÙoB™m­
+);
+
+1247 
+isPhÙoC­tu»d
+ = 
+Œue
+;
+
+1248 
+phÙoV›w
+.
+	`šv®id©e
+();
+
+1251 
+	`´št
+("image file doesn'tƒxist." +
+
+1252 
+BasicInfo
+.
+FOLDER_PHOTO
+ + "captured");
+
+1256 
+BasicInfo
+.
+REQ_PHOTO_SELECTION_ACTIVITY
+:
+
+1257 
+	`´št
+("BasicInfo.REQ_PHOTO_SELECTION_ACTIVITY");
+
+1258 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+1259 
+Uri
+ 
+phÙoUri
+ = 
+d©a
+.
+	`g‘P¬ûÏbËExŒa
+(
+BasicInfo
+.
+KEY_URI_PHOTO
+);
+
+1260 
+Œy
+ {
+
+1261 
+B™m­FaùÜy
+.
+O±iÚs
+ 
+İtiÚs
+ =
+
+1262 
+Ãw
+ 
+B™m­FaùÜy
+.
+	`O±iÚs
+();
+
+1263 
+İtiÚs
+.
+šSam¶eSize
+ = 8;
+
+1264 
+»suÉPhÙoB™m­
+ = 
+B™m­FaùÜy
+.
+	`decodeSŒ—m
+(
+
+1265 
+	`g‘CÚ‹ÁResŞv”
+().
+	`İ’IÅutSŒ—m
+(
+
+1266 
+phÙoUri
+),
+
+1267 
+nuÎ
+,
+
+1268 
+İtiÚs
+);
+
+1270 
+phÙoV›w
+.
+	`£tImageB™m­
+(
+»suÉPhÙoB™m­
+);
+
+1271 
+isPhÙoC­tu»d
+ = 
+Œue
+;
+
+1273 
+phÙoV›w
+.
+	`šv®id©e
+();
+
+1275 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+1276 
+e
+.
+	`´štSckT¿û
+();
+
+1280 
+BasicInfo
+.
+REQ_HANDWRITING_MAKING_ACTIVITY
+:
+
+1281 
+	`´št
+("BasicInfo.REQ_HANDWRITING_MAKING_ACTIVITY");
+
+1282 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+1283 
+boŞ—n
+ 
+isHªdwr™šgExi¡s
+ = 
+	`checkHªdwr™šgFe
+();
+
+1284 ià(
+isHªdwr™šgExi¡s
+) {
+
+1285 
+»suÉHªdwr™šgB™m­
+ =
+
+1286 
+B™m­FaùÜy
+.
+	`decodeFe
+(
+
+1287 
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+Hªdwr™šgMakšgAùiv™y
+.
+hªdwr™šgF’ame
+);
+
+1288 
+isHªdwr™šgMade
+ = 
+Œue
+;
+
+1290 
+hªdV›w
+.
+	`£tImageB™m­
+(
+»suÉHªdwr™šgB™m­
+);
+
+1295 
+BasicInfo
+.
+REQ_VIDEO_RECORDING_ACTIVITY
+:
+
+1296 
+	`´št
+("BasicInfo.REQ_VIDEO_RECORDING_ACTIVITY");
+
+1297 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+1298 
+boŞ—n
+ 
+isVideoExi¡s
+ = 
+	`checkRecÜdedVideoFe
+();
+
+1299 ià(
+isVideoExi¡s
+) {
+
+1300 
+isVideoRecÜded
+ = 
+Œue
+;
+
+1301 
+videoBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+1302 
+nuÎ
+,
+
+1303 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_video
+),
+
+1304 
+nuÎ
+,‚ull);
+
+1309 
+BasicInfo
+.
+REQ_VIDEO_SELECTION_ACTIVITY
+:
+
+1310 
+	`´št
+("BasicInfo.REQ_VIDEO_SELECTION_ACTIVITY");
+
+1311 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+1312 
+SŒšg
+ 
+‹mpUri
+ = 
+d©a
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+);
+
+1313 ià(
+‹mpUri
+.
+	`equ®s
+("recorded")) {
+
+1314 
+	`´št
+("Selected video file was saved‡s 'recorded'‚ame.");
+
+1317 
+	`´št
+("Selected video file was NOT saved‡s 'recorded'‚ame.");
+
+1319 
+isVideoRecÜded
+ = 
+Œue
+;
+
+1321 
+videoBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+1322 
+nuÎ
+,
+
+1323 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_voiû
+),
+
+1324 
+nuÎ
+,‚ull);
+
+1328 
+BasicInfo
+.
+REQ_VOICE_RECORDING_ACTIVITY
+:
+
+1329 
+	`´št
+("BasicInfo.REQ_VOICE_RECORDING_ACTIVITY");
+
+1330 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+1331 
+boŞ—n
+ 
+isVoiûExi¡s
+ = 
+	`checkRecÜdedVoiûFe
+();
+
+1332 ià(
+isVoiûExi¡s
+) {
+
+1333 
+isVoiûRecÜded
+ = 
+Œue
+;
+
+1334 
+voiûBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+1335 
+nuÎ
+,
+
+1336 
+	`g‘Resourûs
+().
+	`g‘D¿wabË
+(
+R
+.
+d¿wabË
+.
+icÚ_voiû
+),
+
+1337 
+nuÎ
+,‚ull);
+
+1342 
+	}
+}
+
+1344 
+´iv©e
+ 
+boŞ—n
+ 
+	$checkC­tu»dPhÙoFe
+() {
+
+1345 
+Fe
+ 
+fe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_PHOTO
+ + "captured");
+
+1346 ià(
+fe
+.
+	`exi¡s
+()) {
+
+1347  
+Œue
+;
+
+1349  
+çl£
+;
+
+1350 
+	}
+}
+
+1352 
+´iv©e
+ 
+boŞ—n
+ 
+	$checkHªdwr™šgFe
+() {
+
+1353 
+Fe
+ 
+fe
+ = 
+Ãw
+ 
+	`Fe
+(
+
+1354 
+BasicInfo
+.
+FOLDER_HANDWRITING
+ +
+
+1355 
+Hªdwr™šgMakšgAùiv™y
+.
+hªdwr™šgF’ame
+);
+
+1356 ià(
+fe
+.
+	`exi¡s
+()) {
+
+1357  
+Œue
+;
+
+1359  
+çl£
+;
+
+1360 
+	}
+}
+
+1362 
+´iv©e
+ 
+boŞ—n
+ 
+	$checkRecÜdedVideoFe
+() {
+
+1363 
+Fe
+ 
+fe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VIDEO
+ + "recorded");
+
+1364 ià(
+fe
+.
+	`exi¡s
+()) {
+
+1365  
+Œue
+;
+
+1368  
+çl£
+;
+
+1370 
+	}
+}
+
+1372 
+´iv©e
+ 
+boŞ—n
+ 
+	$checkRecÜdedVoiûFe
+() {
+
+1373 
+Fe
+ 
+fe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VOICE
+ + "recorded");
+
+1374 ià(
+fe
+.
+	`exi¡s
+()) {
+
+1375  
+Œue
+;
+
+1378  
+çl£
+;
+
+1380 
+	}
+}
+
+1382 
+´iv©e
+ 
+	$§veMemo
+() {
+
+1383 
+	`´št
+("§veMemo()" + 
+memoD©eTime
+);
+
+1385 
+SŒšg
+ 
+SQL
+ = 
+nuÎ
+;
+
+1387 
+phÙoId
+ = -1;
+
+1388 
+SŒšg
+ 
+phÙoF’ame
+ = 
+	`š£¹PhÙo
+();
+
+1392 ià(
+phÙoF’ame
+ !ğ
+nuÎ
+) {
+
+1393 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_PHOTO
+ +
+
+1394 " wh”URI = '" + 
+phÙoF’ame
+ + "'";
+
+1395 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1397 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1398 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1399 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1400 
+phÙoId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1402 
+cursÜ
+.
+	`şo£
+();
+
+1406 
+SŒšg
+ 
+hªdwr™šgF’ame
+ = 
+	`š£¹Hªdwr™šg
+();
+
+1407 
+hªdwr™šgId
+ = -1;
+
+1409 ià(
+hªdwr™šgF’ame
+ !ğ
+nuÎ
+) {
+
+1410 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_HANDWRITING
+ +
+
+1411 " wh”URI = '" + 
+hªdwr™šgF’ame
+ + "'";
+
+1412 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1413 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1414 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1415 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1416 
+hªdwr™šgId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1418 
+cursÜ
+.
+	`şo£
+();
+
+1422 
+videoId
+ = -1;
+
+1423 
+SŒšg
+ 
+videoF’ame
+ = 
+	`š£¹Video
+();
+
+1425 ià(
+videoF’ame
+ !ğ
+nuÎ
+) {
+
+1426 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_VIDEO
+ +
+
+1427 " wh”URI = '" + 
+videoF’ame
+ + "'";
+
+1428 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1430 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1431 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1432 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1433 
+videoId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1435 
+cursÜ
+.
+	`şo£
+();
+
+1439 
+voiûId
+ = -1;
+
+1440 
+SŒšg
+ 
+voiûF’ame
+ = 
+	`š£¹Video
+();
+
+1442 ià(
+voiûF’ame
+ !ğ
+nuÎ
+) {
+
+1443 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_VOICE
+ +
+
+1444 " wh”URI = '" + 
+voiûF’ame
+ + "'";
+
+1445 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1447 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1448 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1449 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1450 
+voiûId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1452 
+cursÜ
+.
+	`şo£
+();
+
+1456 
+SQL
+ = "š£¹ iÁØ" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1458 "DATETIME('" + 
+memoD©eTime
+ + "'), " +
+
+1459 "'" + 
+memoText
+ +"', " +
+
+1460 "'" + 
+phÙoId
+ + "', " +
+
+1461 "'" + 
+videoId
+ + "', " +
+
+1462 "'" + 
+voiûId
+ + "', " +
+
+1463 "'" + 
+hªdwr™šgId
+ + "')";
+
+1464 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1466 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1467 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1470 
+IÁ’t
+ 
+š‹Á
+ = 
+	`g‘IÁ’t
+();
+
+1471 
+	`£tResuÉ
+(
+RESULT_OK
+, 
+š‹Á
+);
+
+1472 
+	`fšish
+();
+
+1473 
+	}
+}
+
+1475 
+´iv©e
+ 
+	$modifyMemo
+() {
+
+1476 
+	`´št
+("modifyMemo()");
+
+1478 
+IÁ’t
+ 
+š‹Á
+ = 
+	`g‘IÁ’t
+();
+
+1479 
+SŒšg
+ 
+phÙoF’ame
+ = 
+	`š£¹PhÙo
+();
+
+1480 
+phÙoId
+ = -1;
+
+1482 
+SŒšg
+ 
+SQL
+;
+
+1502 ià(
+phÙoF’ame
+ !ğ
+nuÎ
+) {
+
+1509 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_PHOTO
+ +
+
+1510 " wh”URI = '" + 
+phÙoF’ame
+ + "'";
+
+1511 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1513 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1514 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1515 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1516 
+phÙoId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1518 
+cursÜ
+.
+	`şo£
+();
+
+1520 
+	`´št
+("phÙoId: " + 
+phÙoId
+);
+
+1523 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1524 " s‘ " + "ID_PHOTO = '" + 
+phÙoId
+ + "'" +
+
+1525 " wh”_id = '" + 
+memoId
+ + "'";
+
+1526 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1527 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1529 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1531 
+memoPhÙoId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+phÙoId
+);
+
+1534 ià(
+isPhÙoFeSaved
+ && 
+isPhÙoCªûËd
+) {
+
+1538 
+	`´št
+("isPhÙoFeSaved: " + 
+isPhÙoFeSaved
+ + ", isPhÙoCªûËd: " + 
+isPhÙoCªûËd
+);
+
+1541 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_PHOTO
+ +
+
+1542 " wh”_ID = '" + 
+memoPhÙoId
+ + "'";
+
+1543 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1544 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1545 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1548 
+phÙoId
+ = -1;
+
+1550 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1552 " ID_PHOTO = '" + 
+phÙoId
+ + "'" +
+
+1553 " wh”_ID = '" + 
+memoId
+ + "'";
+
+1554 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1555 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1556 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1559 
+memoPhÙoId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+phÙoId
+);
+
+1563 
+SŒšg
+ 
+hªdwr™šgF’ame
+ = 
+	`š£¹Hªdwr™šg
+();
+
+1564 
+hªdwr™šgId
+ = -1;
+
+1566 ià(
+hªdwr™šgF’ame
+ !ğ
+nuÎ
+) {
+
+1573 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_HANDWRITING
+ +
+
+1574 " wh”URI = '" + 
+hªdwr™šgF’ame
+ + "'";
+
+1575 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1577 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1578 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1579 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1580 
+hªdwr™šgId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1582 
+cursÜ
+.
+	`şo£
+();
+
+1584 
+	`´št
+("hªdwr™šgId: " + 
+hªdwr™šgId
+);
+
+1587 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1588 " s‘ " + "ID_HANDWRITING = '" + 
+hªdwr™šgId
+ + "'" +
+
+1589 " wh”_id = '" + 
+memoId
+ + "'";
+
+1590 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1591 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1592 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1594 
+memoHªdwr™šgId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+hªdwr™šgId
+);
+
+1597 ià(
+isHªdwr™šgFeSaved
+ && 
+isHªdwr™šgCªûËd
+) {
+
+1601 
+	`´št
+("isHªdwr™šgFeSaved: " + 
+isHªdwr™šgFeSaved
+ +
+
+1602 ", isHªdwr™šgoCªûËd: " + 
+isHªdwr™šgCªûËd
+);
+
+1605 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_HANDWRITING
+ +
+
+1606 " wh”_ID = '" + 
+memoHªdwr™šgId
+ + "'";
+
+1607 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1608 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1609 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1612 
+hªdwr™šgId
+ = -1;
+
+1614 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1616 " ID_HANDWRITING = '" + 
+hªdwr™šgId
+ + "'" +
+
+1617 " wh”_ID = '" + 
+memoId
+ + "'";
+
+1618 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1619 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1620 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1623 
+memoHªdwr™šgId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+hªdwr™šgId
+);
+
+1628 
+SŒšg
+ 
+videoF’ame
+ = 
+	`š£¹Video
+();
+
+1629 
+videoId
+ = -1;
+
+1631 ià(
+videoF’ame
+ !ğ
+nuÎ
+) {
+
+1638 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_VIDEO
+ +
+
+1639 " wh”URI = '" + 
+videoF’ame
+ + "'";
+
+1640 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1642 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1643 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1644 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1645 
+videoId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1647 
+cursÜ
+.
+	`şo£
+();
+
+1649 
+	`´št
+("videoId: " + 
+videoId
+);
+
+1652 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1653 " s‘ " + "ID_VIDEO = '" + 
+videoId
+ + "'" +
+
+1654 " wh”_id = '" + 
+memoId
+ + "'";
+
+1655 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1656 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1657 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1659 
+memoVideoId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+videoId
+);
+
+1662 ià(
+isVideoFeSaved
+ && 
+isVideoCªûËd
+) {
+
+1666 
+	`´št
+("isVideoFeSaved: " + 
+isVideoFeSaved
+ +
+
+1667 ", isVideoCªûËd: " + 
+isVideoCªûËd
+);
+
+1670 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_VIDEO
+ +
+
+1671 " wh”_ID = '" + 
+memoVideoId
+ + "'";
+
+1672 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1673 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1674 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1677 
+videoId
+ = -1;
+
+1679 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1681 " ID_VIDEO = '" + 
+videoId
+ + "'" +
+
+1682 " wh”_ID = '" + 
+memoId
+ + "'";
+
+1683 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1684 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1685 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1688 
+memoVideoId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+videoId
+);
+
+1693 
+SŒšg
+ 
+voiûF’ame
+ = 
+	`š£¹Voiû
+();
+
+1694 
+voiûId
+ = -1;
+
+1696 ià(
+voiûF’ame
+ !ğ
+nuÎ
+) {
+
+1703 
+SQL
+ = "£Ëù _ID from " + 
+MemoD©aba£
+.
+TABLE_VOICE
+ +
+
+1704 " wh”URI = '" + 
+voiûF’ame
+ + "'";
+
+1705 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1707 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1708 
+CursÜ
+ 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+1709 ià(
+cursÜ
+.
+	`moveToNext
+()) {
+
+1710 
+voiûId
+ = 
+cursÜ
+.
+	`g‘IÁ
+(0);
+
+1712 
+cursÜ
+.
+	`şo£
+();
+
+1714 
+	`´št
+("voiûId: " + 
+voiûId
+);
+
+1717 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1718 " s‘ " + "ID_VOICE = '" + 
+voiûId
+ + "'" +
+
+1719 " wh”_id = '" + 
+memoId
+ + "'";
+
+1720 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1721 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1722 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1724 
+memoVoiûId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+voiûId
+);
+
+1727 ià(
+isVoiûFeSaved
+ && 
+isVoiûCªûËd
+) {
+
+1731 
+	`´št
+("isVoiûFeSaved: " + 
+isVoiûFeSaved
+ +
+
+1732 ", isVoiûCªûËd: " + 
+isVoiûCªûËd
+);
+
+1735 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_VOICE
+ +
+
+1736 " wh”_ID = '" + 
+memoVoiûId
+ + "'";
+
+1737 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1738 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1739 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1742 
+voiûId
+ = -1;
+
+1744 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1746 " ID_VOICE = '" + 
+voiûId
+ + "'" +
+
+1747 " wh”_ID = '" + 
+memoId
+ + "'";
+
+1748 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1749 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1750 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1753 
+memoVoiûId
+ = 
+SŒšg
+.
+	`v®ueOf
+(
+voiûId
+);
+
+1758 
+	`´št
+("modifyMemo(): memoD©eTime: " + 
+memoD©eTime
+);
+
+1761 
+SQL
+ = "upd©" + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+1763 " INPUT_DATE = DATETIME('" + 
+memoD©eTime
+ + "'), " +
+
+1764 " CONTENTS_TEXT = '" + 
+memoText
+ + "'" +
+
+1765 " wh”_ID = '" + 
+memoId
+ + "'";
+
+1766 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1768 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1769 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1787 
+	`£tResuÉ
+(
+RESULT_OK
+, 
+š‹Á
+);
+
+1788 
+	`fšish
+();
+
+1789 
+	}
+}
+
+1791 
+´iv©e
+ 
+	$d–‘eMemo
+() {
+
+1793 
+	`´št
+("deleting…revious…hoto„ecord‡nd files: "
+
+1794 + 
+memoPhÙoId
+ + ", " + 
+memoPhÙoUri
+);
+
+1796 
+SŒšg
+ 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_PHOTO
+
+
+1797 + " wh”_id = '" + 
+memoPhÙoId
+ + "'";
+
+1798 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1799 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1800 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1802 
+Fe
+ 
+phÙoFe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+memoPhÙoUri
+);
+
+1803 ià(
+phÙoFe
+.
+	`exi¡s
+()) {
+
+1804 
+phÙoFe
+.
+	`d–‘e
+();
+
+1808 
+	`´št
+("deleting…revious handwriting„ecord‡nd files: "
+
+1809 + 
+memoPhÙoId
+ + ", " + 
+memoPhÙoUri
+);
+
+1811 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_HANDWRITING
+
+
+1812 + " wh”_id = '" + 
+memoHªdwr™šgId
+ + "'";
+
+1813 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1814 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1815 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1817 
+Fe
+ 
+hªdwr™šgFe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+memoHªdwr™šgUri
+);
+
+1818 ià(
+hªdwr™šgFe
+.
+	`exi¡s
+()) {
+
+1819 
+hªdwr™šgFe
+.
+	`d–‘e
+();
+
+1824 
+	`´št
+("deleting…revious video„ecord‡nd files: "
+
+1825 + 
+memoVideoId
+ + ", " + 
+memoVideoUri
+);
+
+1827 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_VIDEO
+
+
+1828 + " wh”_id = '" + 
+memoVideoId
+ + "'";
+
+1829 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1830 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1831 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1833 
+Fe
+ 
+videoFe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VIDEO
+ + 
+memoVideoUri
+);
+
+1834 ià(
+videoFe
+.
+	`exi¡s
+()) {
+
+1835 
+videoFe
+.
+	`d–‘e
+();
+
+1839 
+	`´št
+("deleting…revious voice„ecord‡nd files: "
+
+1840 + 
+memoVoiûId
+ + ", " + 
+memoVoiûUri
+);
+
+1842 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_VOICE
+
+
+1843 + " wh”_id = '" + 
+memoVoiûId
+ + "'";
+
+1844 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1845 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1846 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1848 
+Fe
+ 
+voiûFe
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VOICE
+ + 
+memoVoiûUri
+);
+
+1849 ià(
+voiûFe
+.
+	`exi¡s
+()) {
+
+1850 
+voiûFe
+.
+	`d–‘e
+();
+
+1855 
+	`´št
+("d–‘šg…»viou memØ»cÜd: " + 
+memoId
+);
+
+1856 
+SQL
+ = "d–‘äom " + 
+MemoD©aba£
+.
+TABLE_MEMO
+ + " where _id = '"
+
+1857 + 
+memoId
+ + "'";
+
+1858 
+	`´št
+("SQL: " + 
+SQL
+);
+
+1859 ià(
+MuÉiMemoAùiv™y
+.
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+1860 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`execSQL
+(
+SQL
+);
+
+1863 
+	`£tResuÉ
+(
+RESULT_OK
+);
+
+1865 
+	`fšish
+();
+
+1866 
+	}
+}
+
+1868 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+1869 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+1870 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/MemoListAdapter.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›wGroup
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gBa£Ad­‹r
+;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+9 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+11 
+public
+ cÏs 
+	cMemoLi¡Ad­‹r
+ 
+ex‹nds
+ 
+	mBa£Ad­‹r
+ {
+
+13 
+´iv©e
+ 
+CÚ‹xt
+ 
+	mmCÚ‹xt
+;
+
+15 
+´iv©e
+ 
+	mLi¡
+<
+	mMemoLi¡I‹m
+> 
+	mmI‹ms
+;
+
+17 
+	$MemoLi¡Ad­‹r
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+18 
+mCÚ‹xt
+ = 
+cÚ‹xt
+;
+
+19 
+mI‹ms
+ = 
+Ãw
+ 
+A¼ayLi¡
+<
+MemoLi¡I‹m
+>();
+
+22 
+public
+ 
+	$ş—r
+() {
+
+23 
+mI‹ms
+.
+	`ş—r
+();
+
+24 
+	}
+}
+
+26 
+public
+ 
+	$addI‹m
+(
+MemoLi¡I‹m
+ 
+™em
+) {
+
+27 
+mI‹ms
+.
+	`add
+(
+™em
+);
+
+28 
+	}
+}
+
+30 
+public
+ 
+£tLi¡I‹ms
+(
+Li¡
+<
+MemoLi¡I‹m
+> 
+li¡
+) {
+
+31 
+	gmI‹ms
+ = 
+li¡
+;
+
+34 
+public
+ 
+boŞ—n
+ 
+	$¬eAÎI‹msS–eùabË
+() {
+
+35  
+çl£
+;
+
+36 
+	}
+}
+
+38 
+public
+ 
+boŞ—n
+ 
+	$isS–eùabË
+(
+pos™iÚ
+) {
+
+39 
+Œy
+ {
+
+40  
+mI‹ms
+.
+	`g‘
+(
+pos™iÚ
+).
+	`g‘S–eùabË
+();
+
+42 
+	`ÿtch
+(
+IndexOutOfBoundsExû±iÚ
+ 
+ex
+) {
+
+43  
+çl£
+;
+
+45 
+	}
+}
+
+47 @
+Ov”ride
+
+
+48 
+public
+ 
+	$g‘CouÁ
+() {
+
+49  
+mI‹ms
+.
+	`size
+();
+
+50 
+	}
+}
+
+52 @
+Ov”ride
+
+
+53 
+public
+ 
+Objeù
+ 
+	$g‘I‹m
+(
+i
+) {
+
+54  
+mI‹ms
+.
+	`g‘
+(
+i
+);
+
+55 
+	}
+}
+
+57 @
+Ov”ride
+
+
+58 
+public
+ 
+	$g‘I‹mId
+(
+i
+) {
+
+59  
+i
+;
+
+60 
+	}
+}
+
+62 @
+Ov”ride
+
+
+63 
+public
+ 
+V›w
+ 
+	$g‘V›w
+(
+i
+, 
+V›w
+ 
+v›w
+, 
+V›wGroup
+ 
+v›wGroup
+) {
+
+64 
+MemoLi¡I‹mV›w
+ 
+™emV›w
+;
+
+65 ià(
+v›w
+ =ğ
+nuÎ
+) {
+
+66 
+™emV›w
+ = 
+Ãw
+ 
+	`MemoLi¡I‹mV›w
+(
+mCÚ‹xt
+);
+
+69 
+™emV›w
+ = (
+MemoLi¡I‹mV›w
+è
+v›w
+;
+
+72 
+™emV›w
+.
+	`£tCÚ‹Ás
+(0, ((
+SŒšg
+è
+mI‹ms
+.
+	`g‘
+(
+i
+).
+	`g‘D©a
+(0)));
+
+73 
+™emV›w
+.
+	`£tCÚ‹Ás
+(1, ((
+SŒšg
+è
+mI‹ms
+.
+	`g‘
+(
+i
+).
+	`g‘D©a
+(1)));
+
+74 
+™emV›w
+.
+	`£tCÚ‹Ás
+(2, ((
+SŒšg
+è
+mI‹ms
+.
+	`g‘
+(
+i
+).
+	`g‘D©a
+(3)));
+
+75 
+™emV›w
+.
+	`£tCÚ‹Ás
+(3, ((
+SŒšg
+è
+mI‹ms
+.
+	`g‘
+(
+i
+).
+	`g‘D©a
+(9)));
+
+77 
+™emV›w
+.
+	`£tMedŸS‹
+(
+
+78 (
+SŒšg
+è
+mI‹ms
+.
+	`g‘
+(
+i
+).
+	`g‘D©a
+(5),
+
+79 (
+SŒšg
+è
+mI‹ms
+.
+	`g‘
+(
+i
+).
+	`g‘D©a
+(7));
+
+81  
+™emV›w
+;
+
+82 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/MemoListItem.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+public
+ cÏs 
+	cMemoLi¡I‹m
+ {
+
+5 
+´iv©e
+ 
+SŒšg
+ 
+	mmId
+;
+
+8 
+´iv©e
+ 
+boŞ—n
+ 
+	mmS–eùabË
+;
+
+11 
+´iv©e
+ 
+	mSŒšg
+[] 
+	mmD©a
+;
+
+13 
+public
+ 
+	$MemoLi¡I‹m
+(
+SŒšg
+ 
+id
+, SŒšg[] 
+d©a
+) {
+
+14 
+mId
+ = 
+id
+;
+
+15 
+mD©a
+ = 
+d©a
+;
+
+18 
+public
+ 
+	$MemoLi¡I‹m
+(
+SŒšg
+ 
+id
+, SŒšg 
+d©eTime
+, SŒšg 
+‹xt
+,
+
+19 
+SŒšg
+ 
+id_phÙo
+, SŒšg 
+uri_phÙo
+,
+
+20 
+SŒšg
+ 
+id_video
+, SŒšg 
+uri_video
+,
+
+21 
+SŒšg
+ 
+id_voiû
+, SŒšg 
+uri_voiû
+,
+
+22 
+SŒšg
+ 
+id_hªdwr™šg
+, SŒšg 
+uri_hªdwr™šg
+) {
+
+23 
+mId
+ = 
+id
+;
+
+24 
+mD©a
+ = 
+Ãw
+ 
+SŒšg
+[10];
+
+25 
+mD©a
+[0] = 
+d©eTime
+;
+
+26 
+mD©a
+[1] = 
+‹xt
+;
+
+27 
+mD©a
+[2] = 
+id_phÙo
+;
+
+28 
+mD©a
+[3] = 
+uri_phÙo
+;
+
+29 
+mD©a
+[4] = 
+id_video
+;
+
+30 
+mD©a
+[5] = 
+uri_video
+;
+
+31 
+mD©a
+[6] = 
+id_voiû
+;
+
+32 
+mD©a
+[7] = 
+uri_voiû
+;
+
+33 
+mD©a
+[8] = 
+id_hªdwr™šg
+;
+
+34 
+mD©a
+[9] = 
+uri_hªdwr™šg
+;
+
+35 
+	}
+}
+
+37 
+public
+ 
+SŒšg
+ 
+	$g‘Id
+() {
+
+38  
+mId
+;
+
+39 
+	}
+}
+
+41 
+public
+ 
+	$£tId
+(
+SŒšg
+ 
+id
+) {
+
+42 
+mId
+ = 
+id
+;
+
+43 
+	}
+}
+
+45 
+public
+ 
+boŞ—n
+ 
+	$g‘S–eùabË
+() {
+
+46  
+mS–eùabË
+;
+
+47 
+	}
+}
+
+49 
+public
+ 
+	$£tS–eùabË
+(
+boŞ—n
+ 
+£ËùabË
+) {
+
+50 
+mS–eùabË
+ = 
+£ËùabË
+;
+
+51 
+	}
+}
+
+53 
+public
+ 
+	gSŒšg
+[] 
+	$g‘D©a
+() {
+
+54  
+mD©a
+;
+
+55 
+	}
+}
+
+57 
+public
+ 
+SŒšg
+ 
+	$g‘D©a
+(
+šdex
+) {
+
+58 ià(
+mD©a
+ =ğ
+nuÎ
+ || 
+šdex
+ >ğmD©a.
+Ëngth
+) {
+
+59  
+nuÎ
+;
+
+62  
+mD©a
+[
+šdex
+];
+
+63 
+	}
+}
+
+65 
+public
+ 
+	$£tD©a
+(
+SŒšg
+[] 
+d©a
+) {
+
+66 
+mD©a
+ = 
+d©a
+;
+
+67 
+	}
+}
+
+69 
+public
+ 
+	$com·»To
+(
+MemoLi¡I‹m
+ 
+Ùh”
+) {
+
+70 ià(
+mD©a
+ !ğ
+nuÎ
+) {
+
+71 
+Objeù
+[] 
+Ùh”D©a
+ = 
+Ùh”
+.
+	`g‘D©a
+();
+
+72 ià(
+mD©a
+.
+Ëngth
+ =ğ
+Ùh”D©a
+.length) {
+
+73 
+i
+ = 0; i < 
+mD©a
+.
+Ëngth
+; i++) {
+
+74 ià(!
+mD©a
+[
+i
+].
+	`equ®s
+(
+Ùh”D©a
+[i])) {
+
+84 
+throw
+ 
+Ãw
+ 
+	`IÎeg®Argum’tExû±iÚ
+();
+
+88 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/MemoListItemView.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­FaùÜy
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gÃt
+.
+	gUri
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gLayoutInæ©”
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gImageV›w
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gLš—rLayout
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTextV›w
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+16 
+public
+ cÏs 
+	cMemoLi¡I‹mV›w
+ 
+ex‹nds
+ 
+	mLš—rLayout
+ {
+
+17 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "MemoListItemView";
+
+18 
+´iv©e
+ 
+CÚ‹xt
+ 
+	mcÚ‹xt
+;
+
+20 
+´iv©e
+ 
+ImageV›w
+ 
+	m™emPhÙo
+;
+
+21 
+´iv©e
+ 
+TextV›w
+ 
+	m™emD©eTime
+;
+
+22 
+´iv©e
+ 
+TextV›w
+ 
+	m™emText
+;
+
+23 
+´iv©e
+ 
+ImageV›w
+ 
+	m™emVideoS‹
+;
+
+24 
+´iv©e
+ 
+ImageV›w
+ 
+	m™emVoiûS‹
+;
+
+25 
+´iv©e
+ 
+ImageV›w
+ 
+	m™emHªdWr™šg
+;
+
+27 
+´iv©e
+ 
+SŒšg
+ 
+	mvideoUri
+;
+
+28 
+´iv©e
+ 
+SŒšg
+ 
+	mvoiûUri
+;
+
+30 
+´iv©e
+ 
+B™m­
+ 
+	mb™m­
+;
+
+32 
+	$MemoLi¡I‹mV›w
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+33 
+	`su³r
+(
+cÚ‹xt
+);
+
+34 
+this
+.
+cÚ‹xt
+ = context;
+
+36 
+	`š™
+();
+
+39 
+´iv©e
+ 
+	$š™
+() {
+
+40 
+LayoutInæ©”
+ 
+šæ©”
+ =
+
+41 (
+LayoutInæ©”
+è
+cÚ‹xt
+.
+	`g‘Sy¡emS”viû
+(
+CÚ‹xt
+.
+LAYOUT_INFLATER_SERVICE
+);
+
+42 
+šæ©”
+.
+	`šæ©e
+(
+R
+.
+Ïyout
+.
+memo_li¡™em
+, 
+this
+, 
+Œue
+);
+
+44 
+™emPhÙo
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.itemPhoto);
+
+45 
+™emD©eTime
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.
+™emD©e
+);
+
+46 
+™emText
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.itemText);
+
+47 
+™emVideoS‹
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.itemVideoState);
+
+48 
+™emVoiûS‹
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.itemVoiceState);
+
+49 
+™emHªdWr™šg
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.itemHandWriting);
+
+51 
+™emVideoS‹
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+	`OnClickLi¡’”
+() {
+
+52 @
+Ov”ride
+
+
+53 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+54 ià(
+videoUri
+ !ğ
+nuÎ
+
+
+55 && 
+videoUri
+.
+	`Œim
+().
+	`Ëngth
+() > 0
+
+56 && !
+videoUri
+.
+	`equ®s
+("-1")) {
+
+57 
+	`showVideoPÏyšgAùiv™y
+();
+
+60 
+	`tß¡
+("ì¬ìƒí•  ë™ì˜ìƒì´ ì—†ìŠµë‹ˆë‹¤.");
+
+65 
+™emVoiûS‹
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+	`OnClickLi¡’”
+() {
+
+66 @
+Ov”ride
+
+
+67 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+68 ià(
+voiûUri
+ !ğ
+nuÎ
+
+
+69 && 
+voiûUri
+.
+	`Œim
+().
+	`Ëngth
+() > 0
+
+70 && !
+voiûUri
+.
+	`equ®s
+("-1")) {
+
+71 
+	`showVoiûPÏyšgAùiv™y
+();
+
+74 
+	`tß¡
+("ì¬ìƒí•  ìŒì„±ì´ ì—†ìŠµë‹ˆë‹¤.");
+
+78 
+	}
+}
+
+81 
+public
+ 
+	$£tCÚ‹Ás
+(
+šdex
+, 
+SŒšg
+ 
+d©a
+) {
+
+82 
+šdex
+) {
+
+84 
+™emD©eTime
+.
+	`£tText
+(
+d©a
+);
+
+87 
+™emText
+.
+	`£tText
+(
+d©a
+);
+
+90 ià(
+d©a
+ =ğ
+nuÎ
+ || d©a.
+	`equ®s
+("-1") || data.equals("")) {
+
+91 
+™emPhÙo
+.
+	`£tImageResourû
+(
+R
+.
+d¿wabË
+.
+³rsÚ
+);
+
+94 ià(
+b™m­
+ !ğ
+nuÎ
+) {
+
+95 
+b™m­
+.
+	`»cyşe
+();
+
+97 
+B™m­FaùÜy
+.
+O±iÚs
+ 
+İtiÚs
+ = 
+Ãw
+ B™m­FaùÜy.
+	`O±iÚs
+();
+
+98 
+İtiÚs
+.
+šSam¶eSize
+ = 8;
+
+100 
+b™m­
+ = 
+B™m­FaùÜy
+.
+	`decodeFe
+(
+
+101 
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+d©a
+,
+
+102 
+İtiÚs
+);
+
+103 
+™emPhÙo
+.
+	`£tImageB™m­
+(
+b™m­
+);
+
+107 ià(
+d©a
+ =ğ
+nuÎ
+ || d©a.
+	`equ®s
+("-1") || data.equals("")) {
+
+108 
+™emHªdWr™šg
+.
+	`£tImageB™m­
+(
+nuÎ
+);
+
+111 
+™emHªdWr™šg
+.
+	`£tImageURI
+(
+
+112 
+Uri
+.
+	`·r£
+(
+BasicInfo
+.
+FOLDER_HANDWRITING
+ + 
+d©a
+));
+
+116 
+throw
+ 
+Ãw
+ 
+	`IÎeg®Argum’tExû±iÚ
+();
+
+118 
+	}
+}
+
+120 
+public
+ 
+	$£tMedŸS‹
+(
+SŒšg
+ 
+videoUri
+, SŒšg 
+voiûUri
+) {
+
+121 
+this
+.
+videoUri
+ = videoUri;
+
+122 
+this
+.
+voiûUri
+ = voiceUri;
+
+124 ià(
+videoUri
+ =ğ
+nuÎ
+ || videoUri.
+	`Œim
+().
+	`Ëngth
+(è< 1 || videoUri.
+	`equ®s
+("-1")) {
+
+125 
+™emVideoS‹
+.
+	`£tImageResourû
+(
+R
+.
+d¿wabË
+.
+icÚ_video_em±y
+);
+
+128 
+™emVideoS‹
+.
+	`£tImageResourû
+(
+R
+.
+d¿wabË
+.
+icÚ_video
+);
+
+131 ià(
+voiûUri
+ =ğ
+nuÎ
+ || voiûUri.
+	`Œim
+().
+	`Ëngth
+(è< 1 || voiûUri.
+	`equ®s
+("-1")) {
+
+132 
+™emVoiûS‹
+.
+	`£tImageResourû
+(
+R
+.
+d¿wabË
+.
+icÚ_voiû_em±y
+);
+
+135 
+™emVoiûS‹
+.
+	`£tImageResourû
+(
+R
+.
+d¿wabË
+.
+icÚ_voiû
+);
+
+137 
+	}
+}
+
+139 
+´iv©e
+ 
+	$showVideoPÏyšgAùiv™y
+() {
+
+140 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+cÚ‹xt
+, 
+VideoPÏyAùiv™y
+.
+şass
+);
+
+141 ià(
+BasicInfo
+.
+	`isAbsŞu‹VideoP©h
+(
+videoUri
+)) {
+
+142 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+,
+
+143 
+BasicInfo
+.
+FOLDER_VIDEO
+ + 
+videoUri
+);
+
+146 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+,
+
+147 
+videoUri
+);
+
+150 
+cÚ‹xt
+.
+	`¡¬tAùiv™y
+(
+š‹Á
+);
+
+151 
+	}
+}
+
+153 
+´iv©e
+ 
+	$showVoiûPÏyšgAùiv™y
+() {
+
+154 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+cÚ‹xt
+, 
+VoiûPÏyAùiv™y
+.
+şass
+);
+
+155 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VOICE
+,
+
+156 
+BasicInfo
+.
+FOLDER_VOICE
+ + 
+voiûUri
+);
+
+157 
+cÚ‹xt
+.
+	`¡¬tAùiv™y
+(
+š‹Á
+);
+
+158 
+	}
+}
+
+161 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+162 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+163 
+	}
+}
+
+165 
+´iv©e
+ 
+	$tß¡
+(
+SŒšg
+ 
+mes§ge
+) {
+
+166 
+Tß¡
+.
+	`makeText
+(
+cÚ‹xt
+, 
+mes§ge
+, Tß¡.
+LENGTH_LONG
+).
+	`show
+();
+
+167 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/MultiMemoActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gMªiã¡
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gpm
+.
+	gPackageMªag”
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gd©aba£
+.
+	gCursÜ
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gEnvœÚm’t
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gªnÙ©iÚ
+.
+	gNÚNuÎ
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv4
+.
+	g­p
+.
+	gAùiv™yCom·t
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv4
+.
+	gcÚ‹Á
+.
+	gCÚ‹xtCom·t
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+15 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gAd­‹rV›w
+;
+
+16 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gLi¡V›w
+;
+
+17 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+19 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gMemoLi¡Ad­‹r
+;
+
+20 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gdb
+.
+	gMemoD©aba£
+;
+
+22 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËBackgroundBu‰Ú
+;
+
+23 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+25 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFe
+;
+
+26 
+impÜt
+ 
+	gjava
+.
+	g‹xt
+.
+	gP¬£Exû±iÚ
+;
+
+28 
+public
+ cÏs 
+	cMuÉiMemoAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+29 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "MultiMemoActivity";
+
+31 
+T™ËBackgroundBu‰Ú
+ 
+	mt™ËBackgroundBu‰Ú
+;
+
+32 
+Li¡V›w
+ 
+	mmemoLi¡
+;
+
+33 
+T™ËB™m­Bu‰Ú
+ 
+	mÃwMemoBu‰Ú
+;
+
+34 
+T™ËB™m­Bu‰Ú
+ 
+	mşo£Bu‰Ú
+;
+
+36 
+´iv©e
+ 
+MemoLi¡Ad­‹r
+ 
+	mad­‹r
+;
+
+39 
+public
+ 
+MemoD©aba£
+ 
+	mmD©aba£
+ = 
+nuÎ
+;
+
+44 
+fš®
+ 
+	mPERMISSION_ACQUIRED
+ = 101;
+
+45 
+fš®
+ 
+	mPERMISSION_NOT_ACQUIRED
+ = 102;
+
+46 
+fš®
+ 
+	mPERMISSION_REQUESTED
+ = 103;
+
+49 
+´iv©e
+ 
+	m³rmissiÚStus
+ = 
+PERMISSION_NOT_ACQUIRED
+;
+
+51 @
+Ov”ride
+
+
+52 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+53 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+54 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+maš
+);
+
+56 if(!
+	`checkEx‹º®StÜageS‹
+()) {
+
+60 
+	`checkDªg”ousP”missiÚs
+();
+
+62 
+t™ËBackgroundBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.titleBackgroundButton);
+
+63 
+memoLi¡
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.memoList);
+
+64 
+ÃwMemoBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.newMemoButton);
+
+65 
+şo£Bu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.closeButton);
+
+67 
+ad­‹r
+ = 
+Ãw
+ 
+	`MemoLi¡Ad­‹r
+(
+this
+);
+
+68 
+memoLi¡
+.
+	`£tAd­‹r
+(
+ad­‹r
+);
+
+69 
+memoLi¡
+.
+	`£tOnI‹mClickLi¡’”
+(
+Ãw
+ 
+Ad­‹rV›w
+.
+	`OnI‹mClickLi¡’”
+() {
+
+70 @
+Ov”ride
+
+
+71 
+public
+ 
+	`ÚI‹mClick
+(
+Ad­‹rV›w
+<?> 
+ad­‹rV›w
+, 
+V›w
+ 
+v›w
+, 
+posisiÚ
+, 
+l
+) {
+
+72 
+	`v›wMemo
+(
+posisiÚ
+);
+
+76 
+ÃwMemoBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+77 @
+Ov”ride
+
+
+78 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v›w
+) {
+
+79 
+	`´št
+("newMemoButton clicked.");
+
+81 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(), 
+MemoIn£¹Aùiv™y
+.
+şass
+);
+
+82 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_MEMO_MODE
+, BasicInfo.
+MEMO_MODE_INSERT
+);
+
+84 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_INSERT_ACTIVITY
+);
+
+88 
+şo£Bu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+89 @
+Ov”ride
+
+
+90 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v›w
+) {
+
+91 
+	`´št
+("closeButton clicked.");
+
+92 
+Sy¡em
+.
+	`ex™
+(0);
+
+97 
+´iv©e
+ 
+boŞ—n
+ 
+	$checkEx‹º®StÜageS‹
+() {
+
+98 
+	`´št
+("checkEx‹º®StÜageS‹(è- " + 
+EnvœÚm’t
+.
+	`g‘Ex‹º®StÜageS‹
+());
+
+101 ià(!
+EnvœÚm’t
+.
+	`g‘Ex‹º®StÜageS‹
+().
+	`equ®s
+(EnvœÚm’t.
+MEDIA_MOUNTED
+)) {
+
+102 
+	`tß¡
+("SD ì¹´ë“œê°€ ì—†ìŠµë‹ˆë‹¤. SDì¹´ë“œë¥¼ ë„£ì€ í›„ ë‹¤ì‹œ ì‹¤í–‰í•˜ì‹­ì‹œì˜¤.");
+
+103 
+	`´št
+("SD ì¹´ë“œê°€ ì—†ìŠµë‹ˆë‹¤. SDì¹´ë“œë¥¼ ë„£ì€ í›„ ë‹¤ì‹œ ì‹¤í–‰í•˜ì‹­ì‹œì˜¤.");
+
+104  
+çl£
+;
+
+106 
+	`´št
+("SD ì¹´ë“œê°€ ìˆìŠµë‹ˆë‹¤.");
+
+109 
+SŒšg
+ 
+ex‹º®P©h
+ = 
+EnvœÚm’t
+.
+	`g‘Ex‹º®StÜageDœeùÜy
+().
+	`g‘AbsŞu‹P©h
+();
+
+110 
+	`´št
+("Fe.£·¿tÜ: " + 
+Fe
+.
+£·¿tÜ
+);
+
+111 
+	`´št
+("Fe.·thS•¬©Ü: " + 
+Fe
+.
+·thS•¬©Ü
+);
+
+113 ià(!
+BasicInfo
+.
+Ex‹º®P©hChecked
+ && 
+ex‹º®P©h
+ !ğ
+nuÎ
+) {
+
+114 
+BasicInfo
+.
+Ex‹º®P©h
+ = 
+ex‹º®P©h
+ + 
+Fe
+.
+£·¿tÜ
+;
+
+115 
+	`´št
+("Ex‹º®P©h: " + 
+BasicInfo
+.
+Ex‹º®P©h
+);
+
+117 
+BasicInfo
+.
+FOLDER_PHOTO
+ = BasicInfo.
+Ex‹º®P©h
+ + BasicInfo.FOLDER_PHOTO;
+
+118 
+BasicInfo
+.
+FOLDER_VIDEO
+ = BasicInfo.
+Ex‹º®P©h
+ + BasicInfo.FOLDER_VIDEO;
+
+119 
+BasicInfo
+.
+FOLDER_VOICE
+ = BasicInfo.
+Ex‹º®P©h
+ + BasicInfo.FOLDER_VOICE;
+
+120 
+BasicInfo
+.
+FOLDER_HANDWRITING
+
+
+121 ğ
+BasicInfo
+.
+Ex‹º®P©h
+ + BasicInfo.
+FOLDER_HANDWRITING
+;
+
+123 
+BasicInfo
+.
+DATABASE_NAME
+ = BasicInfo.
+Ex‹º®P©h
+ + BasicInfo.DATABASE_NAME;
+
+125 
+BasicInfo
+.
+Ex‹º®P©hChecked
+ = 
+Œue
+;
+
+128  
+Œue
+;
+
+129 
+	}
+}
+
+131 
+´iv©e
+ 
+	$checkDªg”ousP”missiÚs
+() {
+
+132 
+	`´št
+("checkDangerousPermissions() called.");
+
+133 
+SŒšg
+[] 
+³rmissiÚs
+ = {
+
+134 
+Mªiã¡
+.
+³rmissiÚ
+.
+READ_EXTERNAL_STORAGE
+,
+
+135 
+Mªiã¡
+.
+³rmissiÚ
+.
+WRITE_EXTERNAL_STORAGE
+,
+
+136 
+Mªiã¡
+.
+³rmissiÚ
+.
+CAMERA
+,
+
+137 
+Mªiã¡
+.
+³rmissiÚ
+.
+RECORD_AUDIO
+,
+
+138 
+Mªiã¡
+.
+³rmissiÚ
+.
+WAKE_LOCK
+
+
+141 
+³rmissiÚCheck
+ = 
+PackageMªag”
+.
+PERMISSION_GRANTED
+;
+
+142 
+SŒšg
+ 
+³rmissiÚ
+ : 
+³rmissiÚs
+) {
+
+143 
+³rmissiÚCheck
+ =
+
+144 
+CÚ‹xtCom·t
+.
+	`checkS–fP”missiÚ
+(
+this
+, 
+³rmissiÚ
+);
+
+145 ià(
+³rmissiÚCheck
+ =ğ
+PackageMªag”
+.
+PERMISSION_DENIED
+) {
+
+150 ià(
+³rmissiÚCheck
+ =ğ
+PackageMªag”
+.
+PERMISSION_GRANTED
+) {
+
+151 
+³rmissiÚStus
+ = 
+PERMISSION_ACQUIRED
+;
+
+154 
+boŞ—n
+ 
+shouldShow
+ = 
+çl£
+;
+
+155 
+SŒšg
+ 
+³rmis¡iÚ
+ : 
+³rmissiÚs
+) {
+
+156 
+shouldShow
+ = 
+Aùiv™yCom·t
+.
+	`shouldShowReque¡P”missiÚR©iÚ®e
+(
+
+157 
+this
+, 
+³rmis¡iÚ
+);
+
+158 ià(
+shouldShow
+ =ğ
+Œue
+) ;
+
+160 ià(
+shouldShow
+) {
+
+161 
+³rmissiÚStus
+ = 
+PERMISSION_NOT_ACQUIRED
+;
+
+164 
+³rmissiÚStus
+ = 
+PERMISSION_REQUESTED
+;
+
+165 
+Aùiv™yCom·t
+.
+	`»que¡P”missiÚs
+(
+
+166 
+this
+,
+
+167 
+³rmissiÚs
+,
+
+171 
+	}
+}
+
+173 @
+Ov”ride
+
+
+174 
+public
+ 
+ÚReque¡P”missiÚsResuÉ
+(
+
+175 
+»que¡Code
+,
+
+176 @
+NÚNuÎ
+ 
+SŒšg
+[] 
+³rmissiÚs
+,
+
+177 @
+NÚNuÎ
+ [] 
+g¿ÁResuÉs
+) {
+
+179 
+´št
+("ÚReque¡P”missiÚsResuÉ(èÿÎed.Ôeque¡Code: " + 
+»que¡Code
+ + ")");
+
+180 ià(
+	g»que¡Code
+ == 1) {
+
+181 
+Ëngth
+ = 
+³rmissiÚs
+.length;
+
+182 
+	gi
+ = 0; i < 
+	gËngth
+; i++) {
+
+183 ià(
+	gg¿ÁResuÉs
+[
+i
+] =ğ
+PackageMªag”
+.
+PERMISSION_GRANTED
+) {
+
+184 
+´št
+(
+³rmissiÚs
+[
+i
+] + "ê¶Œí•œì´ ìŠ¹ì¸ë¨.");
+
+187 
+´št
+(
+³rmissiÚs
+[
+i
+] + "ê¶Œí•œì´ ìŠ¹ì¸ë˜ì§€ ì•ŠìŒ.");
+
+191 ià(
+	gg¿ÁResuÉs
+[0] =ğ
+PackageMªag”
+.
+PERMISSION_GRANTED
+ &&
+
+192 
+g¿ÁResuÉs
+[1] =ğ
+PackageMªag”
+.
+PERMISSION_GRANTED
+) {
+
+193 
+³rmissiÚStus
+ = 
+PERMISSION_ACQUIRED
+;
+
+196 
+	g³rmissiÚStus
+ = 
+PERMISSION_NOT_ACQUIRED
+;
+
+198 
+hªdËP”missiÚ
+();
+
+202 @
+Ov”ride
+
+
+203 
+´Ùeùed
+ 
+	$ÚS¹
+() {
+
+204 
+	`´št
+("onStart() called.");
+
+205 
+su³r
+.
+	`ÚS¹
+();
+
+206 ià(
+³rmissiÚStus
+ !ğ
+PERMISSION_REQUESTED
+)
+
+207 
+	`hªdËP”missiÚ
+();
+
+208 
+	}
+}
+
+210 
+´iv©e
+ 
+	$hªdËP”missiÚ
+() {
+
+211 
+³rmissiÚStus
+) {
+
+212 
+PERMISSION_ACQUIRED
+:
+
+213 
+	`š™D©aba£
+();
+
+215 
+PERMISSION_NOT_ACQUIRED
+:
+
+216 
+	`di§bËUI
+();
+
+218 
+PERMISSION_REQUESTED
+:
+
+222 
+	}
+}
+
+224 
+´iv©e
+ 
+	$š™D©aba£
+() {
+
+225 
+	`´št
+("initDatabase()");
+
+226 
+	`İ’D©aba£
+();
+
+227 
+	`lßdMemoLi¡D©a
+();
+
+228 
+	}
+}
+
+230 
+´iv©e
+ 
+	$di§bËUI
+() {
+
+231 
+memoLi¡
+.
+	`£tEÇbËd
+(
+çl£
+);
+
+232 
+ÃwMemoBu‰Ú
+.
+	`£tEÇbËd
+(
+çl£
+);
+
+233 
+	}
+}
+
+235 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+236 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+237 
+	}
+}
+
+239 
+´iv©e
+ 
+	$tß¡
+(
+SŒšg
+ 
+mes§ge
+) {
+
+240 
+Tß¡
+.
+	`makeText
+(
+
+241 
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+242 
+mes§ge
+,
+
+243 
+Tß¡
+.
+LENGTH_LONG
+
+
+244 ).
+	`show
+();
+
+245 
+	}
+}
+
+250 
+´iv©e
+ 
+	$İ’D©aba£
+() {
+
+251 
+	`´št
+("openDatabase() called.");
+
+253 ià(
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+254 
+mD©aba£
+.
+	`şo£
+();
+
+255 
+mD©aba£
+ = 
+nuÎ
+;
+
+258 
+mD©aba£
+ = 
+MemoD©aba£
+.
+	`g‘In¡ªû
+(
+this
+);
+
+259 
+boŞ—n
+ 
+isO³n
+ = 
+mD©aba£
+.
+	`İ’
+();
+
+260 ià(
+isO³n
+) {
+
+261 
+Log
+.
+	`d
+(
+TAG
+, "Memo database is open.");
+
+264 
+Log
+.
+	`d
+(
+TAG
+, "Memo database is‚ot open.");
+
+266 
+	}
+}
+
+271 
+´iv©e
+ 
+	$lßdMemoLi¡D©a
+() {
+
+272 
+SŒšg
+ 
+SQL
+ =
+
+274 "ID_VIDEO, ID_VOICE, ID_HANDWRITING from " + 
+MemoD©aba£
+.
+TABLE_MEMO
+ +
+
+277 
+	`´št
+("SQL: " + 
+SQL
+);
+
+278 
+»cÜdCouÁ
+ = -1;
+
+279 
+CursÜ
+ 
+cursÜ
+ = 
+nuÎ
+;
+
+281 ià(
+mD©aba£
+ !ğ
+nuÎ
+) {
+
+282 
+cursÜ
+ = 
+MuÉiMemoAùiv™y
+.
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+284 
+»cÜdCouÁ
+ = 
+cursÜ
+.
+	`g‘CouÁ
+();
+
+285 
+	`´št
+("»cÜdCouÁ: " + 
+»cÜdCouÁ
+);
+
+286 
+ad­‹r
+.
+	`ş—r
+();
+
+288 
+i
+ = 0; i < 
+»cÜdCouÁ
+; i++) {
+
+289 
+cursÜ
+.
+	`moveToNext
+();
+
+291 
+SŒšg
+ 
+id
+ = 
+cursÜ
+.
+	`g‘SŒšg
+(0);
+
+292 
+SŒšg
+ 
+d©eTime
+ = 
+cursÜ
+.
+	`g‘SŒšg
+(1);
+
+293 ià(
+d©eTime
+ !ğ
+nuÎ
+) {
+
+294 
+	`´št
+("lßdMemoLi¡D©a(è- d©eTime: " + 
+d©eTime
+);
+
+309 
+SŒšg
+ 
+‹xt
+ = 
+cursÜ
+.
+	`g‘SŒšg
+(2);
+
+311 
+SŒšg
+ 
+id_phÙo
+ = 
+cursÜ
+.
+	`g‘SŒšg
+(3);
+
+312 
+SŒšg
+ 
+uri_phÙo
+ = 
+	`g‘PhÙoUriSŒ
+(
+id_phÙo
+);
+
+313 
+SŒšg
+ 
+id_video
+ = 
+cursÜ
+.
+	`g‘SŒšg
+(4);
+
+314 
+SŒšg
+ 
+uri_video
+ = 
+	`g‘VideoUriSŒ
+(
+id_video
+);
+
+315 
+SŒšg
+ 
+id_voiû
+ = 
+cursÜ
+.
+	`g‘SŒšg
+(5);
+
+316 
+SŒšg
+ 
+uri_voiû
+ = 
+	`g‘VoiûUriSŒ
+(
+id_voiû
+);
+
+317 
+SŒšg
+ 
+id_hªdwr™šg
+ = 
+cursÜ
+.
+	`g‘SŒšg
+(6);
+
+318 
+SŒšg
+ 
+uri_hªdwr™šg
+ = 
+	`g‘HªdWr™šgUriSŒ
+(
+id_hªdwr™šg
+);
+
+320 
+	`´št
+("id: " + 
+id
+);
+
+321 
+	`´št
+("d©eTime: " + 
+d©eTime
+);
+
+322 
+	`´št
+("‹xt: " + 
+‹xt
+);
+
+323 
+	`´št
+("id_phÙo: " + 
+id_phÙo
+ + ", uri_phÙo: " + 
+uri_phÙo
+);
+
+324 
+	`´št
+("id_video: " + 
+id_video
+ + ", uri_video: " + 
+uri_video
+);
+
+325 
+	`´št
+("id_voiû: " + 
+id_voiû
+ + ", uri_voiû: " + 
+uri_voiû
+);
+
+326 
+	`´št
+("id_hªdwr™šg: " + 
+id_hªdwr™šg
+ + ", uri_hªdwr™šg: " + 
+uri_hªdwr™šg
+);
+
+328 
+ad­‹r
+.
+	`addI‹m
+(
+Ãw
+ 
+	`MemoLi¡I‹m
+(
+id
+, 
+d©eTime
+, 
+‹xt
+,
+
+329 
+id_phÙo
+, 
+uri_phÙo
+,
+
+330 
+id_video
+, 
+uri_video
+,
+
+331 
+id_voiû
+, 
+uri_voiû
+,
+
+332 
+id_hªdwr™šg
+, 
+uri_hªdwr™šg
+));
+
+334 
+cursÜ
+.
+	`şo£
+();
+
+336 
+ad­‹r
+.
+	`nÙifyD©aS‘Chªged
+();
+
+338  
+»cÜdCouÁ
+;
+
+339 
+	}
+}
+
+341 
+´iv©e
+ 
+SŒšg
+ 
+	$g‘PhÙoUriSŒ
+(
+SŒšg
+ 
+id_phÙo
+) {
+
+342 
+SŒšg
+ 
+phÙoUriSŒ
+ = "";
+
+344 ià(
+id_phÙo
+ =ğ
+nuÎ
+) {
+
+345  
+nuÎ
+;
+
+348 ià((
+id_phÙo
+ !ğ
+nuÎ
+è&& !id_phÙo.
+	`equ®s
+("-1")) {
+
+349 
+SŒšg
+ 
+SQL
+ =
+
+350 "£Ëù URI from " + 
+MemoD©aba£
+.
+TABLE_PHOTO
+ +
+
+351 " wh”_id = " + 
+id_phÙo
+ + "";
+
+352 
+CursÜ
+ 
+»sCursÜ
+ = 
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+353 ià(
+»sCursÜ
+ !ğ
+nuÎ
+ &&„esCursÜ.
+	`moveToNext
+()) {
+
+354 
+phÙoUriSŒ
+ = 
+»sCursÜ
+.
+	`g‘SŒšg
+(0);
+
+355 
+»sCursÜ
+.
+	`şo£
+();
+
+358  
+phÙoUriSŒ
+;
+
+359 
+	}
+}
+
+361 
+´iv©e
+ 
+SŒšg
+ 
+	$g‘HªdWr™šgUriSŒ
+(
+SŒšg
+ 
+id_hªdwr™šg
+) {
+
+362 
+SŒšg
+ 
+hªdwr™šgUriSŒ
+ = "";
+
+364 ià((
+id_hªdwr™šg
+ !ğ
+nuÎ
+è&& !id_hªdwr™šg.
+	`equ®s
+("-1")) {
+
+365 
+SŒšg
+ 
+SQL
+ =
+
+366 "£Ëù URI from " + 
+MemoD©aba£
+.
+TABLE_HANDWRITING
+ +
+
+367 " wh”_id = " + 
+id_hªdwr™šg
+ + "";
+
+368 
+CursÜ
+ 
+»sCursÜ
+ = 
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+369 ià(
+»sCursÜ
+ !ğ
+nuÎ
+ &&„esCursÜ.
+	`moveToNext
+()) {
+
+370 
+hªdwr™šgUriSŒ
+ = 
+»sCursÜ
+.
+	`g‘SŒšg
+(0);
+
+371 
+»sCursÜ
+.
+	`şo£
+();
+
+374  
+hªdwr™šgUriSŒ
+;
+
+375 
+	}
+}
+
+377 
+´iv©e
+ 
+SŒšg
+ 
+	$g‘VideoUriSŒ
+(
+SŒšg
+ 
+id_video
+) {
+
+378 
+SŒšg
+ 
+videoUriSŒ
+ = "";
+
+380 ià((
+id_video
+ !ğ
+nuÎ
+è&& !id_video.
+	`equ®s
+("-1")) {
+
+381 
+SŒšg
+ 
+SQL
+ =
+
+382 "£Ëù URI from " + 
+MemoD©aba£
+.
+TABLE_VIDEO
+ +
+
+383 " wh”_id = " + 
+id_video
+ + "";
+
+384 
+CursÜ
+ 
+»sCursÜ
+ = 
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+385 ià(
+»sCursÜ
+ !ğ
+nuÎ
+ &&„esCursÜ.
+	`moveToNext
+()) {
+
+386 
+videoUriSŒ
+ = 
+»sCursÜ
+.
+	`g‘SŒšg
+(0);
+
+387 
+»sCursÜ
+.
+	`şo£
+();
+
+390  
+videoUriSŒ
+;
+
+391 
+	}
+}
+
+393 
+´iv©e
+ 
+SŒšg
+ 
+	$g‘VoiûUriSŒ
+(
+SŒšg
+ 
+id_voiû
+) {
+
+394 
+SŒšg
+ 
+voiûUriSŒ
+ = "";
+
+396 ià((
+id_voiû
+ !ğ
+nuÎ
+è&& !id_voiû.
+	`equ®s
+("-1")) {
+
+397 
+SŒšg
+ 
+SQL
+ =
+
+398 "£Ëù URI from " + 
+MemoD©aba£
+.
+TABLE_VOICE
+ +
+
+399 " wh”_id = " + 
+id_voiû
+ + "";
+
+400 
+CursÜ
+ 
+»sCursÜ
+ = 
+mD©aba£
+.
+	`¿wQu”y
+(
+SQL
+);
+
+401 ià(
+»sCursÜ
+ !ğ
+nuÎ
+ &&„esCursÜ.
+	`moveToNext
+()) {
+
+402 
+voiûUriSŒ
+ = 
+»sCursÜ
+.
+	`g‘SŒšg
+(0);
+
+403 
+»sCursÜ
+.
+	`şo£
+();
+
+406  
+voiûUriSŒ
+;
+
+407 
+	}
+}
+
+409 
+´iv©e
+ 
+	$v›wMemo
+(
+pos™iÚ
+) {
+
+410 
+	`´št
+("v›wMemo(" + 
+pos™iÚ
+ + ") called.");
+
+412 
+MemoLi¡I‹m
+ 
+™em
+ = (MemoLi¡I‹mè
+ad­‹r
+.
+	`g‘I‹m
+(
+pos™iÚ
+);
+
+414 
+IÁ’t
+ 
+š‹Á
+ = 
+Ãw
+ 
+	`IÁ’t
+(
+	`g‘AµliÿtiÚCÚ‹xt
+(), 
+MemoIn£¹Aùiv™y
+.
+şass
+);
+
+416 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_MEMO_MODE
+, BasicInfo.
+MEMO_MODE_VIEW
+);
+
+417 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_MEMO_ID
+, 
+™em
+.
+	`g‘Id
+());
+
+419 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_MEMO_DATE
+, 
+™em
+.
+	`g‘D©a
+(0));
+
+420 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_MEMO_TEXT
+, 
+™em
+.
+	`g‘D©a
+(1));
+
+422 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_ID_PHOTO
+, 
+™em
+.
+	`g‘D©a
+(2));
+
+423 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_PHOTO
+, 
+™em
+.
+	`g‘D©a
+(3));
+
+425 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_ID_VIDEO
+, 
+™em
+.
+	`g‘D©a
+(4));
+
+426 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+, 
+™em
+.
+	`g‘D©a
+(5));
+
+428 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_ID_VOICE
+, 
+™em
+.
+	`g‘D©a
+(6));
+
+429 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VOICE
+, 
+™em
+.
+	`g‘D©a
+(7));
+
+431 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_ID_HANDWRITING
+, 
+™em
+.
+	`g‘D©a
+(8));
+
+432 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_HANDWRITING
+, 
+™em
+.
+	`g‘D©a
+(9));
+
+434 
+	`´št
+("id: " + 
+™em
+.
+	`g‘Id
+());
+
+435 
+	`´št
+("d©e: " + 
+™em
+.
+	`g‘D©a
+(0));
+
+436 
+	`´št
+("‹xt: " + 
+™em
+.
+	`g‘D©a
+(1));
+
+437 
+	`´št
+("phÙØid: " + 
+™em
+.
+	`g‘D©a
+(2));
+
+438 
+	`´št
+("phÙØuri: " + 
+™em
+.
+	`g‘D©a
+(3));
+
+439 
+	`´št
+("videØid: " + 
+™em
+.
+	`g‘D©a
+(4));
+
+440 
+	`´št
+("videØuri: " + 
+™em
+.
+	`g‘D©a
+(5));
+
+441 
+	`´št
+("voiû id: " + 
+™em
+.
+	`g‘D©a
+(2));
+
+442 
+	`´št
+("voiû uri: " + 
+™em
+.
+	`g‘D©a
+(3));
+
+443 
+	`´št
+("hªdwr™šg id: " + 
+™em
+.
+	`g‘D©a
+(8));
+
+444 
+	`´št
+("hªdwr™šg uri: " + 
+™em
+.
+	`g‘D©a
+(9));
+
+447 
+	`¡¬tAùiv™yFÜResuÉ
+(
+š‹Á
+, 
+BasicInfo
+.
+REQ_VIEW_ACTIVITY
+);
+
+448 
+	}
+}
+
+450 @
+Ov”ride
+
+
+451 
+´Ùeùed
+ 
+	$ÚAùiv™yResuÉ
+(
+»que¡Code
+, 
+»suÉCode
+, 
+IÁ’t
+ 
+d©a
+) {
+
+452 
+su³r
+.
+	`ÚAùiv™yResuÉ
+(
+»que¡Code
+, 
+»suÉCode
+, 
+d©a
+);
+
+453 
+	`´št
+("ÚAùiv™yResuÉÔeque¡Code: " + 
+»que¡Code
+ +
+
+454 ",„esuÉCode: " + 
+»suÉCode
+ + ")");
+
+456 
+»que¡Code
+) {
+
+457 
+BasicInfo
+.
+REQ_INSERT_ACTIVITY
+:
+
+458 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+459 
+	`´št
+("REQ_INSERT_ACTIVITY");
+
+465 
+BasicInfo
+.
+REQ_VIEW_ACTIVITY
+:
+
+466 ià(
+»suÉCode
+ =ğ
+RESULT_OK
+) {
+
+467 
+	`´št
+("BasicInfo.REQ_VIEW_ACTIVITY");
+
+473 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/OnColorSelectedListener.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+public
+ 
+š‹rçû
+ 
+	gOnCŞÜS–eùedLi¡’”
+ {
+
+4 
+public
+ 
+ÚCŞÜS–eùed
+(
+cŞÜ
+);
+
+	@app/src/main/java/com/ukasias/android/multimemo/OnPenSelectedListener.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+public
+ 
+š‹rçû
+ 
+	gOnP’S–eùedLi¡’”
+ {
+
+4 
+public
+ 
+ÚP’S–eùed
+(
+³n
+);
+
+	@app/src/main/java/com/ukasias/android/multimemo/PenPaletteDialog.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gAùiv™y
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCªvas
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCŞÜ
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gPašt
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gReù
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gªnÙ©iÚ
+.
+	gNuÎabË
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›wGroup
+;
+
+15 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gBa£Ad­‹r
+;
+
+16 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gGridV›w
+;
+
+17 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gImageV›w
+;
+
+18 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTextV›w
+;
+
+20 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+22 
+public
+ cÏs 
+	cP’P®‘‹DŸlog
+ 
+ex‹nds
+ 
+	mAùiv™y
+ {
+
+23 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "PenPaletteDialog";
+
+28 
+´iv©e
+ 
+TextV›w
+ 
+	m‹xtV›w
+;
+
+29 
+´iv©e
+ 
+GridV›w
+ 
+	mgridV›w
+;
+
+30 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mşo£Bu‰Ú
+;
+
+35 
+public
+ 
+OnP’S–eùedLi¡’”
+ 
+	mli¡’”
+;
+
+36 
+´iv©e
+ 
+P’D©aAd­‹r
+ 
+	mad­‹r
+;
+
+38 @
+Ov”ride
+
+
+39 
+´Ùeùed
+ 
+ÚC»©e
+(@
+NuÎabË
+ 
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+40 
+	msu³r
+.
+ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+42 
+£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_hªdwr™šg_dŸlog
+);
+
+44 
+	m‹xtV›w
+ = 
+fšdV›wById
+(
+R
+.
+id
+.
+‹xtV›w
+);
+
+45 
+	mgridV›w
+ = 
+fšdV›wById
+(
+R
+.
+id
+.
+gridV›w
+);
+
+46 
+	mşo£Bu‰Ú
+ = 
+fšdV›wById
+(
+R
+.
+id
+.
+şo£Bu‰Ú
+);
+
+48 
+	m‹xtV›w
+.
+£tText
+("íœ êµµê¸° ì„ íƒ");
+
+51 
+	mgridV›w
+.
+£tBackgroundCŞÜ
+(
+CŞÜ
+.
+GRAY
+);
+
+55 
+	mad­‹r
+ = 
+Ãw
+ 
+P’D©aAd­‹r
+(
+this
+);
+
+56 
+	mgridV›w
+.
+£tAd­‹r
+(
+ad­‹r
+);
+
+57 
+	mgridV›w
+.
+£tNumCŞumns
+(
+ad­‹r
+.
+g‘CŞumnCouÁ
+());
+
+59 
+	mşo£Bu‰Ú
+.
+£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+OnClickLi¡’”
+() {
+
+60 @
+Ov”ride
+
+
+61 
+public
+ 
+ÚClick
+(
+V›w
+ 
+v
+) {
+
+62 
+fšish
+();
+
+68 şas 
+	cP’D©aAd­‹r
+ 
+ex‹nds
+ 
+	mBa£Ad­‹r
+ {
+
+69 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "PenDataAdapter";
+
+71 
+´iv©e
+ 
+fš®
+ [] 
+	m³ns
+ = 
+Ãw
+ [] {
+
+77 
+´iv©e
+ 
+CÚ‹xt
+ 
+	gmCÚ‹xt
+;
+
+78 
+´iv©e
+ 
+	growCouÁ
+;
+
+79 
+´iv©e
+ 
+	gcŞumnCouÁ
+;
+
+82 
+public
+ 
+	$P’D©aAd­‹r
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+83 
+mCÚ‹xt
+ = 
+cÚ‹xt
+;
+
+85 
+rowCouÁ
+ = 3;
+
+86 
+cŞumnCouÁ
+ = 5;
+
+87 
+	}
+}
+
+89 @
+Ov”ride
+
+
+90 
+public
+ 
+	$g‘CouÁ
+() {
+
+91  
+³ns
+.
+Ëngth
+;
+
+92 
+	}
+}
+
+94 
+public
+ 
+	$g‘CŞumnCouÁ
+() {
+
+95  
+cŞumnCouÁ
+;
+
+96 
+	}
+}
+
+98 
+public
+ 
+	$g‘RowCouÁ
+() {
+
+99  
+rowCouÁ
+;
+
+100 
+	}
+}
+
+102 @
+Ov”ride
+
+
+103 
+public
+ 
+Objeù
+ 
+	$g‘I‹m
+(
+pos™iÚ
+) {
+
+104  
+³ns
+[
+pos™iÚ
+];
+
+105 
+	}
+}
+
+107 @
+Ov”ride
+
+
+108 
+public
+ 
+	$g‘I‹mId
+(
+pos™iÚ
+) {
+
+109  
+pos™iÚ
+;
+
+110 
+	}
+}
+
+112 @
+Ov”ride
+
+
+113 
+public
+ 
+V›w
+ 
+	$g‘V›w
+(
+pos™iÚ
+, 
+V›w
+ 
+cÚv”tV›w
+, 
+V›wGroup
+ 
+·»Á
+) {
+
+114 
+row
+ = 
+pos™iÚ
+ / 
+cŞumnCouÁ
+;
+
+115 
+cŞumn
+ = 
+pos™iÚ
+ % 
+cŞumnCouÁ
+;
+
+116 
+³n
+ = 
+³ns
+[
+pos™iÚ
+];
+
+117 
+	`´št
+("g‘V›wÔow: " + 
+row
+ + ", cŞumn: " + 
+cŞumn
+ + ",…arent: (" +
+
+118 
+·»Á
+.
+	`g‘Width
+(è+ ", " +…¬’t.
+	`g‘Height
+() + ")) called.");
+
+120 
+GridV›w
+.
+LayoutP¬ams
+ 
+·¿ms
+ = 
+Ãw
+ GridV›w.
+	`LayoutP¬ams
+(
+
+121 
+GridV›w
+.
+LayoutP¬ams
+.
+MATCH_PARENT
+,
+
+122 
+GridV›w
+.
+LayoutP¬ams
+.
+MATCH_PARENT
+);
+
+124 
+ImageV›w
+ 
+™em
+ = 
+Ãw
+ 
+	`ImageV›w
+(
+mCÚ‹xt
+);
+
+125 
+imageWidth
+ = 
+·»Á
+.
+	`g‘Width
+(è/ 
+cŞumnCouÁ
+;
+
+126 
+imageHeight
+ = 
+·»Á
+.
+	`g‘Height
+(è/ 
+rowCouÁ
+;
+
+128 ià(
+imageWidth
+ <ğ0 || 
+imageHeight
+ <= 0) {
+
+129  
+™em
+;
+
+131 
+B™m­
+ 
+³nB™m­
+ = B™m­.
+	`ü—‹B™m­
+(
+
+132 
+imageWidth
+, 
+imageHeight
+, 
+B™m­
+.
+CÚfig
+.
+ARGB_8888
+);
+
+133 
+Cªvas
+ 
+³nCªvas
+ = 
+Ãw
+ 
+	`Cªvas
+();
+
+134 
+³nCªvas
+.
+	`£tB™m­
+(
+³nB™m­
+);
+
+135 
+Pašt
+ 
+³nPašt
+ = 
+Ãw
+ 
+	`Pašt
+();
+
+138 
+³nPašt
+.
+	`£tCŞÜ
+(
+CŞÜ
+.
+WHITE
+);
+
+139 
+³nCªvas
+.
+	`d¿wReù
+(
+
+140 
+Ãw
+ 
+	`Reù
+(0, 0, 
+imageWidth
+, 
+imageHeight
+),
+
+141 
+³nPašt
+);
+
+144 
+imageWidth
+ -= 1;
+
+145 
+imageHeight
+ -= 1;
+
+146 
+³nPašt
+.
+	`£tCŞÜ
+(
+CŞÜ
+.
+GRAY
+);
+
+147 
+³nPašt
+.
+	`£tSŒokeWidth
+(1);
+
+148 
+³nCªvas
+.
+	`d¿wLše
+(0, 0, 0, 
+imageHeight
+, 
+³nPašt
+);
+
+149 
+³nCªvas
+.
+	`d¿wLše
+(
+imageWidth
+, 
+imageHeight
+, 0, imageHeight, 
+³nPašt
+);
+
+150 
+³nCªvas
+.
+	`d¿wLše
+(
+imageWidth
+, 
+imageHeight
+, imageWidth, 0, 
+³nPašt
+);
+
+151 
+³nCªvas
+.
+	`d¿wLše
+(0, 0, 
+imageWidth
+, 0, 
+³nPašt
+);
+
+154 
+³nPašt
+.
+	`£tCŞÜ
+(
+CŞÜ
+.
+BLACK
+);
+
+155 
+³nPašt
+.
+	`£tSŒokeWidth
+(
+³n
+);
+
+156 
+³nCªvas
+.
+	`d¿wLše
+(
+
+157 0, (
+imageHeight
++1-
+³n
+)/2,
+
+158 
+imageWidth
+, (
+imageHeight
++1-
+³n
+)/2, 
+³nPašt
+);
+
+160 
+™em
+.
+	`£tTag
+(
+³n
+);
+
+161 
+™em
+.
+	`£tLayoutP¬ams
+(
+·¿ms
+);
+
+162 
+™em
+.
+	`£tImageB™m­
+(
+³nB™m­
+);
+
+163 
+™em
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+164 @
+Ov”ride
+
+
+165 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+166 ià(
+P’P®‘‹DŸlog
+.
+li¡’”
+ !ğ
+nuÎ
+) {
+
+167 
+	`´št
+("ÚP’S–eùed(" + ((
+IÁeg”
+è
+v
+.
+	`g‘Tag
+()).
+	`štV®ue
+() + ")");
+
+168 
+P’P®‘‹DŸlog
+.
+li¡’”
+.
+	`ÚP’S–eùed
+(
+
+169 ((
+IÁeg”
+è
+v
+.
+	`g‘Tag
+()).
+	`štV®ue
+());
+
+172 ((
+P’P®‘‹DŸlog
+è
+mCÚ‹xt
+).
+	`fšish
+();
+
+176  
+™em
+;
+
+177 
+	}
+}
+
+179 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+180 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+181 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/PhotoCaptureActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gAË¹DŸlog
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	g­p
+.
+	gDŸlog
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gDŸlogIÁ”çû
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­FaùÜy
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gM©rix
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gh¬dw¬e
+.
+	gCam”a
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+15 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdow
+;
+
+16 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdowMªag”
+;
+
+17 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gF¿meLayout
+;
+
+18 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+20 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+22 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFe
+;
+
+23 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFeOuutSŒ—m
+;
+
+25 
+public
+ cÏs 
+	cPhÙoC­tu»Aùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+26 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "PhotoCaptureActivity";
+
+28 
+´iv©e
+ 
+F¿meLayout
+ 
+	mäame
+;
+
+29 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mÿ±u»Bu‰Ú
+;
+
+31 
+´iv©e
+ 
+Cam”aSurçûV›w
+ 
+	mÿm”aV›w
+;
+
+36 
+´iv©e
+ 
+boŞ—n
+ 
+	m´oûssšg
+;
+
+38 @
+Ov”ride
+
+
+39 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+40 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+42 
+	`´št
+("onCreate() called.");
+
+45 
+fš®
+ 
+Wšdow
+ 
+wš
+ = 
+	`g‘Wšdow
+();
+
+46 
+wš
+.
+	`£tFÏgs
+(
+WšdowMªag”
+.
+LayoutP¬ams
+.
+FLAG_FULLSCREEN
+,
+
+47 
+WšdowMªag”
+.
+LayoutP¬ams
+.
+FLAG_FULLSCREEN
+);
+
+48 
+boŞ—n
+ 
+»que¡ed
+ =
+
+49 
+	`»que¡WšdowF—tu»
+(
+Wšdow
+.
+FEATURE_NO_TITLE
+);
+
+50 
+	`´št
+("»que¡WšdowF—tu»(Wšdow.FEATURE_NO_TITLE): " + 
+»que¡ed
+);
+
+52 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_phÙo_ÿ±u»
+);
+
+54 
+ÿm”aV›w
+ = 
+Ãw
+ 
+	`Cam”aSurçûV›w
+(
+	`g‘AµliÿtiÚCÚ‹xt
+());
+
+55 
+äame
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.frame);
+
+56 
+äame
+.
+	`addV›w
+(
+ÿm”aV›w
+);
+
+58 
+´oûssšg
+ = 
+çl£
+;
+
+59 
+	`£tC­tu»Bu‰Ú
+();
+
+62 
+´iv©e
+ 
+	$£tC­tu»Bu‰Ú
+() {
+
+63 
+	`´št
+("setCaptureButton() called.");
+
+65 
+ÿ±u»Bu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.
+ÿ±u»_bu‰Ú
+);
+
+66 
+ÿ±u»Bu‰Ú
+.
+	`£tBackgroundB™m­
+(
+
+67 
+R
+.
+d¿wabË
+.
+bŠ_ÿm”a_ÿ±u»_nÜm®
+,
+
+68 
+R
+.
+d¿wabË
+.
+bŠ_ÿm”a_ÿ±u»_şick
+);
+
+69 
+ÿ±u»Bu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+70 @
+Ov”ride
+
+
+71 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+72 ià(!
+´oûssšg
+) {
+
+73 
+´oûssšg
+ = 
+Œue
+;
+
+74 
+	`´št
+("onClick()ƒxecuted.");
+
+75 
+ÿm”aV›w
+.
+	`ÿ±u»
+(
+Ãw
+ 
+	`Cam”aPiùu»C®lback
+());
+
+79 
+	}
+}
+
+81 
+şass
+ 
+Cam”aPiùu»C®lback
+ 
+im¶em’ts
+ 
+	gCam”a
+.
+	gPiùu»C®lback
+ {
+
+82 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	gTAG
+ = "CameraPictureCallback";
+
+84 @
+Ov”ride
+
+
+85 
+public
+ 
+ÚPiùu»Tak’
+(
+by‹
+[] 
+d©a
+, 
+Cam”a
+ 
+ÿm”a
+) {
+
+86 
+	gLog
+.
+d
+(
+TAG
+, "onPictureTaken() called.");
+
+91 
+B™m­
+ 
+	gÿ±u»dB™m­
+ = 
+B™m­FaùÜy
+.
+decodeBy‹A¼ay
+(
+d©a
+, 0, d©a.
+Ëngth
+);
+
+93 
+´št
+("piùu» size: " + 
+ÿ±u»dB™m­
+.
+g‘Width
+(è+ " x " + c­tu»dB™m­.
+g‘Height
+());
+
+96 
+B™m­
+ 
+	g»suÉB™m­
+ = 
+nuÎ
+;
+
+98 
+M©rix
+ 
+	gm©rix
+ = 
+Ãw
+ Matrix();
+
+99 
+	gm©rix
+.
+£tRÙ©e
+(0);
+
+102 
+	g»suÉB™m­
+ =
+
+103 
+B™m­
+.
+ü—‹B™m­
+(
+
+104 
+ÿ±u»dB™m­
+, 0, 0,
+
+105 
+ÿ±u»dB™m­
+.
+g‘Width
+(), c­tu»dB™m­.
+g‘Height
+(),
+
+106 
+m©rix
+, 
+Œue
+);
+
+108 
+	gŒy
+ {
+
+109 
+Fe
+ 
+	gphÙoFŞd”
+ = 
+Ãw
+ Fe(
+BasicInfo
+.
+FOLDER_PHOTO
+);
+
+110 ià(!
+	gphÙoFŞd”
+.
+exi¡s
+()) {
+
+111 
+´št
+("ü—Œšg…hÙØfŞd” : " + 
+phÙoFŞd”
+);
+
+112 
+	gphÙoFŞd”
+.
+mkdœs
+();
+
+115 
+SŒšg
+ 
+	gphÙoName
+ = "captured";
+
+116 
+Fe
+ 
+	gfe
+ = 
+Ãw
+ Fe(
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+phÙoName
+);
+
+117 ià(
+	gfe
+.
+exi¡s
+()) {
+
+118 
+	gfe
+.
+d–‘e
+();
+
+121 
+FeOuutSŒ—m
+ 
+	gout¡»am
+ =
+
+122 
+Ãw
+ 
+FeOuutSŒ—m
+(
+BasicInfo
+.
+FOLDER_PHOTO
+ + 
+phÙoName
+);
+
+123 
+	g»suÉB™m­
+.
+com´ess
+(
+B™m­
+.
+Com´essFÜm©
+.
+PNG
+, 100, 
+out¡»am
+);
+
+124 
+	gout¡»am
+.
+şo£
+();
+
+126 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+127 
+	gLog
+.
+e
+(
+TAG
+, "Error in writing captured image.",ƒ);
+
+128 
+showDŸlog
+(
+BasicInfo
+.
+IMAGE_CANNOT_BE_STORED
+);
+
+131 
+showP¬’tAùiv™y
+();
+
+133 
+	g´oûssšg
+ = 
+çl£
+;
+
+137 
+´iv©e
+ 
+	$showP¬’tAùiv™y
+() {
+
+138 
+	`£tResuÉ
+(
+RESULT_OK
+);
+
+140 
+	`fšish
+();
+
+141 
+	}
+}
+
+143 @
+Ov”ride
+
+
+144 
+´Ùeùed
+ 
+DŸlog
+ 
+	$ÚC»©eDŸlog
+(
+id
+) {
+
+145 
+	`´št
+("onCreateDialog() called.");
+
+147 
+id
+) {
+
+148 
+BasicInfo
+.
+IMAGE_CANNOT_BE_STORED
+:
+
+149 
+AË¹DŸlog
+.
+Bud”
+ 
+bud”
+ = 
+Ãw
+ AË¹DŸlog.
+	`Bud”
+(
+this
+);
+
+150 
+bud”
+.
+	`£tT™Ë
+("ì‚¬ì§„ì„ ì €ì¥í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. SD ì¹´ë“œ ìƒíƒœë¥¼ í™•ì¸í•˜ì„¸ìš”.");
+
+151 
+bud”
+.
+	`£tPos™iveBu‰Ú
+("í™•ì¸",
+
+152 
+Ãw
+ 
+DŸlogIÁ”çû
+.
+	`OnClickLi¡’”
+() {
+
+153 @
+Ov”ride
+
+
+154 
+public
+ 
+	`ÚClick
+(
+DŸlogIÁ”çû
+ 
+dŸlog
+, 
+which
+) {
+
+158  
+bud”
+.
+	`ü—‹
+();
+
+160  
+nuÎ
+;
+
+161 
+	}
+}
+
+163 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+164 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+165 
+	}
+}
+
+167 
+´iv©e
+ 
+	$tß¡
+(
+SŒšg
+ 
+mes§ge
+) {
+
+168 
+Tß¡
+.
+	`makeText
+(
+
+169 
+	`g‘AµliÿtiÚCÚ‹xt
+(),
+
+170 
+mes§ge
+,
+
+171 
+Tß¡
+.
+LENGTH_LONG
+
+
+172 ).
+	`show
+();
+
+173 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/PhotoSelectionActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹ÁUris
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	g»s
+.
+	gTy³dA¼ay
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gd©aba£
+.
+	gCursÜ
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­FaùÜy
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gmedŸ
+.
+	gMedŸSÿÂ”CÚÃùiÚ
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gÃt
+.
+	gUri
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gEnvœÚm’t
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	g´ovid”
+.
+	gMedŸStÜe
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+15 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+16 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+17 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+18 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›wGroup
+;
+
+19 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gAd­‹rV›w
+;
+
+20 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gCursÜAd­‹r
+;
+
+21 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gG®Ëry
+;
+
+22 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gImageV›w
+;
+
+23 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTextV›w
+;
+
+25 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+27 
+public
+ cÏs 
+	cPhÙoS–eùiÚAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+28 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "PhotoSelectionActivity";
+
+33 
+´iv©e
+ 
+Cov”Flow
+ 
+	mphÙoG®Ëry
+;
+
+34 
+´iv©e
+ 
+TextV›w
+ 
+	m‹xtV›w
+;
+
+35 
+´iv©e
+ 
+ImageV›w
+ 
+	m£ËùedPhÙo
+;
+
+36 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mokBu‰Ú
+;
+
+37 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mÿnûlBu‰Ú
+;
+
+42 
+´iv©e
+ 
+	m¥acšg
+ = -45;
+
+47 
+´iv©e
+ 
+Uri
+ 
+	m£ËùedPhÙoUri
+;
+
+48 
+´iv©e
+ 
+B™m­
+ 
+	m£ËùedPhÙoB™m­
+;
+
+50 @
+Ov”ride
+
+
+51 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+52 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+53 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_phÙo_£ËùiÚ
+);
+
+55 
+	`š™
+();
+
+58 
+´iv©e
+ 
+	$š™
+() {
+
+59 
+£ËùedPhÙoUri
+ = 
+nuÎ
+;
+
+60 
+£ËùedPhÙoB™m­
+ = 
+nuÎ
+;
+
+62 
+	`£tBÙtomBu‰Ús
+();
+
+64 
+	`£tS–eùPhÙoLayout
+();
+
+65 
+	}
+}
+
+67 
+´iv©e
+ 
+	$showP¬’tAùiv™y
+() {
+
+69 
+IÁ’t
+ 
+š‹Á
+ = 
+	`g‘IÁ’t
+();
+
+72 ià(
+£ËùedPhÙoUri
+ !ğ
+nuÎ
+ && 
+£ËùedPhÙoB™m­
+ !=‚ull) {
+
+73 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_PHOTO
+, 
+£ËùedPhÙoUri
+);
+
+74 
+	`£tResuÉ
+(
+RESULT_OK
+, 
+š‹Á
+);
+
+77 
+	`£tResuÉ
+(
+RESULT_CANCELED
+, 
+š‹Á
+);
+
+80 
+	`fšish
+();
+
+81 
+	}
+}
+
+83 
+´iv©e
+ 
+	$£tBÙtomBu‰Ús
+() {
+
+84 
+okBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.
+lßdšg_okBŠ
+);
+
+85 
+okBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+86 @
+Ov”ride
+
+
+87 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+88 
+	`showP¬’tAùiv™y
+();
+
+92 
+ÿnûlBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.
+lßdšg_ÿnûlBŠ
+);
+
+93 
+ÿnûlBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+94 @
+Ov”ride
+
+
+95 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+96 
+	`fšish
+();
+
+99 
+	}
+}
+
+101 
+´iv©e
+ 
+	$£tS–eùPhÙoLayout
+() {
+
+102 
+phÙoG®Ëry
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.
+lßdšg_g®Ëry
+);
+
+103 
+‹xtV›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.
+lßdšg_£ËùPhÙoText
+);
+
+104 
+£ËùedPhÙo
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.
+lßdšg_£ËùedPhÙo
+);
+
+105 
+£ËùedPhÙo
+.
+	`£tVisib™y
+(
+V›w
+.
+VISIBLE
+);
+
+108 
+CursÜ
+ 
+cursÜ
+ = 
+	`g‘CÚ‹ÁResŞv”
+().
+	`qu”y
+(
+
+109 
+MedŸStÜe
+.
+Images
+.
+MedŸ
+.
+EXTERNAL_CONTENT_URI
+,
+
+110 
+nuÎ
+,‚ull,‚ull,
+
+111 
+MedŸStÜe
+.
+Images
+.
+MedŸ
+.
+DATE_TAKEN
+ + " DESC");
+
+113 
+PhÙoCursÜAd­‹r
+ 
+ad­‹r
+ =
+
+114 
+Ãw
+ 
+	`PhÙoCursÜAd­‹r
+(
+this
+, 
+cursÜ
+);
+
+121 
+phÙoG®Ëry
+.
+	`£tAd­‹r
+(
+ad­‹r
+);
+
+122 
+phÙoG®Ëry
+.
+	`£tS·cšg
+(
+¥acšg
+);
+
+123 
+	`´št
+("CouÁ oàg®Ëry images: " + 
+phÙoG®Ëry
+.
+	`g‘CouÁ
+());
+
+124 ià(
+ad­‹r
+.
+	`g‘CouÁ
+() > 0) {
+
+125 
+phÙoG®Ëry
+.
+	`£tS–eùiÚ
+(0, 
+Œue
+);
+
+128 
+phÙoG®Ëry
+.
+	`£tAnim©iÚDu¿tiÚ
+(3000);
+
+129 
+phÙoG®Ëry
+.
+	`£tOnI‹mClickLi¡’”
+(
+Ãw
+ 
+Ad­‹rV›w
+.
+	`OnI‹mClickLi¡’”
+() {
+
+130 @
+Ov”ride
+
+
+131 
+public
+ 
+	`ÚI‹mClick
+(
+Ad­‹rV›w
+<?> 
+·»Á
+, 
+V›w
+ 
+v›w
+, 
+pos™iÚ
+, 
+id
+) {
+
+132 
+Œy
+ {
+
+133 
+Uri
+ 
+uri
+ =
+
+134 
+CÚ‹ÁUris
+.
+	`w™hAµ’dedId
+(
+
+135 
+MedŸStÜe
+.
+Images
+.
+MedŸ
+.
+EXTERNAL_CONTENT_URI
+,
+
+136 
+id
+);
+
+138 
+£ËùedPhÙoUri
+ = 
+uri
+;
+
+139 
+B™m­FaùÜy
+.
+O±iÚs
+ 
+İtiÚs
+ =
+
+140 
+Ãw
+ 
+B™m­FaùÜy
+.
+	`O±iÚs
+();
+
+141 
+İtiÚs
+.
+šSam¶eSize
+ = 1;
+
+143 
+£ËùedPhÙoB™m­
+ =
+
+144 
+B™m­FaùÜy
+.
+	`decodeSŒ—m
+(
+
+145 
+	`g‘CÚ‹ÁResŞv”
+().
+	`İ’IÅutSŒ—m
+(
+uri
+),
+
+146 
+nuÎ
+,
+
+147 
+İtiÚs
+);
+
+148 
+	`´št
+("S–eùed ImagURI from Album: " + 
+£ËùedPhÙoUri
+);
+
+150 
+‹xtV›w
+.
+	`£tVisib™y
+(
+V›w
+.
+GONE
+);
+
+151 
+£ËùedPhÙo
+.
+	`£tImageB™m­
+(
+£ËùedPhÙoB™m­
+);
+
+152 
+£ËùedPhÙo
+.
+	`£tVisib™y
+(
+V›w
+.
+VISIBLE
+);
+
+154 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+155 
+	`´št
+(
+e
+.
+	`toSŒšg
+());
+
+160 
+	}
+}
+
+162 @
+Ov”ride
+
+
+163 
+public
+ 
+	$ÚWšdowFocusChªged
+(
+boŞ—n
+ 
+hasFocus
+) {
+
+164 
+	`´št
+("ÚWšdowFocusChªged(hasFocus: " + 
+hasFocus
+);
+
+165 
+	`´št
+("Environment.getExternalStorageDirectory().getAbsolutePath(): " +
+
+166 
+EnvœÚm’t
+.
+	`g‘Ex‹º®StÜageDœeùÜy
+().
+	`g‘AbsŞu‹P©h
+() + ")");
+
+168 
+su³r
+.
+	`ÚWšdowFocusChªged
+(
+hasFocus
+);
+
+170 ià(
+hasFocus
+) {
+
+171 
+MedŸSÿÂ”CÚÃùiÚ
+.
+	`sÿnFe
+(
+
+172 
+this
+,
+
+173 
+Ãw
+ 
+SŒšg
+[]{
+EnvœÚm’t
+.
+	`g‘Ex‹º®StÜageDœeùÜy
+().
+	`g‘AbsŞu‹P©h
+()},
+
+174 
+nuÎ
+,
+
+175 
+Ãw
+ 
+MedŸSÿÂ”CÚÃùiÚ
+.
+	`OnSÿnCom¶‘edLi¡’”
+() {
+
+176 @
+Ov”ride
+
+
+177 
+public
+ 
+	`ÚSÿnCom¶‘ed
+(
+SŒšg
+ 
+·th
+, 
+Uri
+ 
+uri
+) {
+
+178 
+	`´št
+("Media scan completed...");
+
+182 
+	}
+}
+
+184 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+185 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+186 
+	}
+}
+
+188 şas 
+	cPhÙoCursÜAd­‹r
+ 
+ex‹nds
+ 
+	gCursÜAd­‹r
+ {
+
+190 
+´iv©e
+ 
+	gg®ËryI‹mBackground
+;
+
+196 
+public
+ 
+PhÙoCursÜAd­‹r
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+CursÜ
+ 
+c
+) {
+
+197 
+su³r
+(
+cÚ‹xt
+, 
+c
+);
+
+215 
+Ty³dA¼ay
+ 
+	g¬¿y
+ = 
+obšStyËdA‰ribu‹s
+(
+R
+.
+¡yËabË
+.
+G®Ëry1
+);
+
+216 
+	gg®ËryI‹mBackground
+ =
+
+217 
+¬¿y
+.
+g‘ResourûId
+(
+
+218 
+R
+.
+¡yËabË
+.
+G®Ëry1_ªdroid_g®ËryI‹mBackground
+,
+
+220 
+	g¬¿y
+.
+»cyşe
+();
+
+226 @
+Ov”ride
+
+
+227 
+public
+ 
+V›w
+ 
+ÃwV›w
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+CursÜ
+ 
+cursÜ
+, 
+V›wGroup
+ 
+·»Á
+) {
+
+232 
+ImageV›w
+ 
+	gv
+ = 
+Ãw
+ ImageV›w(
+cÚ‹xt
+);
+
+233 
+	gv
+.
+£tLayoutP¬ams
+(
+Ãw
+ 
+G®Ëry
+.
+LayoutP¬ams
+(660, 480));
+
+234 
+	gv
+.
+£tBackgroundResourû
+(
+g®ËryI‹mBackground
+);
+
+236  
+	gv
+;
+
+243 @
+Ov”ride
+
+
+244 
+public
+ 
+bšdV›w
+(
+V›w
+ 
+v›w
+, 
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+CursÜ
+ 
+cursÜ
+) {
+
+245 
+ImageV›w
+ 
+	gimg
+ = (ImageV›wè
+v›w
+;
+
+248 
+	gid
+ =
+
+249 
+cursÜ
+.
+g‘LÚg
+(
+
+250 
+cursÜ
+.
+g‘CŞumnIndexOrThrow
+(
+MedŸStÜe
+.
+Images
+.
+MedŸ
+.
+_ID
+));
+
+253 
+Uri
+ 
+	guri
+ = 
+CÚ‹ÁUris
+.
+w™hAµ’dedId
+(
+
+254 
+MedŸStÜe
+.
+Images
+.
+MedŸ
+.
+EXTERNAL_CONTENT_URI
+,
+
+255 
+id
+);
+
+256 
+´št
+("id: " + 
+id
+ + ", uri: " + 
+uri
+);
+
+258 
+	gŒy
+ {
+
+260 
+	gB™m­FaùÜy
+.
+O±iÚs
+ 
+	gİtiÚs
+ = 
+Ãw
+ 
+B™m­FaùÜy
+.Options();
+
+261 
+	gİtiÚs
+.
+	gšSam¶eSize
+ = 8;
+
+262 
+B™m­
+ 
+	gbm
+ = 
+B™m­FaùÜy
+.
+decodeSŒ—m
+(
+
+263 
+g‘CÚ‹ÁResŞv”
+().
+İ’IÅutSŒ—m
+(
+uri
+),
+
+264 
+nuÎ
+,
+
+265 
+İtiÚs
+);
+
+266 
+	gimg
+.
+£tImageB™m­
+(
+bm
+);
+
+268 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {}
+
+271 
+´iv©e
+ 
+´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+272 
+	gLog
+.
+d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+	@app/src/main/java/com/ukasias/android/multimemo/VideoPlayActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdow
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdowMªag”
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gMedŸCÚŒŞËr
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gVideoV›w
+;
+
+11 
+public
+ cÏs 
+	cVideoPÏyAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+12 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "VideoPlayActivity";
+
+14 
+´iv©e
+ 
+VideoV›w
+ 
+	mvideoV›w
+;
+
+15 
+´iv©e
+ 
+SŒšg
+ 
+	mvideoUri
+;
+
+17 @
+Ov”ride
+
+
+18 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+19 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+21 
+fš®
+ 
+Wšdow
+ 
+wš
+ = 
+	`g‘Wšdow
+();
+
+22 
+	`»que¡WšdowF—tu»
+(
+Wšdow
+.
+FEATURE_NO_TITLE
+);
+
+23 
+wš
+.
+	`£tFÏgs
+(
+
+24 
+WšdowMªag”
+.
+LayoutP¬ams
+.
+FLAG_FULLSCREEN
+,
+
+25 
+WšdowMªag”
+.
+LayoutP¬ams
+.
+FLAG_FULLSCREEN
+);
+
+27 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_video_¶ay
+);
+
+29 
+	`£tVideoV›w
+();
+
+31 
+	`£tMedŸCÚŒŞËr
+();
+
+34 
+´iv©e
+ 
+	$£tVideoV›w
+() {
+
+35 
+videoV›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.videoView);
+
+37 
+IÁ’t
+ 
+š‹Á
+ = 
+	`g‘IÁ’t
+();
+
+38 
+videoUri
+ = 
+š‹Á
+.
+	`g‘SŒšgExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+);
+
+39 
+videoV›w
+.
+	`£tVideoP©h
+(
+videoUri
+);
+
+40 
+	}
+}
+
+42 
+´iv©e
+ 
+	$£tMedŸCÚŒŞËr
+() {
+
+43 
+MedŸCÚŒŞËr
+ 
+medŸCÚŒŞËr
+ = 
+Ãw
+ 
+	`MedŸCÚŒŞËr
+(
+
+44 
+VideoPÏyAùiv™y
+.
+this
+);
+
+46 
+videoV›w
+.
+	`£tMedŸCÚŒŞËr
+(
+medŸCÚŒŞËr
+);
+
+47 
+videoV›w
+.
+	`¡¬t
+();
+
+48 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/VideoRecordingActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gmedŸ
+.
+	gMedŸRecÜd”
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gKeyEv’t
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdow
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdowMªag”
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gF¿meLayout
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+14 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+16 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gFe
+;
+
+17 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gIOExû±iÚ
+;
+
+19 
+public
+ cÏs 
+	cVideoRecÜdšgAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+20 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "VideoRecordingActivity";
+
+22 
+´iv©e
+ 
+F¿meLayout
+ 
+	mäameLayout
+;
+
+23 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	m»cÜdBu‰Ú
+;
+
+25 
+´iv©e
+ 
+MedŸRecÜd”
+ 
+	mmedŸRecÜd”
+;
+
+26 
+Cam”aSurçûV›w
+ 
+	mÿm”aSurçûV›w
+;
+
+27 
+boŞ—n
+ 
+	misS¹ed
+;
+
+29 @
+Ov”ride
+
+
+30 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+31 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+38 
+fš®
+ 
+Wšdow
+ 
+wš
+ = 
+this
+.
+	`g‘Wšdow
+();
+
+39 
+wš
+.
+	`£tFÏgs
+(
+
+40 
+WšdowMªag”
+.
+LayoutP¬ams
+.
+FLAG_FULLSCREEN
+,
+
+41 
+WšdowMªag”
+.
+LayoutP¬ams
+.
+FLAG_FULLSCREEN
+);
+
+43 
+	`»que¡WšdowF—tu»
+(
+Wšdow
+.
+FEATURE_NO_TITLE
+);
+
+45 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_video_»cÜdšg
+);
+
+47 
+äameLayout
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.frameLayout);
+
+48 
+»cÜdBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.recordButton);
+
+50 
+medŸRecÜd”
+ = 
+Ãw
+ 
+	`MedŸRecÜd”
+();
+
+51 
+ÿm”aSurçûV›w
+ = 
+Ãw
+ 
+	`Cam”aSurçûV›w
+(
+	`g‘AµliÿtiÚCÚ‹xt
+());
+
+52 
+äameLayout
+.
+	`addV›w
+(
+ÿm”aSurçûV›w
+);
+
+54 
+isS¹ed
+ = 
+çl£
+;
+
+56 
+	`£tRecÜdBu‰Ú
+();
+
+59 
+´iv©e
+ 
+	$£tRecÜdBu‰Ú
+() {
+
+60 
+»cÜdBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+62 
+R
+.
+d¿wabË
+.
+bŠ_voiû_»cÜd
+,
+
+65 
+»cÜdBu‰Ú
+.
+	`£tText
+(
+R
+.
+¡ršg
+.
+video_»cÜdšg_¡¬t_t™Ë
+);
+
+67 
+»cÜdBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+68 @
+Ov”ride
+
+
+69 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+70 ià(
+isS¹ed
+ =ğ
+çl£
+) {
+
+71 
+ÿm”aSurçûV›w
+.
+	`¡İP»v›w
+();
+
+72 
+	`´•¬eVideoRecÜdšg
+();
+
+74 
+medŸRecÜd”
+.
+	`¡¬t
+();
+
+75 
+isS¹ed
+ = 
+Œue
+;
+
+76 
+»cÜdBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+78 
+R
+.
+d¿wabË
+.
+bŠ_voiû_¡İ
+,
+
+81 
+»cÜdBu‰Ú
+.
+	`£tText
+(
+R
+.
+¡ršg
+.
+video_»cÜdšg_¡İ_t™Ë
+);
+
+84 
+medŸRecÜd”
+.
+	`¡İ
+();
+
+85 
+medŸRecÜd”
+.
+	`»Ëa£
+();
+
+86 
+medŸRecÜd”
+ = 
+nuÎ
+;
+
+87 
+isS¹ed
+ = 
+çl£
+;
+
+88 
+ÿm”aSurçûV›w
+.
+	`¡¬tP»v›w
+();
+
+90 
+	`£tResuÉ
+(
+RESULT_OK
+);
+
+92 
+»cÜdBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+94 
+R
+.
+d¿wabË
+.
+bŠ_voiû_»cÜd
+,
+
+97 
+»cÜdBu‰Ú
+.
+	`£tText
+(
+R
+.
+¡ršg
+.
+video_»cÜdšg_¡¬t_t™Ë
+);
+
+101 
+	}
+}
+
+103 
+´iv©e
+ 
+	$´•¬eVideoRecÜdšg
+() {
+
+104 
+	`checkVideoFŞd”
+();
+
+106 
+SŒšg
+ 
+videoName
+ = 
+BasicInfo
+.
+FOLDER_VIDEO
+ + "recorded";
+
+108 ià(
+medŸRecÜd”
+ =ğ
+nuÎ
+) {
+
+109 
+medŸRecÜd”
+ = 
+Ãw
+ 
+	`MedŸRecÜd”
+();
+
+112 
+medŸRecÜd”
+.
+	`»£t
+();
+
+115 
+medŸRecÜd”
+.
+	`£tVideoSourû
+(
+MedŸRecÜd”
+.
+VideoSourû
+.
+CAMERA
+);
+
+116 
+medŸRecÜd”
+.
+	`£tAudioSourû
+(
+MedŸRecÜd”
+.
+AudioSourû
+.
+MIC
+);
+
+117 
+medŸRecÜd”
+.
+	`£tOuutFÜm©
+(
+MedŸRecÜd”
+.
+OuutFÜm©
+.
+MPEG_4
+);
+
+118 
+medŸRecÜd”
+.
+	`£tVideoEncod”
+(
+MedŸRecÜd”
+.
+VideoEncod”
+.
+DEFAULT
+);
+
+119 
+medŸRecÜd”
+.
+	`£tAudioEncod”
+(
+MedŸRecÜd”
+.
+AudioEncod”
+.
+DEFAULT
+);
+
+121 
+medŸRecÜd”
+.
+	`£tVideoF¿meR©e
+(30);
+
+122 
+medŸRecÜd”
+.
+	`£tOuutFe
+(
+videoName
+);
+
+124 
+medŸRecÜd”
+.
+	`£tP»v›wDi¥Ïy
+(
+ÿm”aSurçûV›w
+.
+	`g‘Surçû
+());
+
+126 
+Œy
+ {
+
+127 
+medŸRecÜd”
+.
+	`´•¬e
+();
+
+129 
+	`ÿtch
+(
+IÎeg®S‹Exû±iÚ
+ 
+i£
+) {
+
+130 
+	`tß¡
+("IllegalStateException");
+
+132 
+	`ÿtch
+(
+IOExû±iÚ
+ 
+iÛ
+) {
+
+133 
+	`tß¡
+("IOException");
+
+135 
+	}
+}
+
+137 
+´iv©e
+ 
+	$checkVideoFŞd”
+() {
+
+138 
+Fe
+ 
+videoFŞd”
+ = 
+Ãw
+ 
+	`Fe
+(
+BasicInfo
+.
+FOLDER_VIDEO
+);
+
+139 ià(!
+videoFŞd”
+.
+	`isDœeùÜy
+()) {
+
+140 
+	`´št
+("ü—tšg videØfŞd” : " + 
+videoFŞd”
+);
+
+142 
+videoFŞd”
+.
+	`mkdœs
+();
+
+144 
+	}
+}
+
+146 @
+Ov”ride
+
+
+147 
+´Ùeùed
+ 
+	$ÚDe¡roy
+() {
+
+148 
+su³r
+.
+	`ÚDe¡roy
+();
+
+150 ià(
+medŸRecÜd”
+ !ğ
+nuÎ
+) {
+
+151 
+medŸRecÜd”
+.
+	`»Ëa£
+();
+
+152 
+medŸRecÜd”
+ = 
+nuÎ
+;
+
+154 
+	}
+}
+
+156 @
+Ov”ride
+
+
+157 
+public
+ 
+boŞ—n
+ 
+	$ÚKeyDown
+(
+keyCode
+, 
+KeyEv’t
+ 
+ev’t
+) {
+
+158 ià(
+keyCode
+ =ğ
+KeyEv’t
+.
+KEYCODE_BACK
+) {
+
+159 ià(
+isS¹ed
+) {
+
+160 
+	`tß¡
+(
+	`g‘Resourûs
+().
+	`g‘SŒšg
+(
+R
+.
+¡ršg
+.
+video_»cÜdšg_mes§ge
+));
+
+163 
+	`fšish
+();
+
+165  
+Œue
+;
+
+167  
+çl£
+;
+
+168 
+	}
+}
+
+170 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+171 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+172 
+	}
+}
+
+174 
+´iv©e
+ 
+	$tß¡
+(
+SŒšg
+ 
+mes§ge
+) {
+
+175 
+Tß¡
+.
+	`makeText
+(
+VideoRecÜdšgAùiv™y
+.
+this
+,
+
+176 
+mes§ge
+, 
+Tß¡
+.
+LENGTH_LONG
+).
+	`show
+();
+
+177 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/VideoSelectionActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹ÁUris
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gIÁ’t
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gd©aba£
+.
+	gCursÜ
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCŞÜ
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gÃt
+.
+	gUri
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gEnvœÚm’t
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	g´ovid”
+.
+	gMedŸStÜe
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+13 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+14 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+15 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›wGroup
+;
+
+16 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdow
+;
+
+17 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gAd­‹rV›w
+;
+
+18 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gCursÜAd­‹r
+;
+
+19 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gLi¡V›w
+;
+
+20 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTextV›w
+;
+
+22 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+24 
+public
+ cÏs 
+	cVideoS–eùiÚAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+25 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "VideoSelectionActivity";
+
+27 
+´iv©e
+ 
+TextV›w
+ 
+	mvideoText
+;
+
+28 
+´iv©e
+ 
+Li¡V›w
+ 
+	mli¡V›w
+;
+
+29 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mokBu‰Ú
+;
+
+30 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mÿnûlBu‰Ú
+;
+
+32 
+´iv©e
+ 
+SŒšg
+ 
+	mvideoUri
+;
+
+34 @
+Ov”ride
+
+
+35 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+36 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+38 
+	`»que¡WšdowF—tu»
+(
+Wšdow
+.
+FEATURE_NO_TITLE
+);
+
+39 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_video_£ËùiÚ
+);
+
+41 
+videoText
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.videoText);
+
+42 
+li¡V›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.listView);
+
+43 
+okBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.okButton);
+
+44 
+ÿnûlBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.cancelButton);
+
+46 
+	`£tBÙtomBu‰Ús
+();
+
+48 
+Log
+.
+	`d
+(
+TAG
+, "Gallery Data Is Loading..");
+
+50 
+CursÜ
+ 
+c
+ = 
+	`g‘CÚ‹ÁResŞv”
+().
+	`qu”y
+(
+
+51 
+MedŸStÜe
+.
+Video
+.
+MedŸ
+.
+EXTERNAL_CONTENT_URI
+,
+
+52 
+nuÎ
+,‚ull,‚ull,null);
+
+53 
+fš®
+ 
+VideoCursÜAd­‹r
+ 
+ad­‹r
+ = 
+Ãw
+ 
+	`VideoCursÜAd­‹r
+(
+this
+, 
+c
+);
+
+54 
+li¡V›w
+.
+	`£tAd­‹r
+(
+ad­‹r
+);
+
+56 
+li¡V›w
+.
+	`£tOnI‹mClickLi¡’”
+(
+Ãw
+ 
+Ad­‹rV›w
+.
+	`OnI‹mClickLi¡’”
+() {
+
+57 @
+Ov”ride
+
+
+58 
+public
+ 
+	`ÚI‹mClick
+(
+Ad­‹rV›w
+<?> 
+·»Á
+, 
+V›w
+ 
+v›w
+, 
+pos™iÚ
+, 
+id
+) {
+
+59 
+Œy
+ {
+
+60 
+Uri
+ 
+uri
+ = 
+CÚ‹ÁUris
+.
+	`w™hAµ’dedId
+(
+
+61 
+MedŸStÜe
+.
+Video
+.
+MedŸ
+.
+EXTERNAL_CONTENT_URI
+,
+
+62 
+id
+);
+
+63 
+videoUri
+ = 
+uri
+.
+	`g‘P©h
+();
+
+65 
+SŒšg
+ 
+¡r
+ = ((
+TextV›w
+è
+v›w
+).
+	`g‘Text
+().
+	`toSŒšg
+();
+
+66 
+videoText
+.
+	`£tText
+(
+¡r
+);
+
+67 
+videoText
+.
+	`£tS–eùed
+(
+Œue
+);
+
+69 
+	`ÿtch
+ (
+Exû±iÚ
+ 
+e
+) {
+
+70 
+Log
+.
+	`d
+(
+TAG
+, 
+e
+.
+	`toSŒšg
+());
+
+76 @
+Ov”ride
+
+
+77 
+public
+ 
+	$ÚWšdowFocusChªged
+(
+boŞ—n
+ 
+hasFocus
+) {
+
+78 
+su³r
+.
+	`ÚWšdowFocusChªged
+(
+hasFocus
+);
+
+80 ià(
+hasFocus
+) {
+
+81 
+	`£ndBrßdÿ¡
+(
+Ãw
+ 
+	`IÁ’t
+(
+
+82 
+IÁ’t
+.
+ACTION_MEDIA_SCANNER_SCAN_FILE
+,
+
+83 
+Uri
+.
+	`·r£
+(
+EnvœÚm’t
+.
+	`g‘Ex‹º®StÜageDœeùÜy
+().
+	`g‘AbsŞu‹P©h
+())
+
+86 
+	}
+}
+
+88 şas 
+	cVideoCursÜAd­‹r
+ 
+ex‹nds
+ 
+	gCursÜAd­‹r
+ {
+
+89 
+public
+ 
+VideoCursÜAd­‹r
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+CursÜ
+ 
+cursÜ
+) {
+
+90 
+su³r
+(
+cÚ‹xt
+, 
+cursÜ
+);
+
+93 @
+Ov”ride
+
+
+94 
+public
+ 
+V›w
+ 
+ÃwV›w
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+CursÜ
+ 
+cursÜ
+, 
+V›wGroup
+ 
+·»Á
+) {
+
+95 
+TextV›w
+ 
+	gvideoT™ËText
+ = 
+Ãw
+ TextV›w(
+cÚ‹xt
+);
+
+97 
+	gvideoT™ËText
+.
+£tTextCŞÜ
+(
+CŞÜ
+.
+WHITE
+);
+
+99 
+	gvideoT™ËText
+.
+£tPaddšg
+(10, 10, 10, 10);
+
+101  
+	gvideoT™ËText
+;
+
+104 @
+Ov”ride
+
+
+105 
+public
+ 
+bšdV›w
+(
+V›w
+ 
+v›w
+, 
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+CursÜ
+ 
+cursÜ
+) {
+
+106 
+TextV›w
+ 
+	gvideoT™ËText
+ = (TextV›wè
+v›w
+;
+
+108 
+	gid
+ = 
+cursÜ
+.
+g‘LÚg
+(
+
+109 
+cursÜ
+.
+g‘CŞumnIndexOrThrow
+(
+MedŸStÜe
+.
+Video
+.
+MedŸ
+.
+_ID
+));
+
+110 
+SŒšg
+ 
+	g¡r
+ = 
+cursÜ
+.
+g‘SŒšg
+(
+
+111 
+cursÜ
+.
+g‘CŞumnIndexOrThrow
+(
+MedŸStÜe
+.
+Video
+.
+MedŸ
+.
+TITLE
+));
+
+112 
+Uri
+ 
+	guri
+ = 
+CÚ‹ÁUris
+.
+w™hAµ’dedId
+(
+
+113 
+MedŸStÜe
+.
+Video
+.
+MedŸ
+.
+EXTERNAL_CONTENT_URI
+, 
+id
+);
+
+114 
+	gLog
+.
+d
+(
+TAG
+, " id -> " + 
+id
+ + ", ur˜-> " + 
+uri
+);
+
+116 
+	gŒy
+ {
+
+117 
+	gvideoT™ËText
+.
+£tText
+(
+¡r
+);
+
+119 
+ÿtch
+ (
+Exû±iÚ
+ 
+e
+) {}
+
+123 
+´iv©e
+ 
+	$£tBÙtomBu‰Ús
+() {
+
+124 
+okBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+125 @
+Ov”ride
+
+
+126 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+127 
+	`showP¬’tAùiv™y
+();
+
+131 
+ÿnûlBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+132 @
+Ov”ride
+
+
+133 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+134 
+	`fšish
+();
+
+137 
+	}
+}
+
+142 
+´iv©e
+ 
+	$showP¬’tAùiv™y
+() {
+
+143 
+IÁ’t
+ 
+š‹Á
+ = 
+	`g‘IÁ’t
+();
+
+144 ià(
+videoUri
+ !ğ
+nuÎ
+) {
+
+145 
+š‹Á
+.
+	`putExŒa
+(
+BasicInfo
+.
+KEY_URI_VIDEO
+, 
+videoUri
+);
+
+147 
+	`£tResuÉ
+(
+RESULT_OK
+, 
+š‹Á
+);
+
+150 
+	`fšish
+();
+
+151 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/VoicePlayActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+6 
+public
+ cÏs 
+	cVoiûPÏyAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+8 @
+Ov”ride
+
+
+9 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+10 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+11 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_voiû_¶ay
+);
+
+13 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/VoiceRecorder.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gmedŸ
+.
+	gMedŸPÏy”
+;
+
+9 
+public
+ 
+şass
+ 
+VoiûRecÜd”
+ 
+im¶em’ts
+
+
+10 
+	gMedŸPÏy”
+.
+	gOnCom¶‘iÚLi¡’”
+, MedŸPÏy”.
+	gOnE¼ÜLi¡’”
+ {
+
+12 
+fš®
+ 
+SŒšg
+ 
+	gSAMPLE_PREFIX
+ = "recording";
+
+13 
+fš®
+ 
+SŒšg
+ 
+	gSAMPLE_PATH_KEY
+ = "sample_path";
+
+14 
+fš®
+ 
+SŒšg
+ 
+	gSAMPLE_LENGTH_KEY
+ = "sample_length";
+
+16 
+public
+ 
+fš®
+ 
+	gIDLE_STATE
+ = 0;
+
+18 @
+Ov”ride
+
+
+19 
+public
+ 
+ÚCom¶‘iÚ
+(
+MedŸPÏy”
+ 
+mp
+) {
+
+22 @
+Ov”ride
+
+
+23 
+public
+ 
+boŞ—n
+ 
+ÚE¼Ü
+(
+MedŸPÏy”
+ 
+mp
+, 
+wh©
+, 
+exŒa
+) {
+
+24  
+	gçl£
+;
+
+	@app/src/main/java/com/ukasias/android/multimemo/VoiceRecordingActivity.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	g­p
+.
+	gAµCom·tAùiv™y
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+	gBundË
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gV›w
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gWšdow
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTextV›w
+;
+
+10 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+.
+	gT™ËB™m­Bu‰Ú
+;
+
+12 
+public
+ cÏs 
+	cVoiûRecÜdšgAùiv™y
+ 
+ex‹nds
+ 
+	mAµCom·tAùiv™y
+ {
+
+13 
+´iv©e
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "VoiceRecordingActivity";
+
+15 
+´iv©e
+ 
+TextV›w
+ 
+	m‹xtV›w
+;
+
+16 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	m»cÜdBu‰Ú
+;
+
+17 
+´iv©e
+ 
+T™ËB™m­Bu‰Ú
+ 
+	mÿnûlBu‰Ú
+;
+
+19 
+boŞ—n
+ 
+	misS¹ed
+;
+
+21 @
+Ov”ride
+
+
+22 
+´Ùeùed
+ 
+	$ÚC»©e
+(
+BundË
+ 
+§vedIn¡ªûS‹
+) {
+
+23 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+);
+
+25 
+	`»que¡WšdowF—tu»
+(
+Wšdow
+.
+FEATURE_NO_TITLE
+);
+
+27 
+	`£tCÚ‹ÁV›w
+(
+R
+.
+Ïyout
+.
+aùiv™y_voiû_»cÜdšg
+);
+
+29 
+	`£tBÙtomBu‰Ús
+();
+
+31 
+	`š™
+(
+§vedIn¡ªûS‹
+);
+
+34 
+´iv©e
+ 
+	$£tBÙtomBu‰Ús
+() {
+
+35 
+isS¹ed
+ = 
+çl£
+;
+
+36 
+»cÜdBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.recordButton);
+
+37 
+ÿnûlBu‰Ú
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.cancelButton);
+
+39 
+»cÜdBu‰Ú
+.
+	`£tCompoundD¿wabËsW™hIÁršsicBounds
+(
+
+41 
+R
+.
+d¿wabË
+.
+bŠ_voiû_»cÜd
+,
+
+43 
+»cÜdBu‰Ú
+.
+	`£tText
+(
+R
+.
+¡ršg
+.
+audio_»cÜdšg_¡¬t_t™Ë
+);
+
+44 
+»cÜdBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+45 @
+Ov”ride
+
+
+46 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+47 ià(
+isS¹ed
+) {
+
+48 
+	`¡İVoiûRecÜdšg
+();
+
+49 
+isS¹ed
+ = 
+çl£
+;
+
+52 
+	`¡¬tVoiûRecÜdšg
+();
+
+53 
+isS¹ed
+ = 
+Œue
+;
+
+58 
+ÿnûlBu‰Ú
+.
+	`£tOnClickLi¡’”
+(
+Ãw
+ 
+V›w
+.
+	`OnClickLi¡’”
+() {
+
+59 @
+Ov”ride
+
+
+60 
+public
+ 
+	`ÚClick
+(
+V›w
+ 
+v
+) {
+
+61 
+	`fšish
+();
+
+64 
+	}
+}
+
+66 
+´iv©e
+ 
+	$š™
+(
+BundË
+ 
+icyşe
+) {
+
+67 
+‹xtV›w
+ = 
+	`fšdV›wById
+(
+R
+.
+id
+.textView);
+
+68 
+‹xtV›w
+.
+	`£tText
+("00:00");
+
+69 
+	}
+}
+
+71 
+´iv©e
+ 
+	$¡¬tVoiûRecÜdšg
+(è{
+	}
+}
+
+73 
+´iv©e
+ 
+	$¡İVoiûRecÜdšg
+(è{
+	}
+}
+
+75 
+´iv©e
+ 
+	$´št
+(
+SŒšg
+ 
+mes§ge
+) {
+
+76 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+77 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/common/TitleBackgroundButton.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCªvas
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gPašt
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gReù
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gTy³çû
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	gwidg‘
+.
+	gAµCom·tBu‰Ú
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gA‰ribu‹S‘
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gMÙiÚEv’t
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gwidg‘
+.
+	gTß¡
+;
+
+13 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gR
+;
+
+15 
+public
+ cÏs 
+	cT™ËBackgroundBu‰Ú
+ 
+ex‹nds
+ 
+	mAµCom·tBu‰Ú
+ {
+
+20 
+CÚ‹xt
+ 
+	mcÚ‹xt
+;
+
+25 
+Pašt
+ 
+	m·št
+;
+
+30 
+	mdeçuÉCŞÜ
+ = 0xff333333;
+
+35 
+	mdeçuÉSize
+ = 20F;
+
+40 
+	mdeçuÉSÿËX
+ = 1.0F;
+
+45 
+Ty³çû
+ 
+	mdeçuÉTy³çû
+ = Ty³çû.
+DEFAULT_BOLD
+;
+
+50 
+SŒšg
+ 
+	mt™ËText
+ = "";
+
+55 
+boŞ—n
+ 
+	m·štChªged
+ = 
+çl£
+;
+
+57 
+public
+ 
+	$T™ËBackgroundBu‰Ú
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+58 
+	`su³r
+(
+cÚ‹xt
+);
+
+60 
+this
+.
+cÚ‹xt
+ = context;
+
+61 
+	`š™
+();
+
+64 
+public
+ 
+	$T™ËBackgroundBu‰Ú
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+A‰ribu‹S‘
+ 
+©ts
+) {
+
+65 
+	`su³r
+(
+cÚ‹xt
+, 
+©ts
+);
+
+67 
+this
+.
+cÚ‹xt
+ = context;
+
+68 
+	`š™
+();
+
+69 
+	}
+}
+
+74 
+public
+ 
+	$š™
+() {
+
+75 
+	`£tBackgroundResourû
+(
+R
+.
+d¿wabË
+.
+t™Ë_background
+);
+
+77 
+·št
+ = 
+Ãw
+ 
+	`Pašt
+();
+
+78 
+·št
+.
+	`£tCŞÜ
+(
+deçuÉCŞÜ
+);
+
+79 
+·št
+.
+	`£tAÁiAlŸs
+(
+Œue
+);
+
+80 
+·št
+.
+	`£tTextSÿËX
+(
+deçuÉSÿËX
+);
+
+81 
+·št
+.
+	`£tTextSize
+(
+deçuÉSize
+);
+
+82 
+·št
+.
+	`£tTy³çû
+(
+deçuÉTy³çû
+);
+
+84 
+	}
+}
+
+90 
+public
+ 
+boŞ—n
+ 
+	$ÚTouchEv’t
+(
+MÙiÚEv’t
+ 
+ev’t
+) {
+
+91 
+su³r
+.
+	`ÚTouchEv’t
+(
+ev’t
+);
+
+93 
+aùiÚ
+ = 
+ev’t
+.
+	`g‘AùiÚ
+();
+
+95 
+aùiÚ
+) {
+
+96 
+MÙiÚEv’t
+.
+ACTION_UP
+:
+
+100 
+MÙiÚEv’t
+.
+ACTION_DOWN
+:
+
+101 
+Tß¡
+.
+	`makeText
+(
+cÚ‹xt
+, 
+t™ËText
+, Tß¡.
+LENGTH_LONG
+).
+	`show
+();
+
+107 
+	`šv®id©e
+();
+
+109  
+Œue
+;
+
+110 
+	}
+}
+
+115 
+public
+ 
+	$ÚD¿w
+(
+Cªvas
+ 
+ÿnvas
+) {
+
+116 
+su³r
+.
+	`ÚD¿w
+(
+ÿnvas
+);
+
+118 
+curWidth
+ = 
+	`g‘Width
+();
+
+119 
+curHeight
+ = 
+	`g‘Height
+();
+
+122 ià(
+·štChªged
+) {
+
+123 
+·št
+.
+	`£tCŞÜ
+(
+deçuÉCŞÜ
+);
+
+124 
+·št
+.
+	`£tTextSÿËX
+(
+deçuÉSÿËX
+);
+
+125 
+·št
+.
+	`£tTextSize
+(
+deçuÉSize
+);
+
+126 
+·št
+.
+	`£tTy³çû
+(
+deçuÉTy³çû
+);
+
+130 
+Reù
+ 
+bounds
+ = 
+Ãw
+ 
+	`Reù
+();
+
+131 
+·št
+.
+	`g‘TextBounds
+(
+t™ËText
+, 0,™ËText.
+	`Ëngth
+(), 
+bounds
+);
+
+132 
+‹xtWidth
+ = (()
+curWidth
+ - 
+bounds
+.
+	`width
+())/2.0F;
+
+133 
+‹xtHeight
+ = (()(
+curHeight
+è- 
+bounds
+.
+	`height
+())/2.0F + bounds.height();
+
+136 
+ÿnvas
+.
+	`d¿wText
+(
+t™ËText
+, 
+‹xtWidth
+, 
+‹xtHeight
+, 
+·št
+);
+
+138 
+	}
+}
+
+140 
+public
+ 
+SŒšg
+ 
+	$g‘T™ËText
+() {
+
+141  
+t™ËText
+;
+
+142 
+	}
+}
+
+144 
+public
+ 
+	$£tT™ËText
+(
+SŒšg
+ 
+t™ËText
+) {
+
+145 
+this
+.
+t™ËText
+ =itleText;
+
+146 
+	}
+}
+
+148 
+public
+ 
+	$g‘DeçuÉCŞÜ
+() {
+
+149  
+deçuÉCŞÜ
+;
+
+150 
+	}
+}
+
+152 
+public
+ 
+	$£tDeçuÉCŞÜ
+(
+deçuÉCŞÜ
+) {
+
+153 
+this
+.
+deçuÉCŞÜ
+ = defaultColor;
+
+154 
+·štChªged
+ = 
+Œue
+;
+
+155 
+	}
+}
+
+157 
+public
+ 
+	$g‘DeçuÉSize
+() {
+
+158  
+deçuÉSize
+;
+
+159 
+	}
+}
+
+161 
+public
+ 
+	$£tDeçuÉSize
+(
+deçuÉSize
+) {
+
+162 
+this
+.
+deçuÉSize
+ = defaultSize;
+
+163 
+·štChªged
+ = 
+Œue
+;
+
+164 
+	}
+}
+
+166 
+public
+ 
+	$g‘DeçuÉSÿËX
+() {
+
+167  
+deçuÉSÿËX
+;
+
+168 
+	}
+}
+
+170 
+public
+ 
+	$£tDeçuÉSÿËX
+(
+deçuÉSÿËX
+) {
+
+171 
+this
+.
+deçuÉSÿËX
+ = defaultScaleX;
+
+172 
+·štChªged
+ = 
+Œue
+;
+
+173 
+	}
+}
+
+175 
+public
+ 
+Ty³çû
+ 
+	$g‘DeçuÉTy³çû
+() {
+
+176  
+deçuÉTy³çû
+;
+
+177 
+	}
+}
+
+179 
+public
+ 
+	$£tDeçuÉTy³çû
+(
+Ty³çû
+ 
+deçuÉTy³çû
+) {
+
+180 
+this
+.
+deçuÉTy³çû
+ = defaultTypeface;
+
+181 
+·štChªged
+ = 
+Œue
+;
+
+182 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/common/TitleBitmapButton.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gcommÚ
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gB™m­
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCªvas
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gCŞÜ
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gPašt
+;
+
+8 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gReù
+;
+
+9 
+impÜt
+ 
+	gªdroid
+.
+	gg¿phics
+.
+	gTy³çû
+;
+
+10 
+impÜt
+ 
+	gªdroid
+.
+	gsuµÜt
+.
+	gv7
+.
+	gwidg‘
+.
+	gAµCom·tBu‰Ú
+;
+
+11 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gA‰ribu‹S‘
+;
+
+12 
+impÜt
+ 
+	gªdroid
+.
+	gv›w
+.
+	gMÙiÚEv’t
+;
+
+14 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gR
+;
+
+17 
+public
+ cÏs 
+	cT™ËB™m­Bu‰Ú
+ 
+ex‹nds
+ 
+	mAµCom·tBu‰Ú
+ {
+
+22 
+CÚ‹xt
+ 
+	mcÚ‹xt
+;
+
+27 
+Pašt
+ 
+	m·št
+;
+
+32 
+	mdeçuÉCŞÜ
+ = 0xffffffff;
+
+37 
+	mdeçuÉSize
+ = 18F;
+
+42 
+	mdeçuÉSÿËX
+ = 1.0F;
+
+47 
+Ty³çû
+ 
+	mdeçuÉTy³çû
+ = Ty³çû.
+DEFAULT
+;
+
+52 
+SŒšg
+ 
+	mt™ËText
+ = "";
+
+57 
+	micÚStus
+ = 0;
+
+62 
+B™m­
+ 
+	micÚNÜm®B™m­
+;
+
+67 
+B™m­
+ 
+	micÚClickedB™m­
+;
+
+69 
+public
+ 
+fš®
+ 
+	mBITMAP_ALIGN_CENTER
+ = 0;
+
+71 
+public
+ 
+fš®
+ 
+	mBITMAP_ALIGN_LEFT
+ = 1;
+
+73 
+public
+ 
+fš®
+ 
+	mBITMAP_ALIGN_RIGHT
+ = 2;
+
+76 
+	mbackgroundB™m­NÜm®
+ = 
+R
+.
+d¿wabË
+.
+t™Ë_bu‰Ú
+;
+
+77 
+	mbackgroundB™m­Clicked
+ = 
+R
+.
+d¿wabË
+.
+t™Ë_bu‰Ú_şicked
+;
+
+83 
+	mb™m­Align
+ = 
+BITMAP_ALIGN_CENTER
+;
+
+88 
+	mb™m­Paddšg
+ = 10;
+
+95 
+boŞ—n
+ 
+	m·štChªged
+ = 
+çl£
+;
+
+98 
+´iv©e
+ 
+boŞ—n
+ 
+	m£Ëùed
+;
+
+101 
+´iv©e
+ 
+	mbId
+;
+
+104 
+public
+ 
+	$T™ËB™m­Bu‰Ú
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+105 
+	`su³r
+(
+cÚ‹xt
+);
+
+107 
+this
+.
+cÚ‹xt
+ = context;
+
+108 
+	`š™
+();
+
+111 
+public
+ 
+	$T™ËB™m­Bu‰Ú
+(
+CÚ‹xt
+ 
+cÚ‹xt
+, 
+A‰ribu‹S‘
+ 
+©ts
+) {
+
+112 
+	`su³r
+(
+cÚ‹xt
+, 
+©ts
+);
+
+114 
+this
+.
+cÚ‹xt
+ = context;
+
+115 
+	`š™
+();
+
+116 
+	}
+}
+
+119 
+public
+ 
+	$£tTabId
+(
+id
+) {
+
+120 
+bId
+ = 
+id
+;
+
+121 
+	}
+}
+
+124 
+public
+ 
+	$£tS–eùed
+(
+boŞ—n
+ 
+æag
+) {
+
+125 
+£Ëùed
+ = 
+æag
+;
+
+126 ià(
+£Ëùed
+) {
+
+127 
+	`£tBackgroundResourû
+(
+backgroundB™m­Clicked
+);
+
+128 
+·štChªged
+ = 
+Œue
+;
+
+129 
+deçuÉCŞÜ
+ = 
+CŞÜ
+.
+BLACK
+;
+
+131 
+	`£tBackgroundResourû
+(
+backgroundB™m­NÜm®
+);
+
+132 
+·štChªged
+ = 
+Œue
+;
+
+133 
+deçuÉCŞÜ
+ = 
+CŞÜ
+.
+WHITE
+;
+
+135 
+	}
+}
+
+137 
+public
+ 
+boŞ—n
+ 
+	$isS–eùed
+() {
+
+138  
+£Ëùed
+;
+
+139 
+	}
+}
+
+145 
+public
+ 
+	$š™
+() {
+
+146 
+	`£tBackgroundResourû
+(
+backgroundB™m­NÜm®
+);
+
+148 
+·št
+ = 
+Ãw
+ 
+	`Pašt
+();
+
+149 
+·št
+.
+	`£tCŞÜ
+(
+deçuÉCŞÜ
+);
+
+150 
+·št
+.
+	`£tAÁiAlŸs
+(
+Œue
+);
+
+151 
+·št
+.
+	`£tTextSÿËX
+(
+deçuÉSÿËX
+);
+
+152 
+·št
+.
+	`£tTextSize
+(
+deçuÉSize
+);
+
+153 
+·št
+.
+	`£tTy³çû
+(
+deçuÉTy³çû
+);
+
+155 
+£Ëùed
+ = 
+çl£
+;
+
+157 
+	}
+}
+
+162 
+public
+ 
+	$£tIcÚB™m­
+(
+B™m­
+ 
+icÚNÜm®
+, B™m­ 
+icÚClicked
+) {
+
+163 
+icÚNÜm®B™m­
+ = 
+icÚNÜm®
+;
+
+164 
+icÚClickedB™m­
+ = 
+icÚClicked
+;
+
+166 
+	}
+}
+
+168 
+public
+ 
+	$£tBackgroundB™m­
+(
+»sNÜm®
+, 
+»sClicked
+) {
+
+169 
+backgroundB™m­NÜm®
+ = 
+»sNÜm®
+;
+
+170 
+backgroundB™m­Clicked
+ = 
+»sClicked
+;
+
+172 
+	`£tBackgroundResourû
+(
+backgroundB™m­NÜm®
+);
+
+173 
+	}
+}
+
+180 
+public
+ 
+boŞ—n
+ 
+	$ÚTouchEv’t
+(
+MÙiÚEv’t
+ 
+ev’t
+) {
+
+181 
+su³r
+.
+	`ÚTouchEv’t
+(
+ev’t
+);
+
+183 
+aùiÚ
+ = 
+ev’t
+.
+	`g‘AùiÚ
+();
+
+185 
+aùiÚ
+) {
+
+186 
+MÙiÚEv’t
+.
+ACTION_UP
+:
+
+188 ià(
+£Ëùed
+) {
+
+192 
+	`£tBackgroundResourû
+(
+backgroundB™m­NÜm®
+);
+
+194 
+icÚStus
+ = 0;
+
+196 
+·štChªged
+ = 
+Œue
+;
+
+197 
+deçuÉCŞÜ
+ = 
+CŞÜ
+.
+WHITE
+;
+
+206 
+MÙiÚEv’t
+.
+ACTION_DOWN
+:
+
+208 ià(
+£Ëùed
+) {
+
+211 
+	`£tBackgroundResourû
+(
+backgroundB™m­Clicked
+);
+
+213 
+icÚStus
+ = 1;
+
+215 
+·štChªged
+ = 
+Œue
+;
+
+216 
+deçuÉCŞÜ
+ = 
+CŞÜ
+.
+BLACK
+;
+
+224 
+	`šv®id©e
+();
+
+226  
+Œue
+;
+
+227 
+	}
+}
+
+232 
+public
+ 
+	$ÚD¿w
+(
+Cªvas
+ 
+ÿnvas
+) {
+
+233 
+su³r
+.
+	`ÚD¿w
+(
+ÿnvas
+);
+
+235 
+curWidth
+ = 
+	`g‘Width
+();
+
+236 
+curHeight
+ = 
+	`g‘Height
+();
+
+239 ià(
+·štChªged
+) {
+
+240 
+·št
+.
+	`£tCŞÜ
+(
+deçuÉCŞÜ
+);
+
+241 
+·št
+.
+	`£tTextSÿËX
+(
+deçuÉSÿËX
+);
+
+242 
+·št
+.
+	`£tTextSize
+(
+deçuÉSize
+);
+
+243 
+·št
+.
+	`£tTy³çû
+(
+deçuÉTy³çû
+);
+
+245 
+·štChªged
+ = 
+çl£
+;
+
+249 
+B™m­
+ 
+icÚB™m­
+ = 
+icÚNÜm®B™m­
+;
+
+250 ià(
+icÚStus
+ == 1) {
+
+251 
+icÚB™m­
+ = 
+icÚClickedB™m­
+;
+
+254 ià(
+icÚB™m­
+ !ğ
+nuÎ
+) {
+
+255 
+icÚWidth
+ = 
+icÚB™m­
+.
+	`g‘Width
+();
+
+256 
+icÚHeight
+ = 
+icÚB™m­
+.
+	`g‘Height
+();
+
+257 
+b™m­X
+ = 0;
+
+258 ià(
+b™m­Align
+ =ğ
+BITMAP_ALIGN_CENTER
+) {
+
+259 
+b™m­X
+ = (
+curWidth
+-
+icÚWidth
+)/2;
+
+260 } if(
+b™m­Align
+ =ğ
+BITMAP_ALIGN_LEFT
+) {
+
+261 
+b™m­X
+ = 
+b™m­Paddšg
+;
+
+262 } if(
+b™m­Align
+ =ğ
+BITMAP_ALIGN_RIGHT
+) {
+
+263 
+b™m­X
+ = 
+curWidth
+-
+b™m­Paddšg
+;
+
+266 
+ÿnvas
+.
+	`d¿wB™m­
+(
+icÚB™m­
+, 
+b™m­X
+, (
+curHeight
+-
+icÚHeight
+)/2, 
+·št
+);
+
+270 
+Reù
+ 
+bounds
+ = 
+Ãw
+ 
+	`Reù
+();
+
+271 
+·št
+.
+	`g‘TextBounds
+(
+t™ËText
+, 0,™ËText.
+	`Ëngth
+(), 
+bounds
+);
+
+272 
+‹xtWidth
+ = (()
+curWidth
+ - 
+bounds
+.
+	`width
+())/2.0F;
+
+273 
+‹xtHeight
+ = (()
+curHeight
+ + 
+bounds
+.
+	`height
+())/2.0F+4.0F;
+
+275 
+ÿnvas
+.
+	`d¿wText
+(
+t™ËText
+, 
+‹xtWidth
+, 
+‹xtHeight
+, 
+·št
+);
+
+277 
+	}
+}
+
+279 
+public
+ 
+SŒšg
+ 
+	$g‘T™ËText
+() {
+
+280  
+t™ËText
+;
+
+281 
+	}
+}
+
+283 
+public
+ 
+	$£tT™ËText
+(
+SŒšg
+ 
+t™ËText
+) {
+
+284 
+this
+.
+t™ËText
+ =itleText;
+
+285 
+	}
+}
+
+287 
+public
+ 
+	$g‘DeçuÉCŞÜ
+() {
+
+288  
+deçuÉCŞÜ
+;
+
+289 
+	}
+}
+
+291 
+public
+ 
+	$£tDeçuÉCŞÜ
+(
+deçuÉCŞÜ
+) {
+
+292 
+this
+.
+deçuÉCŞÜ
+ = defaultColor;
+
+293 
+·štChªged
+ = 
+Œue
+;
+
+294 
+	}
+}
+
+296 
+public
+ 
+	$g‘DeçuÉSize
+() {
+
+297  
+deçuÉSize
+;
+
+298 
+	}
+}
+
+300 
+public
+ 
+	$£tDeçuÉSize
+(
+deçuÉSize
+) {
+
+301 
+this
+.
+deçuÉSize
+ = defaultSize;
+
+302 
+·štChªged
+ = 
+Œue
+;
+
+303 
+	}
+}
+
+305 
+public
+ 
+	$g‘DeçuÉSÿËX
+() {
+
+306  
+deçuÉSÿËX
+;
+
+307 
+	}
+}
+
+309 
+public
+ 
+	$£tDeçuÉSÿËX
+(
+deçuÉSÿËX
+) {
+
+310 
+this
+.
+deçuÉSÿËX
+ = defaultScaleX;
+
+311 
+·štChªged
+ = 
+Œue
+;
+
+312 
+	}
+}
+
+314 
+public
+ 
+Ty³çû
+ 
+	$g‘DeçuÉTy³çû
+() {
+
+315  
+deçuÉTy³çû
+;
+
+316 
+	}
+}
+
+318 
+public
+ 
+	$£tDeçuÉTy³çû
+(
+Ty³çû
+ 
+deçuÉTy³çû
+) {
+
+319 
+this
+.
+deçuÉTy³çû
+ = defaultTypeface;
+
+320 
+·štChªged
+ = 
+Œue
+;
+
+321 
+	}
+}
+
+323 
+public
+ 
+	$g‘B™m­Align
+() {
+
+324  
+b™m­Align
+;
+
+325 
+	}
+}
+
+327 
+public
+ 
+	$£tB™m­Align
+(
+b™m­Align
+) {
+
+328 
+this
+.
+b™m­Align
+ = bitmapAlign;
+
+329 
+	}
+}
+
+331 
+public
+ 
+	$g‘B™m­Paddšg
+() {
+
+332  
+b™m­Paddšg
+;
+
+333 
+	}
+}
+
+335 
+public
+ 
+	$£tB™m­Paddšg
+(
+b™m­Paddšg
+) {
+
+336 
+this
+.
+b™m­Paddšg
+ = bitmapPadding;
+
+337 
+	}
+}
+
+	@app/src/main/java/com/ukasias/android/multimemo/db/MemoDatabase.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gdb
+;
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gcÚ‹Á
+.
+	gCÚ‹xt
+;
+
+4 
+impÜt
+ 
+	gªdroid
+.
+	gd©aba£
+.
+	gCursÜ
+;
+
+5 
+impÜt
+ 
+	gªdroid
+.
+	gd©aba£
+.
+	gsql™e
+.
+	gSQL™eD©aba£
+;
+
+6 
+impÜt
+ 
+	gªdroid
+.
+	gd©aba£
+.
+	gsql™e
+.
+	gSQL™eO³nH–³r
+;
+
+7 
+impÜt
+ 
+	gªdroid
+.
+	gut
+.
+	gLog
+;
+
+9 
+impÜt
+ 
+	gcom
+.
+	gukasŸs
+.
+	gªdroid
+.
+	gmuÉimemo
+.
+	gBasicInfo
+;
+
+15 
+public
+ cÏs 
+	cMemoD©aba£
+ {
+
+16 
+public
+ 
+fš®
+ 
+SŒšg
+ 
+	mTAG
+ = "MemoDatabase";
+
+21 
+´iv©e
+ 
+MemoD©aba£
+ 
+	md©aba£
+;
+
+26 
+´iv©e
+ 
+CÚ‹xt
+ 
+	mcÚ‹xt
+;
+
+31 
+´iv©e
+ 
+D©aba£H–³r
+ 
+	mdbH–³r
+;
+
+36 
+´iv©e
+ 
+SQL™eD©aba£
+ 
+	mdb
+;
+
+41 
+´iv©e
+ 
+	mDATABASE_VERSION
+ = 1;
+
+43 
+public
+ 
+SŒšg
+ 
+	mTABLE_MEMO
+ = "MEMO";
+
+45 
+public
+ 
+SŒšg
+ 
+	mTABLE_PHOTO
+ = "PHOTO";
+
+46 
+public
+ 
+SŒšg
+ 
+	mTABLE_VIDEO
+ = "VIDEO";
+
+47 
+public
+ 
+SŒšg
+ 
+	mTABLE_VOICE
+ = "VOICE";
+
+48 
+public
+ 
+SŒšg
+ 
+	mTABLE_HANDWRITING
+ = "HANDWRITING";
+
+54 
+	$MemoD©aba£
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+55 
+this
+.
+cÚ‹xt
+ = context;
+
+58 
+public
+ 
+MemoD©aba£
+ 
+	$g‘In¡ªû
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+59 ià(
+d©aba£
+ =ğ
+nuÎ
+) {
+
+60 
+d©aba£
+ = 
+Ãw
+ 
+	`MemoD©aba£
+(
+cÚ‹xt
+);
+
+62  
+d©aba£
+;
+
+63 
+	}
+}
+
+68 
+public
+ 
+boŞ—n
+ 
+	$İ’
+() {
+
+69 
+	`´šn
+("İ’šg d©aba£ [" + 
+BasicInfo
+.
+DATABASE_NAME
+ + "].");
+
+71 
+dbH–³r
+ = 
+Ãw
+ 
+	`D©aba£H–³r
+(
+cÚ‹xt
+);
+
+72 
+db
+ = 
+dbH–³r
+.
+	`g‘Wr™abËD©aba£
+();
+
+74  
+Œue
+;
+
+75 
+	}
+}
+
+80 
+public
+ 
+	$şo£
+() {
+
+81 
+	`´šn
+("şosšg d©aba£ [" + 
+BasicInfo
+.
+DATABASE_NAME
+ + "].");
+
+83 
+db
+.
+	`şo£
+();
+
+85 
+d©aba£
+ = 
+nuÎ
+;
+
+86 
+	}
+}
+
+88 
+public
+ 
+CursÜ
+ 
+	$¿wQu”y
+(
+SŒšg
+ 
+SQL
+) {
+
+89 
+	`´šn
+("¿wQu”y(" + 
+SQL
+ + ")ƒxecuted.");
+
+91 
+CursÜ
+ 
+c
+ = 
+nuÎ
+;
+
+92 
+Œy
+ {
+
+93 
+c
+ = 
+db
+.
+	`¿wQu”y
+(
+SQL
+, 
+nuÎ
+);
+
+95 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+96 
+Log
+.
+	`e
+(
+TAG
+, "Exception in„awQuery()");
+
+99  
+c
+;
+
+100 
+	}
+}
+
+102 
+public
+ 
+boŞ—n
+ 
+	$execSQL
+(
+SŒšg
+ 
+SQL
+) {
+
+103 
+	`´šn
+("execSQL()ƒxecuted.");
+
+105 
+Œy
+ {
+
+106 
+db
+.
+	`execSQL
+(
+SQL
+);
+
+108 
+	`ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+109 
+Log
+.
+	`e
+(
+TAG
+, "Exception inƒxecSQL()");
+
+110  
+çl£
+;
+
+113  
+Œue
+;
+
+114 
+	}
+}
+
+116 
+´iv©e
+ cÏs 
+	cD©aba£H–³r
+ 
+ex‹nds
+ 
+	gSQL™eO³nH–³r
+ {
+
+117 
+public
+ 
+D©aba£H–³r
+(
+CÚ‹xt
+ 
+cÚ‹xt
+) {
+
+118 
+su³r
+(
+
+119 
+cÚ‹xt
+,
+
+120 
+BasicInfo
+.
+DATABASE_NAME
+,
+
+121 
+nuÎ
+,
+
+122 
+DATABASE_VERSION
+);
+
+123 
+´šn
+("BasicInfo.DATABASE_NAME: " + 
+BasicInfo
+.
+DATABASE_NAME
+);
+
+126 @
+Ov”ride
+
+
+127 
+public
+ 
+ÚC»©e
+(
+SQL™eD©aba£
+ 
+db
+) {
+
+128 
+´šn
+("ü—tšg d©aba£ [" + 
+BasicInfo
+.
+DATABASE_NAME
+ + "].");
+
+133 
+´šn
+("ü—tšgabË [" + 
+TABLE_MEMO
+ + "].");
+
+135 
+SŒšg
+ 
+	gDROP_SQL
+ = "drİabË iàexi¡ " + 
+TABLE_MEMO
+;
+
+136 
+	gŒy
+ {
+
+137 
+	gdb
+.
+execSQL
+(
+DROP_SQL
+);
+
+138 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+139 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀdrİabË " + 
+TABLE_MEMO
+,ƒ);
+
+142 
+SŒšg
+ 
+	gCREATE_SQL
+ = "ü—‹abË " + 
+TABLE_MEMO
+ + "(" +
+
+152 
+	gŒy
+ {
+
+153 
+	gdb
+.
+execSQL
+(
+CREATE_SQL
+);
+
+154 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+155 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—‹abË " + 
+TABLE_MEMO
+,ƒ);
+
+161 
+´šn
+("ü—tšgabË [" + 
+TABLE_PHOTO
+ + "].");
+
+163 
+	gDROP_SQL
+ = "drİabË iàexi¡ " + 
+TABLE_PHOTO
+;
+
+164 
+	gŒy
+ {
+
+165 
+	gdb
+.
+execSQL
+(
+DROP_SQL
+);
+
+166 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+167 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀdrİabË " + 
+TABLE_PHOTO
+,ƒ);
+
+170 
+	gCREATE_SQL
+ = "ü—‹abË " + 
+TABLE_PHOTO
+ + "(" +
+
+175 
+	gŒy
+ {
+
+176 
+	gdb
+.
+execSQL
+(
+CREATE_SQL
+);
+
+177 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+178 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—‹abË " + 
+TABLE_PHOTO
+,ƒ);
+
+183 
+SŒšg
+ 
+	gCREATE_INDEX_SQL
+ = "ü—‹ index " + 
+TABLE_PHOTO
+ + "_IDX ON " + TABLE_PHOTO
+
+187 
+	gŒy
+ {
+
+188 
+	gdb
+.
+execSQL
+(
+CREATE_INDEX_SQL
+);
+
+189 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+190 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—tšg indexabË " + 
+TABLE_PHOTO
+);
+
+196 
+´šn
+("ü—tšgabË [" + 
+TABLE_VIDEO
+ + "].");
+
+198 
+	gDROP_SQL
+ = "drİabË iàexi¡ " + 
+TABLE_VIDEO
+;
+
+199 
+	gŒy
+ {
+
+200 
+	gdb
+.
+execSQL
+(
+DROP_SQL
+);
+
+201 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+202 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀdrİabË " + 
+TABLE_VIDEO
+,ƒ);
+
+205 
+	gCREATE_SQL
+ = "ü—‹abË " + 
+TABLE_VIDEO
+ + "(" +
+
+210 
+	gŒy
+ {
+
+211 
+	gdb
+.
+execSQL
+(
+CREATE_SQL
+);
+
+212 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+213 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—‹abË " + 
+TABLE_VIDEO
+,ƒ);
+
+218 
+	gCREATE_INDEX_SQL
+ = "ü—‹ index " + 
+TABLE_VIDEO
+ + "_IDX ON " + TABLE_VIDEO
+
+222 
+	gŒy
+ {
+
+223 
+	gdb
+.
+execSQL
+(
+CREATE_INDEX_SQL
+);
+
+224 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+225 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—tšg indexabË " + 
+TABLE_VIDEO
+);
+
+231 
+´šn
+("ü—tšgabË [" + 
+TABLE_VOICE
+ + "].");
+
+233 
+	gDROP_SQL
+ = "drİabË iàexi¡ " + 
+TABLE_VOICE
+;
+
+234 
+	gŒy
+ {
+
+235 
+	gdb
+.
+execSQL
+(
+DROP_SQL
+);
+
+236 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+237 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀdrİabË " + 
+TABLE_VOICE
+,ƒ);
+
+240 
+	gCREATE_SQL
+ = "ü—‹abË " + 
+TABLE_VOICE
+ + "(" +
+
+245 
+	gŒy
+ {
+
+246 
+	gdb
+.
+execSQL
+(
+CREATE_SQL
+);
+
+247 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+248 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—‹abË " + 
+TABLE_VOICE
+,ƒ);
+
+253 
+	gCREATE_INDEX_SQL
+ = "ü—‹ index " + 
+TABLE_VOICE
+ + "_IDX ON " + TABLE_VOICE
+
+257 
+	gŒy
+ {
+
+258 
+	gdb
+.
+execSQL
+(
+CREATE_INDEX_SQL
+);
+
+259 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+260 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—tšg indexabË " + 
+TABLE_VOICE
+);
+
+266 
+´šn
+("ü—tšgabË [" + 
+TABLE_HANDWRITING
+ + "].");
+
+268 
+	gDROP_SQL
+ = "drİabË iàexi¡ " + 
+TABLE_HANDWRITING
+;
+
+269 
+	gŒy
+ {
+
+270 
+	gdb
+.
+execSQL
+(
+DROP_SQL
+);
+
+271 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+272 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀdrİabË " + 
+TABLE_HANDWRITING
+,ƒ);
+
+275 
+	gCREATE_SQL
+ = "ü—‹abË " + 
+TABLE_HANDWRITING
+ + "(" +
+
+280 
+	gŒy
+ {
+
+281 
+	gdb
+.
+execSQL
+(
+CREATE_SQL
+);
+
+282 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+283 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—‹abË " + 
+TABLE_HANDWRITING
+,ƒ);
+
+288 
+	gCREATE_INDEX_SQL
+ = "ü—‹ index " + 
+TABLE_HANDWRITING
+ + "_IDX ON " + TABLE_HANDWRITING
+
+292 
+	gŒy
+ {
+
+293 
+	gdb
+.
+execSQL
+(
+CREATE_INDEX_SQL
+);
+
+294 } 
+ÿtch
+(
+Exû±iÚ
+ 
+e
+) {
+
+295 
+	gLog
+.
+e
+(
+TAG
+, "Exû±iÚ iÀü—tšg indexabË " + 
+TABLE_HANDWRITING
+);
+
+300 @
+Ov”ride
+
+
+301 
+public
+ 
+ÚO³n
+(
+SQL™eD©aba£
+ 
+db
+) {
+
+302 
+´šn
+("İ’ed d©aba£ [" + 
+BasicInfo
+.
+DATABASE_NAME
+ + "].");
+
+305 @
+Ov”ride
+
+
+306 
+public
+ 
+ÚUpg¿de
+(
+SQL™eD©aba£
+ 
+sqL™eD©aba£
+, 
+ŞdV”siÚ
+, 
+ÃwV”siÚ
+) {
+
+307 
+´šn
+("Upg¿dšg d©aba£ from v”siÚ " + 
+ŞdV”siÚ
+ + "Ø" + 
+ÃwV”siÚ
+ + ".");
+
+311 
+´iv©e
+ 
+	$´šn
+(
+SŒšg
+ 
+mes§ge
+) {
+
+312 
+Log
+.
+	`d
+(
+TAG
+, 
+mes§ge
+ + "\n");
+
+313 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+25
+1803
+app/src/main/java/com/ukasias/android/multimemo/BasicInfo.java
+app/src/main/java/com/ukasias/android/multimemo/CameraSurfaceView.java
+app/src/main/java/com/ukasias/android/multimemo/ColorPaletteDialog.java
+app/src/main/java/com/ukasias/android/multimemo/CoverFlow.java
+app/src/main/java/com/ukasias/android/multimemo/HandwritingMakingActivity.java
+app/src/main/java/com/ukasias/android/multimemo/HandwritingView.java
+app/src/main/java/com/ukasias/android/multimemo/MemoInsertActivity.java
+app/src/main/java/com/ukasias/android/multimemo/MemoListAdapter.java
+app/src/main/java/com/ukasias/android/multimemo/MemoListItem.java
+app/src/main/java/com/ukasias/android/multimemo/MemoListItemView.java
+app/src/main/java/com/ukasias/android/multimemo/MultiMemoActivity.java
+app/src/main/java/com/ukasias/android/multimemo/OnColorSelectedListener.java
+app/src/main/java/com/ukasias/android/multimemo/OnPenSelectedListener.java
+app/src/main/java/com/ukasias/android/multimemo/PenPaletteDialog.java
+app/src/main/java/com/ukasias/android/multimemo/PhotoCaptureActivity.java
+app/src/main/java/com/ukasias/android/multimemo/PhotoSelectionActivity.java
+app/src/main/java/com/ukasias/android/multimemo/VideoPlayActivity.java
+app/src/main/java/com/ukasias/android/multimemo/VideoRecordingActivity.java
+app/src/main/java/com/ukasias/android/multimemo/VideoSelectionActivity.java
+app/src/main/java/com/ukasias/android/multimemo/VoicePlayActivity.java
+app/src/main/java/com/ukasias/android/multimemo/VoiceRecorder.java
+app/src/main/java/com/ukasias/android/multimemo/VoiceRecordingActivity.java
+app/src/main/java/com/ukasias/android/multimemo/common/TitleBackgroundButton.java
+app/src/main/java/com/ukasias/android/multimemo/common/TitleBitmapButton.java
+app/src/main/java/com/ukasias/android/multimemo/db/MemoDatabase.java

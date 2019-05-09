@@ -1,0 +1,14 @@
+>>> Failed to instantiate one or more classes	-> works fine in avd
+
+The following classes could not be instantiated:
+- android.support.design.widget.CoordinatorLayout (Open Class, Show Exception, Clear Cache)
+- android.support.design.widget.AppBarLayout (Open Class, Show Exception, Clear Cache)
+ Tip: Use View.isInEditMode() in your custom views to skip code or show sample data when shown in the IDE.  If this is an unexpected error you can also try to build the project, then manually refresh the layout.  Exception Details java.lang.ClassNotFoundException: android.view.View$OnUnhandledKeyEventListener Copy stack to clipboard 
+
+>>> Missing styles	-> works fine in avd
+
+Missing styles. Is the correct theme chosen for this layout?  Use the Theme combo box above the layout to choose a different layout, or fix the theme style references
+
+>>> Render Problem	-> works fine in avd
+
+Failed to find style 'coordinatorLayoutStyle' in current theme

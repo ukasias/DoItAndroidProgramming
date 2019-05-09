@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DoItMission-05</string>
+    <string name="main">로그인하기</string>
+    <string name="login">로그인</string>
+    <string name="menu">메인 메뉴</string>
+    <string name="customers">고객 관리</string>
+    <string name="sales">매출 관리</string>
+    <string name="products">상품 관리</string>
+</resources>
